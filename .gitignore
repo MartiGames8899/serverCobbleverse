@@ -21,3 +21,7 @@ cobblemon-battle-logs/
 # 4. Backups Locais e Outros ficheiros inúteis para o GitHub
 *BACKUP*/
 licenses/
+
+# 5. Configurações Locais Específicas (Nao sincronizar)
+server.properties
+Engine_Start.bat
