@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 31,
+    "totalCaptureCount": 32,
     "totalEggsCollected": 1,
-    "totalEggsHatched": 446,
+    "totalEggsHatched": 458,
     "totalEvolvedCount": 18,
-    "totalBattleVictoryCount": 353,
+    "totalBattleVictoryCount": 356,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 292,
+    "totalPvWBattleVictoryCount": 295,
     "totalPvNBattleVictoryCount": 61,
     "totalShinyCaptureCount": 18,
     "totalTradedCount": 0,
@@ -29,7 +29,7 @@
       "psychic": 2,
       "fairy": 3,
       "electric": 2,
-      "normal": 1,
+      "normal": 2,
       "dark": 2,
       "ghost": 1
     },
@@ -101,7 +101,7 @@
       "cobblemon:diglett": 1,
       "cobblemon:growlithe": 1,
       "cobblemon:munna": 1,
-      "cobblemon:ledian": 2,
+      "cobblemon:ledian": 3,
       "cobblemon:miltank": 3,
       "cobblemon:komala": 1,
       "cobblemon:flaaffy": 2,
@@ -160,7 +160,8 @@
       "cobblemon:tauros": 1,
       "cobblemon:dubwool": 1,
       "cobblemon:banette": 1,
-      "cobblemon:chewtle": 1
+      "cobblemon:chewtle": 1,
+      "cobblemon:cryogonal": 1
     },
     "aspectsCollected": {
       "cobblemon:frogadier": [
@@ -361,6 +362,10 @@
       ],
       "cobblemon:venusaur": [
         "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:ditto": [
+        "genderless",
         "bucket-ultra-rare"
       ]
     }
