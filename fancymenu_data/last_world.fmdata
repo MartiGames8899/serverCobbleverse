@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/BHZ/AppData/Roaming/.minecraft/modpacks/162db8fa-8e47-3b20-b188-5a69f7e25522/saves/New World
+}
+

@@ -1,0 +1,23 @@
+# 1. Executáveis e Ficheiros Pesados (Estáticos)
+*.jar
+libraries/
+versions/
+mods/
+resourcepacks/
+shaderpacks/
+server-resource-packs/
+
+# 2. Caches e Ficheiros Temporários (Gerados automaticamente)
+.fabric/
+.mixin.out/
+downloads/
+stackdeobf_mappings/
+
+# 3. Logs do Servidor (Não precisam de ser sincronizados)
+logs/
+cobblemon-battle-logs/
+*.log
+
+# 4. Backups Locais e Outros ficheiros inúteis para o GitHub
+*BACKUP*/
+licenses/
