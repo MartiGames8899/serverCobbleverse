@@ -26250,5 +26250,11 @@
     },
     "done": true
   },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2026-08-23 14:49:27 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
