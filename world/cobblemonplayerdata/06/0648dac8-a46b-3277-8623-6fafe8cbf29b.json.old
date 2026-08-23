@@ -10,12 +10,12 @@
   "advancementData": {
     "totalCaptureCount": 32,
     "totalEggsCollected": 1,
-    "totalEggsHatched": 458,
+    "totalEggsHatched": 464,
     "totalEvolvedCount": 18,
-    "totalBattleVictoryCount": 356,
+    "totalBattleVictoryCount": 364,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 295,
-    "totalPvNBattleVictoryCount": 61,
+    "totalPvWBattleVictoryCount": 300,
+    "totalPvNBattleVictoryCount": 64,
     "totalShinyCaptureCount": 18,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
@@ -80,7 +80,7 @@
       "cobblemon:maschiff": 4,
       "cobblemon:hoppip": 1,
       "cobblemon:drowzee": 2,
-      "cobblemon:darumaka": 1,
+      "cobblemon:darumaka": 2,
       "cobblemon:zubat": 1,
       "cobblemon:pawmo": 1,
       "cobblemon:dedenne": 1,
@@ -155,13 +155,14 @@
       "cobblemon:nickit": 1,
       "cobblemon:squawkabilly": 1,
       "cobblemon:honchkrow": 1,
-      "cobblemon:haunter": 2,
-      "cobblemon:gastly": 2,
+      "cobblemon:haunter": 3,
+      "cobblemon:gastly": 4,
       "cobblemon:tauros": 1,
       "cobblemon:dubwool": 1,
       "cobblemon:banette": 1,
       "cobblemon:chewtle": 1,
-      "cobblemon:cryogonal": 1
+      "cobblemon:cryogonal": 1,
+      "cobblemon:charcadet": 1
     },
     "aspectsCollected": {
       "cobblemon:frogadier": [

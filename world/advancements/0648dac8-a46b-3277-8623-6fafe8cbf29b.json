@@ -26244,5 +26244,11 @@
     },
     "done": true
   },
+  "cobbleverse:trainer/kanto/defeat_sabrina": {
+    "criteria": {
+      "leader_defeated": "2026-08-23 01:24:52 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
