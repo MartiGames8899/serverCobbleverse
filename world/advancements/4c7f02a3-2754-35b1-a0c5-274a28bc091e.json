@@ -1,4 +1,28 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-22 21:12:49 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:root": {
+    "criteria": {
+      "cobbleverse_starts_now": "2026-08-22 21:12:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cold_ocean": "2026-08-22 21:15:25 +0100",
+      "minecraft:ice_spikes": "2026-08-22 21:16:09 +0100",
+      "minecraft:frozen_river": "2026-08-22 21:16:49 +0100",
+      "minecraft:river": "2026-08-22 21:16:17 +0100",
+      "minecraft:meadow": "2026-08-22 21:22:24 +0100",
+      "minecraft:snowy_plains": "2026-08-22 21:16:32 +0100",
+      "minecraft:plains": "2026-08-22 21:12:50 +0100"
+    },
+    "done": false
+  },
   "tmcraft:recipes/misc/tm_magicalleaf": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -2814,12 +2838,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2026-08-22 21:12:49 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_cinnabar_wall": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -4797,12 +4815,6 @@
   "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:harvest_apricorn": {
-    "criteria": {
-      "check_inv": "2026-08-22 21:14:37 +0100"
     },
     "done": true
   },
@@ -8028,12 +8040,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2026-08-22 21:25:08 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lime_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -10674,12 +10680,6 @@
     },
     "done": true
   },
-  "cobblemon:obtain_mint": {
-    "criteria": {
-      "check_inv": "2026-08-22 21:29:32 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -10835,13 +10835,6 @@
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
     },
     "done": true
-  },
-  "cobblemon:obtain_all_mints": {
-    "criteria": {
-      "obtain_cyan_mint_leaf": "2026-08-22 21:29:32 +0100",
-      "obtain_red_mint_leaf": "2026-08-22 21:30:26 +0100"
-    },
-    "done": false
   },
   "cobblemon:recipes/swift_feather": {
     "criteria": {
@@ -11866,12 +11859,6 @@
   "handcrafted:recipes/misc/oven": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
-    },
-    "done": true
-  },
-  "cobbleverse:root": {
-    "criteria": {
-      "cobbleverse_starts_now": "2026-08-22 21:12:50 +0100"
     },
     "done": true
   },
@@ -14887,12 +14874,6 @@
     },
     "done": true
   },
-  "cobblemon:first_battle_victory": {
-    "criteria": {
-      "win": "2026-08-22 21:34:38 +0100"
-    },
-    "done": true
-  },
   "carved_wood:recipes/building_blocks/cherry_pillar": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -15781,12 +15762,6 @@
     },
     "done": true
   },
-  "minecraft:story/smelt_iron": {
-    "criteria": {
-      "iron": "2026-08-22 21:27:50 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/orange_dye_from_torchflower": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -16618,12 +16593,6 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:harvest_apricorn_seed": {
-    "criteria": {
-      "check_inv": "2026-08-22 21:14:37 +0100"
     },
     "done": true
   },
@@ -18706,12 +18675,6 @@
   "carved_wood:recipes/building_blocks/pale_oak_mosaic_stairs": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:ride_pokemon": {
-    "criteria": {
-      "check_inv": "2026-08-22 21:20:35 +0100"
     },
     "done": true
   },
@@ -22075,12 +22038,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2026-08-22 21:25:08 +0100"
-    },
-    "done": true
-  },
   "sophisticatedstorage:recipes/misc/filter_upgrade": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -23138,12 +23095,6 @@
     },
     "done": true
   },
-  "cobblemon:healing_machine": {
-    "criteria": {
-      "use_healing_machine": "2026-08-22 21:26:41 +0100"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/cherry_shelf": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
@@ -23431,18 +23382,6 @@
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:cold_ocean": "2026-08-22 21:15:25 +0100",
-      "minecraft:ice_spikes": "2026-08-22 21:16:09 +0100",
-      "minecraft:frozen_river": "2026-08-22 21:16:49 +0100",
-      "minecraft:river": "2026-08-22 21:16:17 +0100",
-      "minecraft:meadow": "2026-08-22 21:22:24 +0100",
-      "minecraft:snowy_plains": "2026-08-22 21:16:32 +0100",
-      "minecraft:plains": "2026-08-22 21:12:50 +0100"
-    },
-    "done": false
   },
   "mega_showdown:recipes/misc/purple_nectar": {
     "criteria": {
@@ -25487,6 +25426,73 @@
   "carved_wood:recipes/decorations/dark_oak_crafting_table": {
     "criteria": {
       "has_the_recipe": "2026-08-22 21:13:04 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:harvest_apricorn": {
+    "criteria": {
+      "check_inv": "2026-08-22 21:14:37 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:harvest_apricorn_seed": {
+    "criteria": {
+      "check_inv": "2026-08-22 21:14:37 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:ride_pokemon": {
+    "criteria": {
+      "check_inv": "2026-08-22 21:20:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2026-08-22 21:25:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-08-22 21:25:08 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2026-08-22 21:26:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-08-22 21:27:50 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_mint": {
+    "criteria": {
+      "check_inv": "2026-08-22 21:29:32 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_all_mints": {
+    "criteria": {
+      "obtain_cyan_mint_leaf": "2026-08-22 21:29:32 +0100",
+      "obtain_red_mint_leaf": "2026-08-22 21:30:26 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:first_battle_victory": {
+    "criteria": {
+      "win": "2026-08-22 21:34:38 +0100"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2026-08-23 14:43:36 +0100"
     },
     "done": true
   },
