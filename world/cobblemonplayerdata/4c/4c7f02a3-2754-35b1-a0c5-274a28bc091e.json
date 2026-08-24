@@ -8,31 +8,32 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 20,
+    "totalCaptureCount": 29,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 68,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 105,
     "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 59,
-    "totalPvNBattleVictoryCount": 7,
-    "totalShinyCaptureCount": 3,
+    "totalPvWBattleVictoryCount": 95,
+    "totalPvNBattleVictoryCount": 8,
+    "totalShinyCaptureCount": 4,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 2,
       "fighting": 2,
-      "normal": 5,
+      "normal": 8,
       "ground": 3,
-      "psychic": 2,
+      "psychic": 4,
       "dark": 1,
-      "water": 1,
+      "water": 2,
       "steel": 2,
-      "ghost": 2,
+      "ghost": 3,
       "dragon": 2,
-      "rock": 1,
+      "rock": 2,
       "electric": 2,
       "bug": 1,
-      "fire": 3
+      "fire": 5,
+      "flying": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:mareep": 1,
@@ -43,16 +44,16 @@
       "cobblemon:drilbur": 1,
       "cobblemon:zubat": 1,
       "cobblemon:mudbray": 1,
-      "cobblemon:bouffalant": 4,
+      "cobblemon:bouffalant": 11,
       "cobblemon:ledian": 1,
       "cobblemon:diggersby": 1,
       "cobblemon:tauros": 2,
       "cobblemon:medicham": 1,
       "cobblemon:maschiff": 1,
       "cobblemon:arboliva": 1,
-      "cobblemon:gimmighoul": 5,
+      "cobblemon:gimmighoul": 6,
       "cobblemon:heatmor": 1,
-      "cobblemon:liepard": 1,
+      "cobblemon:liepard": 2,
       "cobblemon:absol": 1,
       "cobblemon:emolga": 1,
       "cobblemon:psyduck": 1,
@@ -64,7 +65,23 @@
       "cobblemon:lillipup": 1,
       "cobblemon:klink": 1,
       "cobblemon:maractus": 1,
-      "cobblemon:sigilyph": 2
+      "cobblemon:sigilyph": 2,
+      "cobblemon:lickilicky": 1,
+      "cobblemon:ponyta": 1,
+      "cobblemon:granbull": 1,
+      "cobblemon:gurdurr": 2,
+      "cobblemon:musharna": 2,
+      "cobblemon:stoutland": 1,
+      "cobblemon:swinub": 1,
+      "cobblemon:crawdaunt": 1,
+      "cobblemon:swalot": 1,
+      "cobblemon:golduck": 1,
+      "cobblemon:araquanid": 1,
+      "cobblemon:herdier": 1,
+      "cobblemon:voltorb": 1,
+      "cobblemon:drifloon": 1,
+      "cobblemon:spidops": 1,
+      "cobblemon:shuppet": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -141,7 +158,10 @@
       ],
       "cobblemon:ponyta": [
         "female",
-        "bucket-common"
+        "bucket-common",
+        "bucket-uncommon",
+        "male",
+        "galarian"
       ],
       "cobblemon:camerupt": [
         "male",
@@ -150,6 +170,44 @@
       "cobblemon:pyroar": [
         "female",
         "bucket-uncommon"
+      ],
+      "cobblemon:patrat": [
+        "shiny",
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:rapidash": [
+        "female",
+        "bucket-uncommon",
+        "bucket-common"
+      ],
+      "cobblemon:wynaut": [
+        "female",
+        "bucket-rare"
+      ],
+      "cobblemon:pidgeot": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:shelgon": [
+        "female",
+        "bucket-"
+      ],
+      "cobblemon:salamence": [
+        "female",
+        "bucket-"
+      ],
+      "cobblemon:misdreavus": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:drednaw": [
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:cinccino": [
+        "female",
+        "bucket-common"
       ]
     }
   }

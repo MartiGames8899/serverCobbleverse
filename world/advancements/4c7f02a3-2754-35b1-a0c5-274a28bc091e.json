@@ -23,7 +23,9 @@
       "minecraft:frozen_river": "2026-08-22 21:16:49 +0100",
       "minecraft:windswept_forest": "2026-08-24 00:25:58 +0100",
       "minecraft:ocean": "2026-08-23 16:52:53 +0100",
+      "minecraft:cherry_grove": "2026-08-24 15:48:32 +0100",
       "minecraft:birch_forest": "2026-08-23 23:00:44 +0100",
+      "minecraft:windswept_hills": "2026-08-24 16:02:54 +0100",
       "minecraft:snowy_beach": "2026-08-24 00:11:32 +0100",
       "minecraft:wooded_badlands": "2026-08-23 17:06:31 +0100",
       "minecraft:warm_ocean": "2026-08-23 18:09:08 +0100",
@@ -39,6 +41,7 @@
       "minecraft:stony_shore": "2026-08-23 17:02:51 +0100",
       "minecraft:dripstone_caves": "2026-08-23 15:59:13 +0100",
       "minecraft:old_growth_birch_forest": "2026-08-23 22:59:57 +0100",
+      "minecraft:swamp": "2026-08-24 16:03:16 +0100",
       "minecraft:meadow": "2026-08-22 21:22:24 +0100",
       "minecraft:savanna": "2026-08-23 23:11:08 +0100",
       "minecraft:plains": "2026-08-22 21:12:50 +0100"
@@ -891,6 +894,7 @@
       "obtain_pinap_berry": "2026-08-24 00:13:59 +0100",
       "obtain_oran_berry": "2026-08-22 21:13:04 +0100",
       "obtain_bluk_berry": "2026-08-23 18:28:54 +0100",
+      "obtain_eggant_berry": "2026-08-24 15:52:39 +0100",
       "obtain_watmel_berry": "2026-08-23 23:59:11 +0100",
       "obtain_payapa_berry": "2026-08-23 18:10:39 +0100",
       "obtain_tanga_berry": "2026-08-23 19:11:31 +0100",
@@ -10336,10 +10340,12 @@
       "net_ball": "2026-08-23 23:51:01 +0100",
       "dive_ball": "2026-08-23 15:13:03 +0100",
       "ancient_citrine_ball": "2026-08-23 23:51:11 +0100",
+      "level_ball": "2026-08-24 15:50:09 +0100",
       "sport_ball": "2026-08-23 23:43:42 +0100",
       "safari_ball": "2026-08-23 19:13:27 +0100",
       "heavy_ball": "2026-08-23 19:13:27 +0100",
       "verdant_ball": "2026-08-23 19:15:56 +0100",
+      "dream_ball": "2026-08-24 14:45:14 +0100",
       "ultra_ball": "2026-08-23 15:52:50 +0100",
       "heal_ball": "2026-08-23 23:50:52 +0100",
       "ancient_wing_ball": "2026-08-23 18:51:01 +0100",
@@ -25725,6 +25731,7 @@
   },
   "cobblemon:craft_apricorn_balls": {
     "criteria": {
+      "level_ball": "2026-08-24 15:50:09 +0100",
       "friend_ball": "2026-08-23 18:49:10 +0100",
       "moon_ball": "2026-08-23 18:50:36 +0100",
       "heavy_ball": "2026-08-23 19:13:27 +0100",
@@ -25808,6 +25815,7 @@
       "big_malasada": "2026-08-23 19:03:20 +0100",
       "rage_candy_bar": "2026-08-23 18:54:11 +0100",
       "lumiose_galette": "2026-08-23 19:02:53 +0100",
+      "old_gateau": "2026-08-24 15:55:17 +0100",
       "smoked_tail_curry": "2026-08-23 19:03:20 +0100",
       "lava_cookie": "2026-08-23 19:12:51 +0100"
     },
@@ -25939,6 +25947,24 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2026-08-23 23:56:23 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2026-08-23 23:56:23 +0100"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-08-23 23:58:40 +0100"
+    },
+    "done": true
+  },
   "cobblemon:obtain_tumblestone": {
     "criteria": {
       "check_inv": "2026-08-24 00:18:06 +0100"
@@ -25951,27 +25977,39 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2026-08-23 23:56:23 +0100"
-    },
-    "done": true
-  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2026-08-24 00:43:16 +0100"
     },
     "done": true
   },
-  "lootr:100loot": {
+  "cobblemon:use_pasture": {
     "criteria": {
-      "opened_100": "2026-08-23 23:58:40 +0100"
+      "use_pasture": "2026-08-24 14:46:23 +0100"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
+  "cobblemon:first_evolution": {
     "criteria": {
-      "has_upgrade_base": "2026-08-23 23:56:23 +0100"
+      "evolve": "2026-08-24 15:12:37 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_big_root": {
+    "criteria": {
+      "check_inv": "2026-08-24 15:56:59 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:trainer/kanto/defeat_koga": {
+    "criteria": {
+      "leader_defeated": "2026-08-24 17:49:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_dark_oak_log": "2026-08-24 17:52:07 +0100"
     },
     "done": true
   },

@@ -925,6 +925,7 @@
       "obtain_maranga_berry": "2026-08-17 12:49:46 +0100",
       "obtain_kebia_berry": "2026-08-16 19:45:15 +0100",
       "obtain_aspear_berry": "2026-08-16 19:45:13 +0100",
+      "obtain_magost_berry": "2026-08-24 15:24:11 +0100",
       "obtain_belue_berry": "2026-08-20 23:33:49 +0100",
       "obtain_sitrus_berry": "2026-08-16 19:45:14 +0100",
       "obtain_tamato_berry": "2026-08-20 23:36:44 +0100",
@@ -26273,27 +26274,15 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
-      "blaze_rod": "2026-08-23 16:09:19 +0100"
+      "ancient_debris": "2026-08-23 14:58:32 +0100"
     },
     "done": true
   },
   "lootr:1cart": {
     "criteria": {
       "opened_cart": "2026-08-23 15:30:55 +0100"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/battery_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2026-08-23 22:16:33 +0100"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2026-08-23 14:58:32 +0100"
     },
     "done": true
   },
@@ -26305,15 +26294,9 @@
     },
     "done": true
   },
-  "lootr:50loot": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "opened_50": "2026-08-23 18:31:53 +0100"
-    },
-    "done": true
-  },
-  "lootr:25loot": {
-    "criteria": {
-      "opened_25": "2026-08-23 16:14:41 +0100"
+      "blaze_rod": "2026-08-23 16:09:19 +0100"
     },
     "done": true
   },
@@ -26323,57 +26306,9 @@
     },
     "done": true
   },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_bridge": "2026-08-23 18:31:53 +0100"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2026-08-23 22:16:33 +0100"
-    },
-    "done": true
-  },
   "lootr:1chest": {
     "criteria": {
       "opened_chest": "2026-08-23 16:13:03 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_chestplate": "2026-08-23 22:03:05 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/minecraft_trials_edition": {
-    "criteria": {
-      "minecraft_trials_edition": "2026-08-23 21:59:36 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/under_lock_and_key": {
-    "criteria": {
-      "under_lock_and_key": "2026-08-23 22:02:59 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2026-08-23 22:03:44 +0100"
-    },
-    "done": true
-  },
-  "lootr:trapped_chest": {
-    "criteria": {
-      "trapped_opened": "2026-08-24 01:31:41 +0100"
-    },
-    "done": true
-  },
-  "cobbleverse:trainer/kanto/defeat_blaine": {
-    "criteria": {
-      "leader_defeated": "2026-08-24 01:28:01 +0100"
     },
     "done": true
   },
@@ -26383,11 +26318,29 @@
     },
     "done": true
   },
-  "minecraft:adventure/salvage_sherd": {
+  "lootr:25loot": {
     "criteria": {
-      "has_sherd": "2026-08-23 22:00:39 +0100"
+      "opened_25": "2026-08-23 16:14:41 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-08-23 18:31:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_bridge": "2026-08-23 18:31:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-08-23 21:59:36 +0100"
+    },
+    "done": true
   },
   "lootr:pot_opened": {
     "criteria": {
@@ -26401,15 +26354,75 @@
     },
     "done": false
   },
-  "lootr:100loot": {
+  "minecraft:adventure/salvage_sherd": {
     "criteria": {
-      "opened_100": "2026-08-24 00:25:56 +0100"
+      "has_sherd": "2026-08-23 22:00:39 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2026-08-23 22:02:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-08-23 22:03:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-08-23 22:03:44 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/battery_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2026-08-23 22:16:33 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2026-08-23 22:16:33 +0100"
     },
     "done": true
   },
   "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
     "criteria": {
       "has_upgrade_base": "2026-08-23 22:16:33 +0100"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-08-24 00:25:56 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:trainer/kanto/defeat_blaine": {
+    "criteria": {
+      "leader_defeated": "2026-08-24 01:28:01 +0100"
+    },
+    "done": true
+  },
+  "lootr:trapped_chest": {
+    "criteria": {
+      "trapped_opened": "2026-08-24 01:31:41 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:use_iv_candy": {
+    "criteria": {
+      "use_health_candy": "2026-08-24 15:11:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-08-24 16:15:15 +0100"
     },
     "done": true
   },
