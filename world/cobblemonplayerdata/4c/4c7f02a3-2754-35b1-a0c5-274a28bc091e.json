@@ -8,24 +8,149 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 0,
+    "totalCaptureCount": 20,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 8,
+    "totalBattleVictoryCount": 68,
     "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 5,
-    "totalPvNBattleVictoryCount": 1,
-    "totalShinyCaptureCount": 0,
+    "totalPvWBattleVictoryCount": 59,
+    "totalPvNBattleVictoryCount": 7,
+    "totalShinyCaptureCount": 3,
     "totalTradedCount": 0,
-    "totalTypeCaptureCounts": {},
+    "totalTypeCaptureCounts": {
+      "fairy": 2,
+      "fighting": 2,
+      "normal": 5,
+      "ground": 3,
+      "psychic": 2,
+      "dark": 1,
+      "water": 1,
+      "steel": 2,
+      "ghost": 2,
+      "dragon": 2,
+      "rock": 1,
+      "electric": 2,
+      "bug": 1,
+      "fire": 3
+    },
     "totalDefeatedCounts": {
       "cobblemon:mareep": 1,
       "cobblemon:zigzagoon": 1,
       "cobblemon:lechonk": 1,
       "cobblemon:purrloin": 1,
-      "cobblemon:fidough": 1
+      "cobblemon:fidough": 1,
+      "cobblemon:drilbur": 1,
+      "cobblemon:zubat": 1,
+      "cobblemon:mudbray": 1,
+      "cobblemon:bouffalant": 4,
+      "cobblemon:ledian": 1,
+      "cobblemon:diggersby": 1,
+      "cobblemon:tauros": 2,
+      "cobblemon:medicham": 1,
+      "cobblemon:maschiff": 1,
+      "cobblemon:arboliva": 1,
+      "cobblemon:gimmighoul": 5,
+      "cobblemon:heatmor": 1,
+      "cobblemon:liepard": 1,
+      "cobblemon:absol": 1,
+      "cobblemon:emolga": 1,
+      "cobblemon:psyduck": 1,
+      "cobblemon:diglett": 1,
+      "cobblemon:aron": 1,
+      "cobblemon:boldore": 1,
+      "cobblemon:floatzel": 1,
+      "cobblemon:claydol": 1,
+      "cobblemon:lillipup": 1,
+      "cobblemon:klink": 1,
+      "cobblemon:maractus": 1,
+      "cobblemon:sigilyph": 2
     },
-    "aspectsCollected": {}
+    "aspectsCollected": {
+      "cobblemon:snubbull": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:gurdurr": [
+        "male",
+        "bucket-common",
+        "metals-none"
+      ],
+      "cobblemon:diggersby": [
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:skitty": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:medicham": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:purrloin": [
+        "shiny",
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:slowbro": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:doublade": [
+        "male",
+        "bucket-uncommon"
+      ],
+      "cobblemon:zangoose": [
+        "male",
+        "bucket-uncommon"
+      ],
+      "cobblemon:cyclizar": [
+        "male",
+        "bucket-rare"
+      ],
+      "cobblemon:stonjourner": [
+        "male",
+        "bucket-rare"
+      ],
+      "cobblemon:gimmighoul": [
+        "genderless",
+        "bucket-"
+      ],
+      "cobblemon:ragingbolt": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:irontreads": [
+        "genderless",
+        "bucket-rare"
+      ],
+      "cobblemon:fidough": [
+        "shiny",
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:pichu": [
+        "male",
+        "bucket-uncommon"
+      ],
+      "cobblemon:tarountula": [
+        "shiny",
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:ponyta": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:camerupt": [
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:pyroar": [
+        "female",
+        "bucket-uncommon"
+      ]
+    }
   }
 }

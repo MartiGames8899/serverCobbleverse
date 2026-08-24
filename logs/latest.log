@@ -1,847 +1,471 @@
-[14:50:48] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.4
-[14:50:48] [ForkJoinPool-1-worker-3/WARN]: The mod "accessories_compat_layer" contains invalid entries in its mod json:
-- Unsupported root entry "#COMMENT_breaks" at line 53 column 20
-[14:50:48] [ForkJoinPool-1-worker-11/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:50:48] [ForkJoinPool-1-worker-16/WARN]: Mod legendarymonuments uses the version Cobbleverse which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Cobbleverse'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:50:48] [ForkJoinPool-1-worker-11/WARN]: Mod nochatrestrictions uses the version Fabric-MC1.21.11-v1.0.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:50:48] [main/INFO]: Loading 252 mods:
-	- accessories 1.1.0-beta.53+1.21.1
-	- accessories_compat_layer 0.1.12
-	- advancementdisable 1.0.0
-	- architectury 13.0.8
-	- athena 4.0.6
-	- balm 21.0.63
-	   \-- kuma_api 21.0.8
-	- beautify 2.0.0+1.21.1
-	- better_pokedex_scanner 1.0.0
-	- biome_replacer 2.1-hippo
-	- c2me 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-base 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-client-uncapvd 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-fixes-chunkio-threading-issues 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-fixes-general-threading-issues 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-fixes-worldgen-threading-issues 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-fixes-worldgen-vanilla-bugs 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-notickvd 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-opts-allocs 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-opts-chunkio 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-opts-math 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-opts-scheduling 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-opts-worldgen-general 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-opts-worldgen-vanilla 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-rewrites-chunk-system 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-rewrites-chunkio 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-server-utils 0.4.0-alpha.0.23+1.21.1
-	   |-- c2me-threading-lighting 0.4.0-alpha.0.23+1.21.1
-	   |-- com_github_ben-manes_caffeine_caffeine 3.2.1
-	   |-- com_ibm_async_asyncutil 0.1.0
-	   |-- io_reactivex_rxjava3_rxjava 3.1.12
-	   |-- mixinsquared 0.3.7-beta.1
-	   |-- net_objecthunter_exp4j 0.4.8
-	   |-- org_jctools_jctools-core 4.0.5
-	   \-- org_reactivestreams_reactive-streams 1.0.4
-	- capture_xp 1.7.3-fabric-1.3.0
-	- carved_wood 1.9.7-B
-	   \-- cardinal-components-block 6.1.0
-	- cloth-config 15.0.140
-	   \-- cloth-basic-math 0.6.1
-	- cobblecuisine 2.0.1
-	- cobbledollars 2.0.0+Beta-5.1+1.21.1
-	- cobblefurnies 1.2
-	- cobblemon 1.7.3+1.21.1
-	- cobblemon-additions 4.1.6
-	- cobblemon-battle-extras 1.13.45
-	- cobblemonbattlepositions 1.1.2
-	- cobblemonraiddens 0.11.3+1.21.1
-	- cobblenav 2.3.3
-	- cobbleversebadges 1.3
-	- cobbreeding 2.2.2
-	- comforts 9.0.5+1.21.1
-	   |-- cardinal-components-base 6.1.2
-	   |-- cardinal-components-entity 6.1.2
-	   \-- spectrelib 0.17.2+1.21
-	- configurable 3.5.2
-	   |-- com_electronwill_night-config_core 3.8.3
-	   |-- com_electronwill_night-config_toml 3.8.3
-	   |-- com_google_auto_service_auto-service 1.0
-	   |-- org_quiltmc_parsers_gson 0.3.1
-	   \-- org_quiltmc_parsers_json 0.3.1
-	- cozyhome 1.1.20
-	- debugify 1.21.1+1.0
-	- defaultoptions 21.1.7
-	- entityculling 1.10.5
-	   |-- transition 1.0.21
-	   \-- trender 1.0.15
-	- fabric-api 0.116.14+1.21.1
-	   |-- fabric-api-base 0.4.42+6573ed8c19
-	   |-- fabric-api-lookup-api-v1 1.6.72+7b3d111d19
-	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
-	   |-- fabric-block-api-v1 1.1.0+0bc3503219
-	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
-	   |-- fabric-client-tags-api-v1 1.2.0+1eb36c0719
-	   |-- fabric-command-api-v1 1.2.49+f71b366f19
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
-	   |-- fabric-commands-v0 0.2.66+df3654b319
-	   |-- fabric-content-registries-v0 8.0.19+b559734419
-	   |-- fabric-convention-tags-v1 2.1.7+7f945d5b19
-	   |-- fabric-convention-tags-v2 2.12.0+c3656daa19
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
-	   |-- fabric-data-attachment-api-v1 1.4.7+5b36e0f719
-	   |-- fabric-data-generation-api-v1 20.3.0+1eb36c0719
-	   |-- fabric-dimensions-v1 4.0.1+65213ef819
-	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
-	   |-- fabric-events-interaction-v0 0.7.14+ba9dae0619
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
-	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
-	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
-	   |-- fabric-keybindings-v0 0.2.45+df3654b319
-	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
-	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
-	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
-	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
-	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
-	   |-- fabric-networking-api-v1 4.3.1+d30f6a7919
-	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
-	   |-- fabric-particles-v1 4.0.2+6573ed8c19
-	   |-- fabric-recipe-api-v1 5.0.16+2475392c19
-	   |-- fabric-registry-sync-v0 5.3.2+e3eddc2119
-	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
-	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
-	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
-	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
-	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
-	   |-- fabric-rendering-v0 1.1.72+df3654b319
-	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
-	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
-	   |-- fabric-screen-api-v1 2.0.26+639b4c0719
-	   |-- fabric-screen-handler-api-v1 1.3.91+b559734419
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
-	   |-- fabric-tag-api-v1 1.3.0+1eb36c0719
-	   |-- fabric-transfer-api-v1 5.4.4+7b3d111d19
-	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
-	- fabric-language-kotlin 1.13.13+kotlin.2.4.10
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.10
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.10
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.10
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.10
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.1
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
-	- fabricloader 0.18.4
-	   \-- mixinextras 0.5.0
-	- fancymenu 3.9.8
-	   |-- com_github_keksuccino_japng 0.5.3
-	   \-- com_github_rtyley_animated-gif-lib-for-java animated-gif-lib-1.7
-	- ferritecore 7.0.3
-	- fightorflight 0.10.9
-	- forgeconfigapiport 21.1.6
-	- forgivingvoid 21.1.7
-	- fusion 1.2.12
-	- fzzy_config 0.7.6+1.21
-	   |-- blue_endless_jankson 1.2.3
-	   |-- fabric-permissions-api-v0 0.3.1
-	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
-	- geckolib 4.9.2
-	- globalpacks 21.0.6
-	- handcrafted 4.0.3
-	- highlight 3.0.0
-	- hugestructureblocks 1.1.6
-	- iceberg 1.3.2
-	- interactic 0.2.3+1.21
-	- java 21
-	- konkrete 1.9.9
-	- krypton 0.2.8
-	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
-	- legendarymonuments Cobbleverse
-	- lenientdeath 1.2.5+1.21.1
-	   |-- jackfredlib-base 1.4.0+1.21
-	   |-- jackfredlib-colour 1.1.0+1.21
-	   |-- jackfredlib-config 0.2.3+1.21
-	   |    |-- blue_endless_jankson 1.2.3
-	   |    |-- commons-io_commons-io 2.15.1
-	   |    \-- jackfredlib-base 1.4.0+1.21
-	   |-- jackfredlib-lying 0.5.5+1.21
-	   \-- server_translations_api 2.3.1+1.21-pre2
-	        \-- packet_tweaker 0.5.1+24w03b
-	- libjf 3.17.5
-	   |-- libjf-base 3.17.3
-	   |-- libjf-config-commands 3.17.3
-	   |-- libjf-config-core-v2 3.17.3
-	   |-- libjf-config-network-v0 3.17.3
-	   |-- libjf-config-ui-tiny 3.17.3
-	   |-- libjf-data-manipulation-v0 3.17.3
-	   |-- libjf-data-v0 3.17.3
-	   |-- libjf-mainhttp-v0 3.17.3
-	   |-- libjf-resource-pack-entry-widgets-v0 3.17.3
-	   |-- libjf-translate-v1 3.17.3
-	   |-- libjf-unsafe-v0 3.17.5
-	   \-- libjf-web-v1 3.17.3
-	- lithium 0.15.4+mc1.21.1
-	- lootr 1.21.1-1.11.38.124
-	- lumymon 0.6.6
-	   \-- fabric-permissions-api-v0 0.3.1
-	- mega_showdown 1.8.4+1.7.3+1.21.1
-	- melody 1.0.10
-	- midnightlib 1.7.5
-	- minecraft 1.21.1
-	- moarconcrete 1.3.1
-	- mobsbegone 0.0.7
-	- modernfix 5.25.1+mc1.21.1
-	- more_cobblemon_tweaks 1.3.3
-	- neruina 3.3.3
-	   \-- org_kohsuke_github-api 2.0-rc.6
-	- nethermap 4.0.0-1.21.1
-	- netherportalfix 21.1.3
-	- nochatrestrictions Fabric-MC1.21.11-v1.0.0
-	- notenoughanimations 1.12.4
-	   |-- transition 1.0.21
-	   \-- trender 1.0.15
-	- notenoughcrashes 4.4.9+1.21.1
-	- obc 1.3.0
-	- owo 0.12.15.4+1.21
-	   |-- io_wispforest_endec 0.1.5.1
-	   |-- io_wispforest_endec_gson 0.1.3.1
-	   |-- io_wispforest_endec_jankson 0.1.3.1
-	   \-- io_wispforest_endec_netty 0.1.2
-	- packetfixer 3.3.1
-	- particular 1.5.5
-	- pasture-loot 1.0.5+1.21.1
-	- pingwheel 1.12.2
-	- platform 1.3.3
-	- playerxp 1.0.9+1.21.1
-	- pokeblocks 1.4.0-1.21.1
-	- rctapi 0.15.2-beta
-	- rctmod 0.18.1-beta
-	   |-- com_github_vlsi_mxgraph_jgraphx 4.2.2
-	   |-- org_jgrapht_jgrapht-core 1.5.2
-	   \-- org_jgrapht_jgrapht-ext 1.5.2
-	- rechiseled 1.2.4
-	- repurposed_structures 7.5.21+1.21.1-fabric
-	- resourcefullib 3.0.12
-	   |-- com_teamresourceful_bytecodecs 1.1.2
-	   \-- com_teamresourceful_yabn 1.0.3
-	- respackopts 4.14.0+1.21.1.4
-	   |-- io_gitlab_jfronny_muscript-all 2.0.0-SNAPSHOT
-	   \-- io_gitlab_jfronny_muscript-json 2.0.0-SNAPSHOT
-	- roughlyenoughitems 16.0.799
-	   \-- error_notifier 1.0.11
-	- safepastures 1.1.1+1.21.1
-	- scalablelux 0.1.0.1+fabric.d0d58ab
-	- sophisticatedbackpacks 1.21.1-3.23.4.3.106
-	- sophisticatedcore 1.21.1-1.2.9.21.168
-	   |-- porting_lib_conditions 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_core 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_fluids 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_item_abilities 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_lazy_registration 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_level_events 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_loot 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_model_loader 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_render_types 3.1.0-beta.47+1.21.1
-	   |-- porting_lib_transfer 3.1.0-beta.47+1.21.1
-	   \-- team_reborn_energy 4.1.0
-	- sophisticatedstorage 1.21.1-1.3.7.9.139
-	- sound_physics_remastered 1.21.1-1.5.1
-	- stackdeobfuscator 1.4.3+08e71cc
-	   |-- net_fabricmc_mapping-io 0.6.1
-	   \-- stackdeobfuscator-common 1.4.3+08e71cc
-	- supermartijn642configlib 1.1.8
-	- supermartijn642corelib 1.1.21
-	- tim_core 1.7.3-fabric-1.32.0
-	- tmcraft 1.4.18+1.7.3
-	- toms_storage 2.3.0
-	   \-- cardinal-components-block 6.1.0
-	- trinkets 3.10.0
-	- vanillabackport 1.1.7.10
-	- villagerconfig 4.5.4
-	   \-- fiber 0.23.0-2
-	- waystones 21.1.37
-	- xaerominimap 26.4.2
-	   \-- xaerolib 1.7.1
-	- xaeroworldmap 1.44.2
-	   \-- xaerolib 1.7.1
-	- yet_another_config_lib_v3 3.8.2+1.21.1-fabric
-	   |-- com_twelvemonkeys_common_common-image 3.12.0
-	   |-- com_twelvemonkeys_common_common-io 3.12.0
-	   |-- com_twelvemonkeys_common_common-lang 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
-	   \-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
-	- zamega 1.7.3
-	- zfastnoise 1.0.13+1.21
-[14:50:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Minecraft/serverCobbleverse/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:50:49] [main/INFO]: Compatibility level set to JAVA_17
-[14:50:49] [main/INFO]: Compatibility level set to JAVA_21
-[14:50:49] [main/WARN]: Reference map 'beautify-refmap.json' for beautify.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:49] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:50:50] [main/INFO]: Global Executor Parallelism: 10 configured, 10 evaluated, 10 default evaluated
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:50:50] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:50:50] [main/WARN]: Reference map 'cobblemon-battle-extras-refmap.json' for cobblemon-battle-extras-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[14:50:50] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[14:50:50] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[14:50:50] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[14:50:50] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[14:50:50] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[14:50:50] [main/INFO]: Loaded configuration file for Lithium: 150 options available, 0 override(s) found
-[14:50:50] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 3 override(s) found
-[14:50:50] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[14:50:50] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[14:50:50] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[14:50:50] [main/INFO]: Applying Nashorn fix
-[14:50:50] [main/INFO]: Packet Fixer forge 1.20.5-1.21.X has been applied successfully.
-[14:50:50] [main/WARN]: Reference map 'particular.refmap.json' for particular.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'particular.refmap.json' for particular.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'rechiseled.mixins.refmap.json' for rechiseled.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:50:50] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[14:50:50] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[14:50:51] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/integration/v0/ChunkSystemHooks (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/integration/v0/ChunkSystemHooks)
-[14:50:51] [main/WARN]: @Mixin target ca/spottedleaf/starlight/common/integration/v0/ChunkSystemHooks was not found c2me-rewrites-chunk-system.mixins.json:scalablelux.MixinChunkSystemHooks from mod c2me-rewrites-chunk-system
-[14:50:51] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[14:50:51] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
-[14:50:51] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
-[14:50:51] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
-[14:50:51] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
-[14:50:51] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
-[14:50:51] [main/WARN]: Error loading class: com/simibubi/create/content/schematics/SchematicPrinter (java.lang.ClassNotFoundException: com/simibubi/create/content/schematics/SchematicPrinter)
-[14:50:51] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[14:50:51] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[14:50:51] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[14:50:51] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[14:50:51] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[14:50:51] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[14:50:51] [main/WARN]: Error loading class: net/minecraft/class_918 (java.lang.ClassNotFoundException: net/minecraft/class_918)
-[14:50:51] [main/WARN]: @Mixin target net.minecraft.class_918 was not found rctmod.mixins.json:client.ItemRendererMixin from mod rctmod
-[14:50:51] [main/WARN]: Error loading class: jeresources/api/util/BiomeHelper (java.lang.ClassNotFoundException: jeresources/api/util/BiomeHelper)
-[14:50:51] [main/WARN]: Error loading class: yalter/mousetweaks/Main (java.lang.ClassNotFoundException: yalter/mousetweaks/Main)
-[14:50:52] [main/INFO]: Registering config for libjf-translate-v1
-[14:50:52] [main/INFO]: Registering config for respackopts
-[14:50:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[14:50:52] [main/WARN]: Error loading class: org/quiltmc/loader/api/plugin/ModContainerExt (java.lang.ClassNotFoundException: org/quiltmc/loader/api/plugin/ModContainerExt)
-[14:50:52] [main/WARN]: Error loading class: org/quiltmc/loader/impl/util/DefaultLanguageAdapter (java.lang.ClassNotFoundException: org/quiltmc/loader/impl/util/DefaultLanguageAdapter)
-[14:50:54] [main/INFO]: Loading Generated Config Loaders...
-[14:50:54] [main/INFO]: Loaded 'neruina'
-[14:50:55] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[14:50:55] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[14:50:56] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[14:50:59] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
-[14:50:59] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
-[14:50:59] [main/WARN]: Error loading class: net/minecraft/class_304 (java.lang.ClassNotFoundException: net/minecraft/class_304)
-[14:51:00] [main/INFO]: Vanilla bootstrap took 5734 milliseconds
-[14:51:00] [main/INFO]: Setting up compat modules for Accessories!
-[14:51:00] [main/INFO]: Registered Trinkets Reloaded Listeners
-[14:51:00] [main/INFO]: Mod proxy balm:permissions resolved as net.blay09.mods.balm.fabric.compat.FabricPermissionsAPIIntegration@16e27e19
-[14:51:01] [main/INFO]: Registering Mod Blocks for carved_wood
-[14:51:01] [main/INFO]: Registering Mod Block Entities for carved_wood
-[14:51:01] [main/INFO]: Registering Mod Recipes for carved_wood
-[14:51:01] [main/INFO]: EveryCompat module is not loaded
-[14:51:01] [main/INFO]: CobbleCuisine >> Loaded config in memory!
-[14:51:01] [main/INFO]: CobbleCuisine >> Registering Effects...
-[14:51:01] [main/INFO]: CobbleCuisine >> Registering Blocks...
-[14:51:01] [main/INFO]: CobbleCuisine >> Registering Items...
-[14:51:01] [main/INFO]: CobbleCuisine >> Injecting Loot Tables...
-[14:51:01] [main/INFO]: CobbleCuisine >> Up and running! Time spent: 103,70ms
-[14:51:01] [main/ERROR]: No data fixer registered for cobbledollars:cobble_merchant
-[14:51:02] [main/INFO]: Registering C2S receiver with id cobblefurnies:craft_recipe
-[14:51:02] [main/INFO]: Registering C2S receiver with id cobblefurnies:toggle_stove_lid
-[14:51:02] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[14:51:02] [main/WARN]: Error loading class: net/minecraft/class_1132 (java.lang.ClassNotFoundException: net/minecraft/class_1132)
-[14:51:02] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[14:51:02] [main/INFO]: Launching Cobblemon 1.7.3 
-[14:51:02] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:pokemon
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:boat
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
-[14:51:02] [main/ERROR]: No data fixer registered for cobblemon:npc
-[14:51:03] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
-[14:51:03] [main/INFO]: Starting the Best Spawner...
-[14:51:03] [main/INFO]: Loaded 7 spawning condition types.
-[14:51:03] [main/INFO]: Loaded 6 spawnable position types.
-[14:51:03] [main/INFO]: Loaded 3 spawn detail types.
-[14:51:03] [Cobblemon Showdown/INFO]: Starting showdown service...
-[14:51:03] [Cobblemon Showdown/INFO]: Showdown files are up to date (v1.0.0).
-[14:51:06] [Cobblemon Showdown/INFO]: Showdown has been started!
-[14:51:06] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/custom_status registry
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/showdown/moves registry
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/showdown/ability registry
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/showdown/conditions registry
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/showdown/held_items registry
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/showdown/typecharts registry
-[14:51:06] [main/INFO]: Registered the mega_showdown:mega_showdown/showdown/scripts registry
-[14:51:06] [main/INFO]: Registered the cobblemon:molang registry
-[14:51:06] [main/INFO]: Registered the cobblemon:species_features registry
-[14:51:06] [main/INFO]: Registered the cobblemon:global_species_features registry
-[14:51:06] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
-[14:51:06] [main/INFO]: Registered the cobblemon:action_effects registry
-[14:51:06] [main/INFO]: Registered the cobblemon:moves registry
-[14:51:06] [main/INFO]: Registered the cobblemon:abilities registry
-[14:51:06] [main/INFO]: Registered the cobblemon:behaviours registry
-[14:51:06] [main/INFO]: Registered the cobblemon:species registry
-[14:51:06] [main/INFO]: Registered the cobblemon:species_additions registry
-[14:51:06] [main/INFO]: Registered the cobblemon:pokeballs registry
-[14:51:06] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
-[14:51:06] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[14:51:06] [main/INFO]: Registered the cobblemon:spawn_rules registry
-[14:51:06] [main/INFO]: Registered the cobblemon:mechanics registry
-[14:51:06] [main/INFO]: Registered the cobblemon:bag_items registry
-[14:51:06] [main/INFO]: Registered the cobblemon:held_items registry
-[14:51:06] [main/INFO]: Registered the cobblemon:dialogues registry
-[14:51:06] [main/INFO]: Registered the cobblemon:natural_materials registry
-[14:51:06] [main/INFO]: Registered the cobblemon:fossils registry
-[14:51:06] [main/INFO]: Registered the cobblemon:npc_preset registry
-[14:51:06] [main/INFO]: Registered the cobblemon:npc registry
-[14:51:06] [main/INFO]: Registered the cobblemon:dex_entries registry
-[14:51:06] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
-[14:51:06] [main/INFO]: Registered the cobblemon:dexes registry
-[14:51:06] [main/INFO]: Registered the cobblemon:dex_additions registry
-[14:51:06] [main/INFO]: Registered the cobblemon:cosmetic_items registry
-[14:51:06] [main/INFO]: Registered the cobblemon:callbacks registry
-[14:51:06] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
-[14:51:06] [main/INFO]: Registered the cobblemon:marks registry
-[14:51:06] [main/INFO]: Registered the cobblemon:starters registry
-[14:51:06] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
-[14:51:06] [main/INFO]: Registered the cobblemon:pokerods registry
-[14:51:06] [main/INFO]: Registered the cobblemon:berries registry
-[14:51:06] [main/INFO]: Registered the cobblemon:seasonings registry
-[14:51:06] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
-[14:51:06] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
-[14:51:06] [main/INFO]: Registered the cobblemon:ride_settings registry
-[14:51:07] [main/INFO]: Datagen: LootTableScanner disabled (set enableLootScan=true to enable).
-[14:51:07] [main/INFO]: Datagen: ItemScanner disabled (set enableItemScan=true to enable).
-[14:51:07] [main/INFO]: Mod compatibility check results: {cobblepedia=false, fightorflight=true, cobblenav=true, sophisticatedbackpacks=true, waystones=true, cobbledollars=true, travelersbackpack=false}
-[14:51:07] [main/INFO]: Loaded lootRollMultiplierPercent = 64.0%
-[14:51:07] [main/INFO]: ModifyLootTables initialized; loaded 11 configured tables
-[14:51:07] [main/INFO]: LootRollScaler initialized
-[14:51:07] [main/INFO]: Cobblemon Additions mod initialized successfully.
-[14:51:07] [main/INFO]: Initializing Cobblemon Battle Positions
-[14:51:07] [main/INFO]: Position blocks registered
-[14:51:07] [main/INFO]: Creative tab registered
-[14:51:07] [main/INFO]: Cobblemon Battle Positions ready
-[14:51:07] [main/INFO]: Initialising cobblemonraiddens
-[14:51:07] [main/INFO]: Registered the cobblenav:biome_platforms registry
-[14:51:07] [main/INFO]: Registering cobblenav data store types!
-[14:51:07] [main/INFO]: Registering items
-[14:51:07] [main/INFO]: Registering data components
-[14:51:07] [main/INFO]: Registering Mod Items for cozyhome
-[14:51:08] [main/INFO]: Registering ModBlocks for cozyhome
-[14:51:08] [main/INFO]: Registering block entities for cozyhome
-[14:51:08] [main/INFO]: Registering Item Groups for cozyhome
-[14:51:08] [main/INFO]: Registering Sounds for cozyhome
-[14:51:08] [main/INFO]: Registering Mod Data Components for cozyhome
-[14:51:08] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[14:51:08] [main/INFO]: Successfully Debugify'd your game!
-[14:51:08] [main/INFO]: [FANCYMENU] Loading v3.9.8 in server-side mode on FABRIC!
-[14:51:08] [main/INFO]: Hello Fabric world from Fight or Flight!
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:tracing_bullet
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:arrow_projectile
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:bullet_projectile
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:spike_projectile
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:floating_spike_projectile
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:sticky_web
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:tornado
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:whirlpool
-[14:51:08] [main/ERROR]: No data fixer registered for fightorflight:magic_effect
-[14:51:08] [main/INFO]: Registering C2S receiver with id fightorflight:send_command
-[14:51:08] [main/INFO]: Registering C2S receiver with id fightorflight:send_move_slot
-[14:51:08] [main/INFO]: Registering C2S receiver with id fightorflight:start_battle
-[14:51:08] [main/ERROR]: No data fixer registered for handcrafted
-[14:51:08] [main/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
-[14:51:08] [main/INFO]: New structure size = 512
-[14:51:08] [main/INFO]: Setting up file watchers
-[14:51:08] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
-[14:51:08] [main/INFO]: ---------------------------
-[14:51:08] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[14:51:08] [main/INFO]:  
-[14:51:08] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[14:51:08] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[14:51:08] [main/INFO]:  
-[14:51:08] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[14:51:08] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[14:51:08] [main/INFO]:  
-[14:51:08] [main/INFO]: Json-smart Copyright © netplex.
-[14:51:08] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[14:51:08] [main/INFO]:  
-[14:51:08] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[14:51:08] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[14:51:08] [main/INFO]: ---------------------------
-[14:51:08] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[14:51:08] [main/INFO]: Compression will use Java, encryption will use Java
-[14:51:08] [main/INFO]: Initializing Legendary Monuments mod!
-[14:51:08] [main/INFO]: Registering mod entities for legendarymonuments
-[14:51:08] [main/INFO]: Registered alternative Distortion World chunk generator
-[14:51:08] [main/INFO]: Registering Distortion World dimension
-[14:51:08] [main/INFO]: Registering structures for map discovery
-[14:51:08] [main/INFO]: Registered Distortion Sign Block Entities
-[14:51:08] [main/INFO]: Registering Block Entities for legendarymonuments
-[14:51:08] [main/INFO]: Registered Legendary Pokemon Pedestal Block Entities
-[14:51:08] [main/INFO]: Registered Eternatus Cocoon Block Entity
-[14:51:08] [main/INFO]: Registering world generation features...
-[14:51:08] [main/INFO]: Registered stake feature
-[14:51:08] [main/INFO]: Registering Block Entities for legendarymonuments
-[14:51:08] [main/INFO]: Registered Legendary Pokemon Pedestal Block Entities
-[14:51:08] [main/INFO]: Registered Eternatus Cocoon Block Entity
-[14:51:08] [main/INFO]: Registered stake feature
-[14:51:08] [main/INFO]: Registered stake placements for all nether biomes
-[14:51:08] [main/INFO]: Registering ore generation...
-[14:51:08] [main/INFO]: Registering ModPlacedFeatures for legendarymonuments
-[14:51:08] [main/INFO]: Registering Galar Particle ore placed features
-[14:51:08] [main/INFO]: Applying ore generation to biomes...
-[14:51:08] [main/INFO]: Registering ore generation features...
-[14:51:08] [main/INFO]: Adding Galar Particle ore features to biomes
-[14:51:08] [main/INFO]: Successfully registered Galar Particle ore features
-[14:51:08] [main/INFO]: Legendary Monuments mod initialization complete!
-[14:51:09] [main/INFO]: Registering Custom Recipes for lumymon
-[14:51:09] [main/INFO]: LumyMon v0.6.6 - Made by LUMYVERSE
-[14:51:09] [main/INFO]: Registering C2S receiver with id mega_showdown:mega_evo
-[14:51:09] [main/INFO]: Registering C2S receiver with id mega_showdown:ultra_burst
-[14:51:09] [main/INFO]: Registering C2S receiver with id mega_showdown:secret_sword_move_swap
-[14:51:09] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
-[14:51:09] [main/INFO]: Registering ModBlocks for moarconcrete
-[14:51:09] [main/INFO]: NoChatRestrictions Fabric mod initialized!
-[14:51:09] [main/INFO]: yes this is a tip
-[14:51:09] [main/INFO]: I am quite particular about the effects I choose to add :3
-[14:51:09] [main/INFO]: [Ping-Wheel] Init
-[14:51:09] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
-[14:51:09] [main/INFO]: Registering ItemGroups for pokeblocks
-[14:51:09] [main/INFO]: Registering ModItems for pokeblocks
-[14:51:09] [main/INFO]: Registering ModBlocks for pokeblocks
-[14:51:09] [main/INFO]: Registering mod entities for pokeblocks
-[14:51:10] [main/ERROR]: No data fixer registered for trainer
-[14:51:10] [main/ERROR]: No data fixer registered for trainer_association
-[14:51:10] [main/INFO]: Registering C2S receiver with id rctmod:client_action
-[14:51:10] [ToggleableConfigWatchService/INFO]: Registering config for libjf-config-core-v2
-[14:51:10] [ToggleableConfigWatchService/INFO]: Created config watch service
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[14:51:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIServerPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIServerPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIServerPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[14:51:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[14:51:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[14:51:10] [main/ERROR]: No data fixer registered for 
-[14:51:11] [main/INFO]: Creating asynchronous mapping cache executor...
-[14:51:11] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
-[14:51:11] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (19 hour(s) ago, refresh in 29 hour(s))
-[14:51:11] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.1+build.3 are already downloaded
-[14:51:11] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 2ms)
-[14:51:11] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
-[14:51:11] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 164ms)
-[14:51:11] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
-[14:51:11] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 44ms)
-[14:51:11] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 214ms)
-[14:51:11] [Mappings Cache Thread #1/INFO]:   Classes: 7535
-[14:51:11] [Mappings Cache Thread #1/INFO]:   Methods: 27638
-[14:51:11] [Mappings Cache Thread #1/INFO]:   Fields: 32194
-[14:51:11] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
-[14:51:11] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
-[14:51:11] [main/INFO]: Tom's Storage Setup starting
-[14:51:11] [main/ERROR]: No data fixer registered for sulfur_cube
-[14:51:11] [main/ERROR]: No data fixer registered for creaking
-[14:51:11] [main/ERROR]: No data fixer registered for happy_ghast
-[14:51:11] [main/ERROR]: No data fixer registered for pale_oak_boat
-[14:51:11] [main/ERROR]: No data fixer registered for pale_oak_chest_boat
-[14:51:12] [main/INFO]: Zamega Mod 正在初始化!
-[14:51:12] [main/INFO]: Hello Fabric world!
-[14:51:12] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[14:51:12] [main/INFO]: Registering common data for channel xaerolib:main!
-[14:51:12] [main/INFO]: Loading primary common config for channel xaerolib:main!
-[14:51:12] [main/INFO]: Loading server config profiles for channel xaerolib:main!
-[14:51:12] [main/INFO]: Loading XaeroLib common 1/2!
-[14:51:12] [main/INFO]: Loading XaeroLib server 1/2!
-[14:51:12] [main/INFO]: Registering common data for channel xaerominimap:main!
-[14:51:12] [main/INFO]: Loading primary common config for channel xaerominimap:main!
-[14:51:12] [main/INFO]: Loading server config profiles for channel xaerominimap:main!
-[14:51:12] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14:51:12] [main/INFO]: Registering common data for channel xaeroworldmap:main!
-[14:51:12] [main/INFO]: Loading primary common config for channel xaeroworldmap:main!
-[14:51:12] [main/INFO]: Loading server config profiles for channel xaeroworldmap:main!
-[14:51:12] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[14:51:12] [main/ERROR]: Registry 'minecraft:wolf_sound_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'minecraft:cow_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'minecraft:chicken_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'minecraft:pig_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'vanillabackport:wolf_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'vanillabackport:frog_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'vanillabackport:cat_variant' was empty after loading
-[14:51:12] [main/ERROR]: Registry 'vanillabackport:sulfur_cube_archetypes' was empty after loading
-[14:51:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:51:13] [main/INFO]: 1 chiseling plugins were registered: [rechiseled:datapacks]
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/bedroom; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/attic; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/blacksmith; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/miner; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/gardening; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/ice_chest; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/kitchen; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/sittingroom; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/workshop; skipping roll scaling
-[14:51:14] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/pokecenter; skipping roll scaling
-[14:51:15] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/potions; skipping roll scaling
-[14:51:15] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/easter_egg; skipping roll scaling
-[14:51:15] [Worker-Main-2/INFO]: Registering 3 commands
-[14:51:15] [Worker-Main-2/INFO]: Commands registered
-[14:51:15] [Worker-Main-2/INFO]: Loading config file lenientdeath.json5
-[14:51:16] [Worker-Main-1/INFO]: All Tags to be dealt with: [accessories:belt, accessories:back]
-[14:51:16] [Worker-Main-1/WARN]: [RuntimeTagModification] Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
-     [toms_storage:adv_wireless_terminal (from toms_storage)]
-[14:51:16] [Worker-Main-1/WARN]: [RuntimeTagModification] Adding Entries from [trinkets:chest/back] to [accessories:back]: 
-     [sophisticatedbackpacks:backpack (from sophisticatedbackpacks), sophisticatedbackpacks:copper_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:iron_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:gold_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:diamond_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:netherite_backpack (from sophisticatedbackpacks)]
-[14:51:16] [Worker-Main-6/INFO]: [FOF] Preparing to read move data
-[14:51:16] [Worker-Main-8/INFO]: Loaded 0 Custom Model Data mappings from Data Packs.
-[14:51:17] [main/INFO]: Loaded 5861 recipes
-[14:51:17] [main/INFO]: Loaded 4759 advancements
-[14:51:17] [main/INFO]: Loaded custom elemental statuses
-[14:51:17] [main/INFO]: Loaded 10 server scripts and 1 client scripts
-[14:51:20] [main/INFO]: Loaded 937 moves
-[14:51:20] [main/INFO]: Loaded 318 abilities
-[14:51:20] [main/INFO]: FOF tasks injected
-[14:51:20] [main/INFO]: Loaded 49 entity behaviours
-[14:51:21] [main/INFO]: Finished additions
-[14:51:21] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 128 milliseconds
-[14:51:22] [main/INFO]: Loaded 1025 Pokémon species
-[14:51:22] [main/INFO]: Loaded 28 spawn detail presets.
-[14:51:22] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
-[14:51:23] [main/INFO]: Imported 266 held item IDs from showdown
-[14:51:23] [main/INFO]: Loaded 19 fossils
-[14:51:23] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
-[14:51:23] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
-[14:51:23] [main/ERROR]: Unable to apply dex addition cobblemon:mega_z as the sub-dex cobblemon:mega_z does not exist
-[14:51:23] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
-[14:51:23] [main/INFO]: Loaded 168 marks
-[14:51:24] [main/INFO]: Loaded 70 berries
-[14:51:24] [main/INFO]: Loaded 137 Pokémon interaction sets
-[14:51:24] [main/INFO]: Loaded 7 biome platforms
-[14:51:24] [main/INFO]: Registering raid bosses
-[14:51:24] [main/INFO]: Registering raid buckets
-[14:51:24] [main/INFO]: Registered 0 raid buckets
-[14:51:24] [main/INFO]: Registering raid den pools
-[14:51:24] [main/INFO]: Registering raid den structures
-[14:51:25] [main/INFO]: Registering boss additions
-[14:51:26] [main/INFO]: Registered 20 boss additions
-[14:51:26] [main/INFO]: Registered 19225 raid bosses
-[14:51:26] [main/INFO]: Reloading configuration
-[14:51:26] [main/INFO]: Done reloading configuration
-[14:51:26] [main/INFO]: [FOF] 72 move data files processed.
-[14:51:26] [main/INFO]: Poké Snack Blacklist: Loaded 47 species from custom.json
-[14:51:26] [main/INFO]: Poké Snack Blacklist: Loaded 20 species from paradox.json
-[14:51:26] [main/INFO]: Custom Model Data Mappings are now ready.
-[14:51:26] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[14:51:26] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[14:51:26] [main/INFO]: [REI] Plugins (6):
-[14:51:26] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[14:51:26] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[14:51:26] [main/INFO]: [REI] ****************************************
-[14:51:26] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[14:51:26] [main/INFO]: [REI] Plugins (6):
-[14:51:26] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[14:51:26] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI] ****************************************
-[14:51:26] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.330 ms, totaling 42.76 ms.
-[14:51:26] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 641.7 μs, totaling 4.030 ms.
-[14:51:26] [main/INFO]: [REI] ----------------------------------------
-[14:51:26] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[14:51:26] [main/INFO]: [REI] Plugins (6):
-[14:51:26] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[14:51:26] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI] ----------------------------------------
-[14:51:26] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[14:51:26] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[14:51:26] [main/INFO]: [REI] Plugins (6):
-[14:51:26] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[14:51:26] [main/INFO]: [REI]  - (0,00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[14:51:26] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[14:51:26] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[14:51:26] [main/INFO]: [REI] REIPlugin finished post-reload for END in 689.0 μs, totaling 39.24 ms.
-[14:51:26] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 390.6 μs, totaling 7.269 ms.
-[14:51:26] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 48 translation keys
-[14:51:26] [main/INFO]: Loaded 1 trades
-[14:51:26] [main/INFO]: Loaded 44 chiseling recipes
-[14:51:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: cobbleverse:has_structure/lake_acuity, cobbleverse:has_structure/lake_valor, cobbleverse:has_structure/lake_verity, cobbleverse:has_structure/stark_mountain, cobbleverse:has_structure/turnback_cave
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 9: Biome 'terralith:alpha_islands' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 10: Biome 'terralith:alpha_islands_winter' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 11: Biome 'terralith:basalt_cliffs' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 12: Biome 'terralith:cave/infested_caves' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 13: Biome 'terralith:cave/mantle_caves' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 14: Biome 'terralith:cave/thermal_caves' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 15: Biome 'terralith:cave/tuff_caves' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 16: Biome 'terralith:desert_spires' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 17: Biome 'terralith:emerald_peaks' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 18: Biome 'terralith:fractured_savanna' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 19: Biome 'terralith:frozen_cliffs' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 20: Biome 'terralith:granite_cliffs' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 21: Biome 'terralith:gravel_desert' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 22: Biome 'terralith:haze_mountain' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 23: Biome 'terralith:highlands' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 24: Biome 'terralith:jungle_mountains' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 25: Biome 'terralith:painted_mountains' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 26: Biome 'terralith:rocky_shrubland' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 27: Biome 'terralith:savanna_badlands' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 28: Biome 'terralith:scarlet_mountains' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 29: Biome 'terralith:shield_clearing' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 30: Biome 'terralith:skylands_autumn' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 31: Biome 'terralith:skylands_spring' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 32: Biome 'terralith:skylands_summer' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 33: Biome 'terralith:skylands_winter' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 34: Biome 'terralith:snowy_maple_forest' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 35: Biome 'terralith:stony_spires' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 36: Biome 'terralith:tropical_jungle' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 37: Biome 'terralith:warped_mesa' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 38: Biome 'terralith:white_mesa' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 39: Biome 'terralith:windswept_spires' does not exist, ignoring rule
-[14:51:26] [main/WARN]: [BiomeReplacer] Config issue on line 40: Biome 'terralith:yellowstone' does not exist, ignoring rule
-[14:51:26] [main/INFO]: [BiomeReplacer] Loaded 0 rules (0 direct, 0 tag-based) and ignored 32
-[14:51:26] [main/INFO]: [BiomeReplacer] No rules found, not replacing anything
-[14:51:26] [main/WARN]: Initial datapack load took 13.31 s
-[14:51:26] [main/INFO]: Applied 1156 biome modifications to 70 of 70 new biomes in 39.86 ms
-[14:51:27] [Server thread/INFO]: Loading default shop config...
-[14:51:27] [Server thread/INFO]: Default shop config loaded!
-[14:51:27] [Server thread/INFO]: Loading bank config...
-[14:51:27] [Server thread/INFO]: Bank config loaded!
-[14:51:27] [Server thread/INFO]: Registered 8 collectors and 4 block collectors
-[14:51:27] [Server thread/INFO]: MobsBeGone >> Total Entity Types: 162 | Bit Array Size: 3 longs / 192 bits | Blacklisted Entities: 81
-[14:51:27] [Server thread/INFO]: MobsBeGone >> Up and running!
-[14:51:27] [Server thread/INFO]: Loading XaeroLib common 2/2!
-[14:51:27] [Server thread/INFO]: Loading XaeroLib server 2/2!
-[14:51:27] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[14:51:27] [Server thread/INFO]: Loading properties
-[14:51:27] [Server thread/INFO]: Default game type: SURVIVAL
-[14:51:27] [Server thread/INFO]: Generating keypair
-[14:51:27] [Server thread/INFO]: Starting Minecraft server on 26.194.245.3:25565
-[14:51:27] [Server thread/INFO]: Using default channel type
-[14:51:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:51:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:51:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:51:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:51:27] [Server thread/INFO]: Preparing level "world"
-[14:51:27] [Server thread/INFO]: Enforcing safe world random access
-[14:51:28] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[14:51:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:51:28] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[14:51:29] [c2me-worker-1/INFO]: Preparing spawn area: 0%
-[14:51:29] [c2me-worker-8/INFO]: Preparing spawn area: 0%
-[14:51:29] [c2me-worker-2/INFO]: Preparing spawn area: 0%
-[14:51:29] [c2me-worker-6/INFO]: Preparing spawn area: 0%
-[14:51:29] [c2me-worker-5/INFO]: Preparing spawn area: 0%
-[14:51:29] [Server thread/INFO]: Time elapsed: 1080 ms
-[14:51:29] [Server thread/INFO]: Done (2.196s)! For help, type "help"
-[14:51:30] [Server thread/WARN]: Dedicated server took 42.567 seconds to load
-[14:51:30] [Server thread/INFO]: Optimizing spawn pools...
-[14:51:30] [Server thread/INFO]: [BattleExtras] Loaded server config from C:\Minecraft\serverCobbleverse\config\cobblemon-battle-extras-server.json
-[14:51:30] [Server thread/INFO]: Initializing progress storage systems
-[14:51:30] [Server thread/INFO]: === STARTING SHRINE TRACKER INITIALIZATION ===
-[14:51:30] [Server thread/INFO]: Successfully loaded shrine progress data for 2 worlds and 3 total players
-[14:51:30] [Server thread/INFO]: === SHRINE TRACKER INITIALIZATION SUCCESSFUL ===
-[14:51:30] [Server thread/INFO]: No blacklist files found, skipping blacklist loading
-[14:51:30] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14:51:30] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[14:51:30] [Server thread/INFO]: Data pack initialized: rctmod
-[14:51:30] [Server thread/INFO]: Data pack initialized: COBBLEVERSE-RCT-DP-v20.zip
-[14:51:35] [Server thread/INFO]: Registered 1714 trainers
-[14:51:35] [Server thread/INFO]: Stopping the server
-[14:51:35] [Server thread/INFO]: Server stopping, saving all player progress data
-[14:51:35] [Server thread/INFO]: Stopping server
-[14:51:35] [Server thread/INFO]: Saving players
-[14:51:35] [Server thread/INFO]: Saving worlds
-[14:51:35] [Server thread/INFO]: ServerLevel[Bomboclat Rastaclat]/minecraft:overworld: waiting for 841 chunks to unload
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/minecraft:overworld
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/minecraft:the_end
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/minecraft:the_nether
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/lumymon:origin
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/legendarymonuments:distortion_world
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/cobblemonraiddens:raid_dimension
-[14:51:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/lumymon:nightmare
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (origin): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (distortion_world): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (raid_dimension): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (nightmare): All chunks are saved
-[14:51:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:51:35] [C2ME Storage #3/INFO]: Storage thread Thread[#132,C2ME Storage #3,8,main] stopped
-[14:51:35] [C2ME Storage #2/INFO]: Storage thread Thread[#131,C2ME Storage #2,8,main] stopped
-[14:51:35] [C2ME Storage #1/INFO]: Storage thread Thread[#130,C2ME Storage #1,8,main] stopped
-[14:51:35] [C2ME Storage #6/INFO]: Storage thread Thread[#135,C2ME Storage #6,8,main] stopped
-[14:51:35] [C2ME Storage #5/INFO]: Storage thread Thread[#134,C2ME Storage #5,8,main] stopped
-[14:51:35] [C2ME Storage #4/INFO]: Storage thread Thread[#133,C2ME Storage #4,8,main] stopped
-[14:51:35] [C2ME Storage #9/INFO]: Storage thread Thread[#138,C2ME Storage #9,8,main] stopped
-[14:51:35] [C2ME Storage #8/INFO]: Storage thread Thread[#137,C2ME Storage #8,8,main] stopped
-[14:51:35] [C2ME Storage #7/INFO]: Storage thread Thread[#136,C2ME Storage #7,8,main] stopped
-[14:51:35] [C2ME Storage #12/INFO]: Storage thread Thread[#141,C2ME Storage #12,8,main] stopped
-[14:51:35] [C2ME Storage #11/INFO]: Storage thread Thread[#140,C2ME Storage #11,8,main] stopped
-[14:51:35] [C2ME Storage #10/INFO]: Storage thread Thread[#139,C2ME Storage #10,8,main] stopped
-[14:51:35] [C2ME Storage #15/INFO]: Storage thread Thread[#144,C2ME Storage #15,8,main] stopped
-[14:51:35] [C2ME Storage #14/INFO]: Storage thread Thread[#143,C2ME Storage #14,8,main] stopped
-[14:51:35] [C2ME Storage #13/INFO]: Storage thread Thread[#142,C2ME Storage #13,8,main] stopped
-[14:51:35] [C2ME Storage #18/INFO]: Storage thread Thread[#147,C2ME Storage #18,8,main] stopped
-[14:51:35] [C2ME Storage #17/INFO]: Storage thread Thread[#146,C2ME Storage #17,8,main] stopped
-[14:51:35] [C2ME Storage #20/INFO]: Storage thread Thread[#149,C2ME Storage #20,8,main] stopped
-[14:51:35] [C2ME Storage #21/INFO]: Storage thread Thread[#150,C2ME Storage #21,8,main] stopped
-[14:51:35] [C2ME Storage #16/INFO]: Storage thread Thread[#145,C2ME Storage #16,8,main] stopped
-[14:51:35] [C2ME Storage #19/INFO]: Storage thread Thread[#148,C2ME Storage #19,8,main] stopped
-[14:51:36] [Server thread/INFO]: Discarded config watch service
+[00:00:47] [Server thread/WARN]: MartiGames8899 moved too quickly! 684.1684007528256,-35.5,-4147.204422401248
+[00:01:02] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13154725, l='ServerLevel[Bomboclat Rastaclat]', x=-671.76, y=65.00, z=909.51, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=4, z=56} (destroying due to DISCARDED)
+[00:01:28] [Server thread/WARN]: Entity PokemonEntity['Doublade'/13159876, l='ServerLevel[Bomboclat Rastaclat]', x=-674.51, y=66.66, z=914.10, removed=DISCARDED] wasn't found in section class_4076{x=-43, y=4, z=57} (destroying due to DISCARDED)
+[00:01:44] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@2f0d2530]
+[00:01:44] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@4b42f990]
+[00:02:00] [Server thread/WARN]: Entity PokemonEntity['Medicham'/13167873, l='ServerLevel[Bomboclat Rastaclat]', x=-680.73, y=67.00, z=905.40, removed=DISCARDED] wasn't found in section class_4076{x=-43, y=4, z=56} (destroying due to DISCARDED)
+[00:02:31] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13188850, l='ServerLevel[Bomboclat Rastaclat]', x=-774.40, y=62.79, z=788.58, removed=DISCARDED] wasn't found in section class_4076{x=-49, y=3, z=49} (destroying due to DISCARDED)
+[00:05:30] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/13232496, l='ServerLevel[Bomboclat Rastaclat]', x=-786.50, y=66.00, z=776.50, removed=DISCARDED] wasn't found in section class_4076{x=-50, y=4, z=48} (destroying due to DISCARDED)
+[00:06:40] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/13294214, l='ServerLevel[Bomboclat Rastaclat]', x=-791.50, y=62.80, z=771.50, removed=DISCARDED] wasn't found in section class_4076{x=-50, y=3, z=48} (destroying due to DISCARDED)
+[00:07:20] [Server thread/WARN]: Entity PokemonEntity['Iron Treads'/13315799, l='ServerLevel[Bomboclat Rastaclat]', x=-780.50, y=68.00, z=781.50, removed=DISCARDED] wasn't found in section class_4076{x=-49, y=4, z=48} (destroying due to DISCARDED)
+[00:07:32] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13320336, l='ServerLevel[Bomboclat Rastaclat]', x=-786.65, y=62.94, z=767.35, removed=DISCARDED] wasn't found in section class_4076{x=-50, y=3, z=47} (destroying due to DISCARDED)
+[00:07:49] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13324759, l='ServerLevel[Bomboclat Rastaclat]', x=-858.35, y=79.00, z=581.43, removed=DISCARDED] wasn't found in section class_4076{x=-54, y=4, z=36} (destroying due to DISCARDED)
+[00:07:59] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@682df970]
+[00:07:59] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@55900bd2]
+[00:08:25] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13332697, l='ServerLevel[Bomboclat Rastaclat]', x=-966.16, y=62.88, z=409.83, removed=DISCARDED] wasn't found in section class_4076{x=-61, y=3, z=25} (destroying due to DISCARDED)
+[00:08:30] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13350800, l='ServerLevel[Bomboclat Rastaclat]', x=-964.00, y=62.16, z=393.65, removed=DISCARDED] wasn't found in section class_4076{x=-61, y=3, z=24} (destroying due to DISCARDED)
+[00:12:49] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13353596, l='ServerLevel[Bomboclat Rastaclat]', x=-1770.50, y=103.00, z=-603.50, removed=DISCARDED] wasn't found in section class_4076{x=-111, y=6, z=-38} (destroying due to DISCARDED)
+[00:13:39] [Server thread/INFO]: MartiGames8899 fell from a high place
+[00:13:39] [Server thread/INFO]: [MartiGames8899: [LD] You died at -1780, 65, -602, in minecraft:overworld.]
+[00:14:19] [Server thread/WARN]: MartiGames8899 moved too quickly! -42.60031174956566,7.5,-4963.800000011921
+[00:14:19] [Server thread/WARN]: MartiGames8899 moved too quickly! -42.60031174956566,7.5,-4963.800000011921
+[00:14:19] [Server thread/WARN]: MartiGames8899 moved too quickly! -42.60031174956566,7.5,-4963.800000011921
+[00:14:28] [Server thread/WARN]: Entity PokemonEntity['Bagon'/13473743, l='ServerLevel[Bomboclat Rastaclat]', x=-1377.50, y=103.00, z=133.50, removed=DISCARDED] wasn't found in section class_4076{x=-87, y=6, z=8} (destroying due to DISCARDED)
+[00:14:58] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1da45c75]
+[00:14:58] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@51657d55]
+[00:15:08] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/13482854, l='ServerLevel[Bomboclat Rastaclat]', x=-726.11, y=64.00, z=1032.97, removed=DISCARDED] wasn't found in section class_4076{x=-46, y=4, z=64} (destroying due to DISCARDED)
+[00:15:59] [Server thread/INFO]: [BattlePositions][POKEMON] Battle 486c4e3b-b5ee-497b-8dd4-fc63ecf2e8e4 pre-start teleport p1a 938fd527-0e6f-4b25-b953-b03bf258c8f5 (Cyclizar) (-1817.96, 91.00, -765.44) -> (-1814.85, 92.00, -765.80) (success=true)
+[00:16:20] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13475092, l='ServerLevel[Bomboclat Rastaclat]', x=-1814.85, y=92.00, z=-765.80, removed=KILLED] wasn't found in section class_4076{x=-114, y=5, z=-48} (destroying due to DISCARDED)
+[00:16:36] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@43525bcf]
+[00:16:36] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@5f4e106e]
+[00:16:41] [Server thread/WARN]: Entity PokemonEntity['Bagon'/13520156, l='ServerLevel[Bomboclat Rastaclat]', x=-1818.24, y=91.00, z=-766.59, removed=DISCARDED] wasn't found in section class_4076{x=-114, y=5, z=-48} (destroying due to DISCARDED)
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:store_workers
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/berries
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:store_workers
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:paths
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:17:11] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:17:26] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:17:39] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13529431, l='ServerLevel[Bomboclat Rastaclat]', x=-2251.18, y=68.00, z=-1120.14, removed=DISCARDED] wasn't found in section class_4076{x=-141, y=4, z=-71} (destroying due to DISCARDED)
+[00:17:43] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[facing=south,natural=false,on=false,part=top,waterlogged=false] but failed at location class_2338{x=-2071, y=71, z=-1436}
+[00:18:00] [Server thread/INFO]: [@: Changed the block at -2557, 71, -1218]
+[00:18:00] [Server thread/INFO]: [@: Successfully filled 1 block(s)]
+[00:18:00] [Server thread/INFO]: [@: Successfully filled 2 block(s)]
+[00:18:00] [Server thread/INFO]: [@: Successfully filled 1 block(s)]
+[00:18:00] [Server thread/INFO]: [@: Summoned new Kanto Map Guide]
+[00:18:00] [Server thread/INFO]: [@: Successfully filled 7 block(s)]
+[00:18:06] [Server thread/INFO]: MartiGames8899 has made the advancement [The Rolling Stone]
+[00:18:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3288ms or 65 ticks behind
+[00:18:34] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13554319, l='ServerLevel[Bomboclat Rastaclat]', x=-2562.32, y=70.00, z=-1219.09, removed=DISCARDED] wasn't found in section class_4076{x=-161, y=4, z=-77} (destroying due to DISCARDED)
+[00:19:03] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13585184, l='ServerLevel[Bomboclat Rastaclat]', x=-2759.15, y=62.36, z=-1616.79, removed=DISCARDED] wasn't found in section class_4076{x=-173, y=3, z=-102} (destroying due to DISCARDED)
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:paths
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:store_workers
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:store_workers
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:store_workers
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:paths
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [c2me-worker-2/WARN]: Empty or non-existent pool: bca:feature/decor
+[00:19:08] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13600225, l='ServerLevel[Bomboclat Rastaclat]', x=-670.85, y=61.00, z=1011.84, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:19:16] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[facing=west,natural=false,on=false,part=top,waterlogged=false] but failed at location class_2338{x=-3104, y=75, z=-1453}
+[00:19:16] [Server thread/INFO]: [BattlePositions][POKEMON] Battle 89793e6f-7fa6-4ba9-8da0-423ca8750589 pre-start teleport p1a 938fd527-0e6f-4b25-b953-b03bf258c8f5 (Cyclizar) (-2830.39, 91.00, -1703.08) -> (-2834.50, 92.00, -1694.50) (success=true)
+[00:19:21] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13605376, l='ServerLevel[Bomboclat Rastaclat]', x=-670.49, y=61.00, z=1010.45, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:19:26] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1d9639de]
+[00:19:26] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@40c8f404]
+[00:19:29] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13599710, l='ServerLevel[Bomboclat Rastaclat]', x=-2835.35, y=91.50, z=-1694.50, removed=DISCARDED] wasn't found in section class_4076{x=-178, y=5, z=-106} (destroying due to DISCARDED)
+[00:19:37] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13610716, l='ServerLevel[Bomboclat Rastaclat]', x=-670.50, y=61.00, z=1010.50, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:19:44] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13613019, l='ServerLevel[Bomboclat Rastaclat]', x=-670.36, y=61.00, z=1010.91, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:19:57] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[facing=east,natural=false,on=false,part=top,waterlogged=false] but failed at location class_2338{x=-3052, y=98, z=-2121}
+[00:20:08] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13612563, l='ServerLevel[Bomboclat Rastaclat]', x=-2907.31, y=62.52, z=-1918.06, removed=DISCARDED] wasn't found in section class_4076{x=-182, y=3, z=-120} (destroying due to DISCARDED)
+[00:20:17] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13628383, l='ServerLevel[Bomboclat Rastaclat]', x=-670.94, y=61.00, z=1011.57, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:20:25] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13632650, l='ServerLevel[Bomboclat Rastaclat]', x=-670.71, y=61.00, z=1011.10, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:20:39] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13626589, l='ServerLevel[Bomboclat Rastaclat]', x=-3006.08, y=86.00, z=-2055.35, removed=DISCARDED] wasn't found in section class_4076{x=-188, y=5, z=-129} (destroying due to DISCARDED)
+[00:20:55] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13645221, l='ServerLevel[Bomboclat Rastaclat]', x=-670.88, y=61.00, z=1011.19, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:21:00] [Server thread/WARN]: Entity PokemonEntity['Froakie'/13647305, l='ServerLevel[Bomboclat Rastaclat]', x=-670.70, y=61.00, z=1011.69, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:21:39] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13650542, l='ServerLevel[Bomboclat Rastaclat]', x=-3064.71, y=96.00, z=-2126.29, removed=DISCARDED] wasn't found in section class_4076{x=-192, y=6, z=-133} (destroying due to DISCARDED)
+[00:22:00] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@260e29d9, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@120c3293]
+[00:22:00] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@57f3cc7e]
+[00:22:05] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/13659036, l='ServerLevel[Bomboclat Rastaclat]', x=-667.78, y=63.00, z=1008.11, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:22:07] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13668588, l='ServerLevel[Bomboclat Rastaclat]', x=-3137.88, y=62.59, z=-2249.99, removed=DISCARDED] wasn't found in section class_4076{x=-197, y=3, z=-141} (destroying due to DISCARDED)
+[00:23:01] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13672874, l='ServerLevel[Bomboclat Rastaclat]', x=-3272.79, y=62.63, z=-2694.39, removed=DISCARDED] wasn't found in section class_4076{x=-205, y=3, z=-169} (destroying due to DISCARDED)
+[00:23:08] [Server thread/WARN]: Cyclizar (vehicle of MartiGames8899) moved wrongly! 0.42078135657402527
+[00:23:42] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13692225, l='ServerLevel[Bomboclat Rastaclat]', x=-3423.90, y=62.33, z=-2960.94, removed=DISCARDED] wasn't found in section class_4076{x=-214, y=3, z=-186} (destroying due to DISCARDED)
+[00:24:00] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13707566, l='ServerLevel[Bomboclat Rastaclat]', x=-3473.35, y=70.00, z=-3027.62, removed=DISCARDED] wasn't found in section class_4076{x=-218, y=4, z=-190} (destroying due to DISCARDED)
+[00:24:26] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13713882, l='ServerLevel[Bomboclat Rastaclat]', x=-3490.35, y=78.00, z=-3071.39, removed=DISCARDED] wasn't found in section class_4076{x=-219, y=4, z=-192} (destroying due to DISCARDED)
+[00:24:36] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13724275, l='ServerLevel[Bomboclat Rastaclat]', x=-3564.78, y=62.51, z=-3120.93, removed=DISCARDED] wasn't found in section class_4076{x=-223, y=3, z=-196} (destroying due to DISCARDED)
+[00:25:06] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@64911662]
+[00:25:06] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@45aa6737]
+[00:25:07] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13734867, l='ServerLevel[Bomboclat Rastaclat]', x=-3575.56, y=62.88, z=-3138.09, removed=DISCARDED] wasn't found in section class_4076{x=-224, y=3, z=-197} (destroying due to DISCARDED)
+[00:25:12] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13750009, l='ServerLevel[Bomboclat Rastaclat]', x=-3577.29, y=63.00, z=-3162.15, removed=DISCARDED] wasn't found in section class_4076{x=-224, y=3, z=-198} (destroying due to DISCARDED)
+[00:25:56] [Server thread/INFO]: Andrinh0u has completed the challenge [Centennial]
+[00:26:00] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-3740, y=74, z=-3719} but found not block entity block Block{minecraft:stripped_oak_log}[axis=z] at location
+[00:26:00] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stripped_oak_log}[axis=z] but failed at location class_2338{x=-3740, y=74, z=-3719}
+[00:26:00] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-3741, y=74, z=-3719} but found not block entity block Block{minecraft:stripped_oak_log}[axis=y] at location
+[00:26:00] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:stripped_oak_log}[axis=y] but failed at location class_2338{x=-3741, y=74, z=-3719}
+[00:26:36] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13772225, l='ServerLevel[Bomboclat Rastaclat]', x=-3705.35, y=68.24, z=-3609.00, removed=DISCARDED] wasn't found in section class_4076{x=-232, y=4, z=-226} (destroying due to DISCARDED)
+[00:26:36] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:26:36] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:26:40] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[facing=west,natural=false,on=false,part=top,waterlogged=false] but failed at location class_2338{x=-3721, y=65, z=-3900}
+[00:27:11] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:27:19] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:27:23] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:27:33] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13801628, l='ServerLevel[Bomboclat Rastaclat]', x=-3883.85, y=61.64, z=-3949.28, removed=DISCARDED] wasn't found in section class_4076{x=-243, y=3, z=-247} (destroying due to DISCARDED)
+[00:27:54] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13831599, l='ServerLevel[Bomboclat Rastaclat]', x=-3939.65, y=66.00, z=-4031.35, removed=DISCARDED] wasn't found in section class_4076{x=-247, y=4, z=-252} (destroying due to DISCARDED)
+[00:28:09] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13856365, l='ServerLevel[Bomboclat Rastaclat]', x=-3973.41, y=62.48, z=-4092.42, removed=DISCARDED] wasn't found in section class_4076{x=-249, y=3, z=-256} (destroying due to DISCARDED)
+[00:28:50] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:28:50] [Server thread/WARN]: Skipping Entity with id cobblemon_pokemon_entity_placeholder
+[00:29:00] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/13862146, l='ServerLevel[Bomboclat Rastaclat]', x=-4174.35, y=63.00, z=-4501.26, removed=DISCARDED] wasn't found in section class_4076{x=-261, y=3, z=-282} (destroying due to DISCARDED)
+[00:29:22] [Server thread/INFO]: [BattlePositions][POKEMON] Battle ddaf24e1-77c1-42a3-ac4f-a84a82a3a520 pre-start teleport p1a eebbf978-2726-40a8-92a0-1e10ac0194b0 (Gallade) (-825.72, -11.00, 1008.30) -> (-822.50, -10.00, 1010.50) (success=true)
+[00:29:54] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=MartiGames8899, battle=fa299f79-bf44-43de-a32c-bc88071ea37f, world=minecraft:overworld)
+[00:30:10] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@72067ff8]
+[00:30:10] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@1688e7d3]
+[00:30:12] [Server thread/WARN]: Entity PokemonEntity['Gallade'/13895291, l='ServerLevel[Bomboclat Rastaclat]', x=-822.50, y=-10.00, z=1010.50, removed=DISCARDED] wasn't found in section class_4076{x=-52, y=-1, z=63} (destroying due to DISCARDED)
+[00:30:19] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14024087, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:30:47] [Server thread/WARN]: Entity PokemonEntity['Doublade'/14081455, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:31:03] [Server thread/WARN]: Entity PokemonEntity['Medicham'/14125400, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:31:15] [Server thread/WARN]: Entity PokemonEntity['Bagon'/14150554, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:31:26] [Server thread/WARN]: Entity PokemonEntity['Skitty'/14173496, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:31:37] [Server thread/WARN]: Entity PokemonEntity['Stonjourner'/14192452, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:31:39] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1efcb348, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1d5a2162, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1945c217, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@7d1ccb24, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@3b22b059, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@60d68b4d]
+[00:31:52] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=MartiGames8899, battle=0170ea39-84a1-4263-9129-f7d2f9b541f0, world=minecraft:overworld)
+[00:31:52] [Server thread/WARN]: MartiGames8899 moved too quickly! -10.050628573337235,0.0625,-0.8086337895829274
+[00:32:07] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14237614, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:32:15] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@63a82d52, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@3d83d9dd, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@44cdcd49, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@24a79b18, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1e73f450, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@2122c1dd]
+[00:32:19] [Server thread/WARN]: Entity PokemonEntity['Doublade'/14269365, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=DISCARDED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:32:37] [Server thread/WARN]: MartiGames8899 moved too quickly! 3574.9035018662926,4.5,5470.1682840695
+[00:33:52] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1cbe9729]
+[00:33:52] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@62c01911]
+[00:33:55] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14344050, l='ServerLevel[Bomboclat Rastaclat]', x=-93.93, y=71.00, z=170.83, removed=DISCARDED] wasn't found in section class_4076{x=-6, y=4, z=10} (destroying due to DISCARDED)
+[00:35:21] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14398366, l='ServerLevel[Bomboclat Rastaclat]', x=-100.03, y=71.00, z=133.01, removed=KILLED] wasn't found in section class_4076{x=-7, y=4, z=8} (destroying due to DISCARDED)
+[00:35:38] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@27122899]
+[00:35:38] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@1e409d0a]
+[00:35:47] [Server thread/WARN]: Entity PokemonEntity['Bagon'/14408109, l='ServerLevel[Bomboclat Rastaclat]', x=-94.77, y=70.00, z=133.56, removed=DISCARDED] wasn't found in section class_4076{x=-6, y=4, z=8} (destroying due to DISCARDED)
+[00:36:24] [Server thread/WARN]: MartiGames8899 moved too quickly! -3570.17487681467,-1.5,-5470.5928033085775
+[00:36:44] [Server thread/WARN]: Entity PokemonEntity['Ponyta'/14461787, l='ServerLevel[Bomboclat Rastaclat]', x=-4189.50, y=64.00, z=-4493.50, removed=DISCARDED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:36:47] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=MartiGames8899, battle=3c1276f7-38d7-4d30-8c7f-f76dd41bd992, world=minecraft:overworld)
+[00:37:00] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14471592, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:37:16] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@104052ed]
+[00:37:16] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@4e762db7]
+[00:37:20] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/14502808, l='ServerLevel[Bomboclat Rastaclat]', x=-976.94, y=12.69, z=1066.57, removed=DISCARDED] wasn't found in section class_4076{x=-62, y=0, z=66} (destroying due to DISCARDED)
+[00:37:23] [Server thread/WARN]: Entity PokemonEntity['Ponyta'/14498467, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:37:34] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@76874cd8, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@6c0604ae, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@107649b2, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@b35fb1, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@6068086f, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@5bb18445]
+[00:37:37] [Server thread/WARN]: Entity PokemonEntity['Camerupt'/14535904, l='ServerLevel[Bomboclat Rastaclat]', x=-4192.58, y=64.00, z=-4489.97, removed=DISCARDED] wasn't found in section class_4076{x=-263, y=4, z=-281} (destroying due to DISCARDED)
+[00:37:46] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=MartiGames8899, battle=d06f3fff-382d-418e-9f19-9764babb487f, world=minecraft:overworld)
+[00:38:21] [Server thread/WARN]: Entity PokemonEntity['Camerupt'/14549213, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:38:56] [Server thread/WARN]: Entity PokemonEntity['Doublade'/14563970, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:40:01] [Server thread/WARN]: Entity PokemonEntity['Ponyta'/14573469, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:40:12] [Server thread/WARN]: Entity PokemonEntity['Medicham'/14599294, l='ServerLevel[Bomboclat Rastaclat]', x=-4191.50, y=64.00, z=-4491.50, removed=KILLED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:40:26] [Server thread/INFO]: MartiGames8899 has made the advancement [advancements.cobbleverse.kanto.defeat_erika]
+[00:40:26] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@379c9be, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@183687e, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@736ba7a0, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@799fe5c6]
+[00:40:26] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@69413837]
+[00:40:41] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14602961, l='ServerLevel[Bomboclat Rastaclat]', x=-4186.69, y=64.00, z=-4490.70, removed=DISCARDED] wasn't found in section class_4076{x=-262, y=4, z=-281} (destroying due to DISCARDED)
+[00:40:53] [Server thread/WARN]: MartiGames8899 moved too quickly! 3574.737500011921,4.3125,5469.665592227059
+[00:42:04] [Server thread/INFO]: Teleported Andrinh0u to MartiGames8899
+[00:42:04] [Server thread/WARN]: Andrinh0u moved too quickly! 433.6467161698341,13.0,-133.48821351781885
+[00:42:04] [Server thread/WARN]: Andrinh0u moved too quickly! 433.6467161698341,13.0,-133.48821351781885
+[00:42:04] [Server thread/WARN]: Andrinh0u moved too quickly! 433.6467161698341,13.0,-133.48821351781885
+[00:42:04] [Server thread/WARN]: Andrinh0u moved too quickly! 433.6467161698341,13.0,-133.48821351781885
+[00:42:04] [Server thread/WARN]: Andrinh0u moved too quickly! 433.6467161698341,13.0,-133.48821351781885
+[00:42:47] [Server thread/WARN]: Entity PokemonEntity['Gallade'/14660098, l='ServerLevel[Bomboclat Rastaclat]', x=-708.19, y=63.00, z=1029.97, removed=DISCARDED] wasn't found in section class_4076{x=-45, y=3, z=64} (destroying due to DISCARDED)
+[00:42:59] [Server thread/WARN]: Entity PokemonEntity['Blastoise'/14661096, l='ServerLevel[Bomboclat Rastaclat]', x=-705.24, y=63.00, z=1026.02, removed=DISCARDED] wasn't found in section class_4076{x=-45, y=3, z=64} (destroying due to DISCARDED)
+[00:43:16] [Server thread/INFO]: MartiGames8899 has made the advancement [Suit Up]
+[00:43:28] [Server thread/WARN]: Entity PokemonEntity['Bagon'/14663510, l='ServerLevel[Bomboclat Rastaclat]', x=-706.48, y=63.00, z=1027.78, removed=DISCARDED] wasn't found in section class_4076{x=-45, y=3, z=64} (destroying due to DISCARDED)
+[00:43:44] [Server thread/WARN]: Entity PokemonEntity['Bagon'/14671804, l='ServerLevel[Bomboclat Rastaclat]', x=-720.73, y=64.00, z=1035.81, removed=DISCARDED] wasn't found in section class_4076{x=-46, y=4, z=64} (destroying due to DISCARDED)
+[00:43:47] [Server thread/WARN]: Entity PokemonEntity['Bagon'/14677008, l='ServerLevel[Bomboclat Rastaclat]', x=-718.59, y=64.00, z=1032.79, removed=DISCARDED] wasn't found in section class_4076{x=-45, y=4, z=64} (destroying due to DISCARDED)
+[00:43:51] [Server thread/WARN]: Entity PokemonEntity['Ponyta'/14677844, l='ServerLevel[Bomboclat Rastaclat]', x=-720.42, y=63.00, z=1026.22, removed=DISCARDED] wasn't found in section class_4076{x=-46, y=3, z=64} (destroying due to DISCARDED)
+[00:44:08] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14679117, l='ServerLevel[Bomboclat Rastaclat]', x=-720.34, y=63.00, z=1021.92, removed=DISCARDED] wasn't found in section class_4076{x=-46, y=3, z=63} (destroying due to DISCARDED)
+[00:45:42] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@721aaafe, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@2e1aeeb0, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1c3413d4, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@38053123, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@23a16acb, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@5ab76f61]
+[00:45:48] [Server thread/WARN]: Entity PokemonEntity['Bagon'/14705190, l='ServerLevel[Bomboclat Rastaclat]', x=-688.07, y=63.00, z=1020.59, removed=DISCARDED] wasn't found in section class_4076{x=-44, y=3, z=63} (destroying due to DISCARDED)
+[00:46:16] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14711764, l='ServerLevel[Bomboclat Rastaclat]', x=-645.19, y=64.00, z=998.28, removed=DISCARDED] wasn't found in section class_4076{x=-41, y=4, z=62} (destroying due to DISCARDED)
+[00:46:27] [Server thread/WARN]: Entity PokemonEntity['Froakie'/14716128, l='ServerLevel[Bomboclat Rastaclat]', x=-671.22, y=61.00, z=1010.37, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:46:30] [Server thread/WARN]: Entity PokemonEntity['Cyclizar'/14717379, l='ServerLevel[Bomboclat Rastaclat]', x=-616.50, y=67.00, z=971.50, removed=DISCARDED] wasn't found in section class_4076{x=-39, y=4, z=60} (destroying due to DISCARDED)
+[00:46:31] [Server thread/WARN]: MartiGames8899 moved too quickly! 1629.458069228402,9.5,2680.1612101903083
+[00:46:48] [Server thread/WARN]: Entity PokemonEntity['Froakie'/14722786, l='ServerLevel[Bomboclat Rastaclat]', x=-670.52, y=61.00, z=1011.53, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:47:00] [Server thread/WARN]: Entity PokemonEntity['Froakie'/14727443, l='ServerLevel[Bomboclat Rastaclat]', x=-671.47, y=61.00, z=1010.99, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:47:03] [Server thread/WARN]: Entity PokemonEntity['Froakie'/14726029, l='ServerLevel[Bomboclat Rastaclat]', x=-670.32, y=61.00, z=1010.25, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[00:47:49] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/14736162, l='ServerLevel[Bomboclat Rastaclat]', x=-676.55, y=63.00, z=1013.43, removed=KILLED] wasn't found in section class_4076{x=-43, y=3, z=63} (destroying due to DISCARDED)
+[00:48:01] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@65721118]
+[00:48:01] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@7dbe933e]
+[00:48:05] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/14729996, l='ServerLevel[Bomboclat Rastaclat]', x=940.00, y=68.00, z=3641.90, removed=DISCARDED] wasn't found in section class_4076{x=58, y=4, z=227} (destroying due to DISCARDED)
+[00:48:07] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@936f04, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@26836729, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@ff6bb2e, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@70e5d071, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@75a09221, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@469f5be5]
+[00:48:25] [Server thread/WARN]: Entity PokemonEntity['Venusaur'/14747153, l='ServerLevel[Bomboclat Rastaclat]', x=-626.71, y=64.00, z=977.28, removed=DISCARDED] wasn't found in section class_4076{x=-40, y=4, z=61} (destroying due to DISCARDED)
+[00:48:36] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@4da15685]
+[00:48:36] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@ac5de7a]
+[00:48:46] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/14758910, l='ServerLevel[Bomboclat Rastaclat]', x=904.41, y=72.00, z=3683.62, removed=DISCARDED] wasn't found in section class_4076{x=56, y=4, z=230} (destroying due to DISCARDED)
+[00:49:01] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/14761737, l='ServerLevel[Bomboclat Rastaclat]', x=-652.28, y=64.00, z=1003.90, removed=DISCARDED] wasn't found in section class_4076{x=-41, y=4, z=62} (destroying due to DISCARDED)
+[00:49:03] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@6e175bb4]
+[00:49:03] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@e7ffc8]
+[00:49:07] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/14766730, l='ServerLevel[Bomboclat Rastaclat]', x=865.69, y=66.00, z=3748.57, removed=DISCARDED] wasn't found in section class_4076{x=54, y=4, z=234} (destroying due to DISCARDED)
+[00:49:16] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@4deb4f92]
+[00:49:16] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@25887416]
+[00:49:24] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/14770694, l='ServerLevel[Bomboclat Rastaclat]', x=836.30, y=68.00, z=3812.50, removed=DISCARDED] wasn't found in section class_4076{x=52, y=4, z=238} (destroying due to DISCARDED)
+[00:49:48] [Server thread/WARN]: Entity PokemonEntity['Serperior'/14768879, l='ServerLevel[Bomboclat Rastaclat]', x=-652.08, y=64.00, z=1003.92, removed=KILLED] wasn't found in section class_4076{x=-41, y=4, z=62} (destroying due to DISCARDED)
+[00:51:12] [Server thread/WARN]: Entity PokemonEntity['Charizard'/14782490, l='ServerLevel[Bomboclat Rastaclat]', x=-652.08, y=64.00, z=1003.81, removed=KILLED] wasn't found in section class_4076{x=-41, y=4, z=62} (destroying due to DISCARDED)
+[00:51:22] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@647344e6]
+[00:51:22] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@2fa8ea38]
+[00:51:29] [Server thread/WARN]: Entity PokemonEntity['Raging Bolt'/14801412, l='ServerLevel[Bomboclat Rastaclat]', x=959.02, y=82.00, z=3951.47, removed=DISCARDED] wasn't found in section class_4076{x=59, y=5, z=246} (destroying due to DISCARDED)
+[00:51:36] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@652e9622, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@305c1c57, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@64efbd8b, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@7c347ce9, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@107243ba]
+[00:51:36] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@5f576d82]
+[00:51:38] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/14801845, l='ServerLevel[Bomboclat Rastaclat]', x=-652.28, y=64.00, z=1003.90, removed=DISCARDED] wasn't found in section class_4076{x=-41, y=4, z=62} (destroying due to DISCARDED)
+[00:54:58] [Server thread/WARN]: Entity PokemonEntity['Blastoise'/14879174, l='ServerLevel[Bomboclat Rastaclat]', x=-674.61, y=63.00, z=1015.73, removed=DISCARDED] wasn't found in section class_4076{x=-43, y=3, z=63} (destroying due to DISCARDED)
+[00:55:18] [Server thread/WARN]: Entity PokemonEntity['Blastoise'/14887722, l='ServerLevel[Bomboclat Rastaclat]', x=-670.60, y=63.00, z=1005.35, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=62} (destroying due to DISCARDED)
+[00:57:10] [Netty Server IO #36/INFO]: Player MartiGames8899 disconnected, saving their progress data
+[00:57:10] [Netty Server IO #36/INFO]: Saved shrine progress for player MartiGames8899 in world Bomboclat Rastaclat_249261175
+[00:57:10] [Server thread/INFO]: MartiGames8899 lost connection: Disconnected
+[00:57:10] [Server thread/INFO]: MartiGames8899 left the game
+[00:57:10] [Server thread/INFO]: Unregistered trainer player: MartiGames8899
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.03586847937,9.5,2682.262499988079
+[01:18:32] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15172812, l='ServerLevel[Bomboclat Rastaclat]', x=1027.41, y=127.00, z=3509.38, removed=DISCARDED] wasn't found in section class_4076{x=64, y=7, z=219} (destroying due to DISCARDED)
+[01:19:05] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@34bda1a8]
+[01:19:05] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@75951438]
+[01:19:07] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15175098, l='ServerLevel[Bomboclat Rastaclat]', x=1026.70, y=128.00, z=3491.05, removed=DISCARDED] wasn't found in section class_4076{x=64, y=8, z=218} (destroying due to DISCARDED)
+[01:19:35] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15176029, l='ServerLevel[Bomboclat Rastaclat]', x=1050.54, y=113.00, z=3564.59, removed=DISCARDED] wasn't found in section class_4076{x=65, y=7, z=222} (destroying due to DISCARDED)
+[01:20:35] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@7473522d, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@7c2790cd, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@49ceb7e5, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@92ff7e9]
+[01:20:35] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@717685e4]
+[01:20:44] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15177219, l='ServerLevel[Bomboclat Rastaclat]', x=1041.57, y=121.00, z=3545.32, removed=DISCARDED] wasn't found in section class_4076{x=65, y=7, z=221} (destroying due to DISCARDED)
+[01:21:04] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15181007, l='ServerLevel[Bomboclat Rastaclat]', x=1086.43, y=96.00, z=3609.95, removed=DISCARDED] wasn't found in section class_4076{x=67, y=6, z=225} (destroying due to DISCARDED)
+[01:21:07] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:08] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:09] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:10] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:11] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:12] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:13] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:14] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:15] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:16] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:17] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:18] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:19] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:20] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:21] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:22] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:23] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:24] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:25] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:26] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:27] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:21:28] [Server thread/WARN]: Can't get the move/Trying to return a null move. Move name:
+[01:22:04] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15182359, l='ServerLevel[Bomboclat Rastaclat]', x=1075.69, y=88.00, z=3607.01, removed=DISCARDED] wasn't found in section class_4076{x=67, y=5, z=225} (destroying due to DISCARDED)
+[01:22:18] [Server thread/WARN]: Entity PokemonEntity['Venusaur'/15190648, l='ServerLevel[Bomboclat Rastaclat]', x=1075.68, y=88.00, z=3607.27, removed=KILLED] wasn't found in section class_4076{x=67, y=5, z=225} (destroying due to DISCARDED)
+[01:22:33] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@504d0c7e, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@643c0cf6, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@515c981f, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@602639cc, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@37e04562, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@5b53baf1]
+[01:22:39] [Server thread/WARN]: Entity PokemonEntity['Blastoise'/15193400, l='ServerLevel[Bomboclat Rastaclat]', x=1075.50, y=88.00, z=3607.50, removed=DISCARDED] wasn't found in section class_4076{x=67, y=5, z=225} (destroying due to DISCARDED)
+[01:22:44] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15195215, l='ServerLevel[Bomboclat Rastaclat]', x=1017.37, y=74.19, z=3649.31, removed=DISCARDED] wasn't found in section class_4076{x=63, y=4, z=228} (destroying due to DISCARDED)
+[01:22:45] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.487904122161,-6.5,-2681.9844543238623
+[01:22:45] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.487904122161,-6.5,-2681.9844543238623
+[01:23:13] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15199307, l='ServerLevel[Bomboclat Rastaclat]', x=-53.19, y=62.00, z=376.07, removed=DISCARDED] wasn't found in section class_4076{x=-4, y=3, z=23} (destroying due to DISCARDED)
+[01:23:40] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@6b1c6e42]
+[01:23:40] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@727b90c7]
+[01:23:44] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15204005, l='ServerLevel[Bomboclat Rastaclat]', x=26.43, y=51.00, z=402.84, removed=DISCARDED] wasn't found in section class_4076{x=1, y=3, z=25} (destroying due to DISCARDED)
+[01:24:04] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=Andrinh0u, battle=ab0446d5-d691-446b-ab0f-8f252f0aefd4, world=minecraft:the_nether)
+[01:24:04] [Server thread/WARN]: Andrinh0u moved too quickly! -11.890338305048111,0.0,-0.0893551208036456
+[01:24:23] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@34a8b062, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@6342505f, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@536f23a0, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@19061db7, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@3d84eb36, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@4cb58471]
+[01:24:26] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15209333, l='ServerLevel[Bomboclat Rastaclat]', x=29.50, y=50.00, z=431.50, removed=DISCARDED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:24:37] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=Andrinh0u, battle=99573255-1391-4e59-874d-b678b35f2933, world=minecraft:the_nether)
+[01:24:50] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15214435, l='ServerLevel[Bomboclat Rastaclat]', x=29.50, y=50.00, z=431.50, removed=KILLED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:25:05] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@621d4072, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@790d8cd4, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@60665f00, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@55dbde08, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@67d94194, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@3b48976c]
+[01:25:07] [Server thread/WARN]: Entity PokemonEntity['Venusaur'/15217765, l='ServerLevel[Bomboclat Rastaclat]', x=29.50, y=50.00, z=431.50, removed=DISCARDED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:25:18] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=Andrinh0u, battle=1e1972eb-7dc3-4703-964a-b9a225a03272, world=minecraft:the_nether)
+[01:25:18] [Server thread/WARN]: Andrinh0u moved too quickly! -12.882739272972152,0.0,-0.08738642547831432
+[01:25:35] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@31893fb7, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1627b3e9, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@56643a9e, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@17404c3e, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@2af5e637, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1e6b07b]
+[01:25:38] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15220785, l='ServerLevel[Bomboclat Rastaclat]', x=29.14, y=50.00, z=431.62, removed=DISCARDED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:25:56] [Server thread/WARN]: [BattlePositions][CONFIG] Trainer stand block not found; opponent teleport skipped (player=Andrinh0u, battle=adf388a5-2c39-41bd-adcd-5e7fb1b3d461, world=minecraft:the_nether)
+[01:25:56] [Server thread/WARN]: Andrinh0u moved too quickly! -13.121404540529717,0.0,0.32555004057718406
+[01:26:46] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15226626, l='ServerLevel[Bomboclat Rastaclat]', x=29.50, y=50.00, z=431.50, removed=KILLED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:27:33] [Server thread/WARN]: Entity PokemonEntity['Blastoise'/15234807, l='ServerLevel[Bomboclat Rastaclat]', x=29.50, y=50.00, z=431.50, removed=KILLED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:28:01] [Server thread/INFO]: Andrinh0u has made the advancement [advancements.cobbleverse.kanto.defeat_blaine]
+[01:28:01] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@17b31a4, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@2e404ef9, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@5875cb8, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@25fc1907, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@6bb14e17, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@bf174f2]
+[01:28:01] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@369f7856]
+[01:28:03] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15241442, l='ServerLevel[Bomboclat Rastaclat]', x=29.50, y=50.00, z=431.50, removed=DISCARDED] wasn't found in section class_4076{x=1, y=3, z=26} (destroying due to DISCARDED)
+[01:28:34] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@151adc8]
+[01:28:34] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@557c8178]
+[01:28:48] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15249012, l='ServerLevel[Bomboclat Rastaclat]', x=-4.31, y=61.00, z=388.48, removed=DISCARDED] wasn't found in section class_4076{x=-1, y=3, z=24} (destroying due to DISCARDED)
+[01:29:27] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@59454b16]
+[01:29:27] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@f147ba0]
+[01:29:34] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15257422, l='ServerLevel[Bomboclat Rastaclat]', x=-52.71, y=62.00, z=372.61, removed=DISCARDED] wasn't found in section class_4076{x=-4, y=3, z=23} (destroying due to DISCARDED)
+[01:29:45] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15260837, l='ServerLevel[Bomboclat Rastaclat]', x=-70.95, y=35.00, z=314.40, removed=DISCARDED] wasn't found in section class_4076{x=-5, y=2, z=19} (destroying due to DISCARDED)
+[01:29:56] [Server thread/WARN]: Andrinh0u moved too quickly! 1596.9558997514418,-81.5,7736.215358130856
+[01:29:56] [Server thread/WARN]: Andrinh0u moved too quickly! 1596.9558997514418,-81.5,7736.215358130856
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:01] [Server thread/WARN]: Andrinh0u moved too quickly! 30.27968707851187,92.5,-5051.285008387504
+[01:30:05] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15266930, l='ServerLevel[Bomboclat Rastaclat]', x=1014.05, y=74.00, z=3647.79, removed=DISCARDED] wasn't found in section class_4076{x=63, y=4, z=227} (destroying due to DISCARDED)
+[01:30:19] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15267418, l='ServerLevel[Bomboclat Rastaclat]', x=1019.34, y=126.00, z=3505.53, removed=DISCARDED] wasn't found in section class_4076{x=63, y=7, z=219} (destroying due to DISCARDED)
+[01:31:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1184, y=101, z=3602} class_2338{x=1183, y=103, z=3600}
+[01:31:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1184, y=101, z=3602} class_2338{x=1183, y=103, z=3600}
+[01:31:41] [Server thread/INFO]: Andrinh0u has made the advancement [Surprise!]
+[01:33:32] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15281575, l='ServerLevel[Bomboclat Rastaclat]', x=1089.47, y=122.00, z=3543.71, removed=DISCARDED] wasn't found in section class_4076{x=68, y=7, z=221} (destroying due to DISCARDED)
+[01:36:23] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@1b88cb3c]
+[01:36:23] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@740ba448]
+[01:36:34] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15285278, l='ServerLevel[Bomboclat Rastaclat]', x=1035.28, y=126.00, z=3474.75, removed=DISCARDED] wasn't found in section class_4076{x=64, y=7, z=217} (destroying due to DISCARDED)
+[01:36:45] [Server thread/WARN]: Andrinh0u moved wrongly!
+[01:36:48] [Server thread/WARN]: Entity PokemonEntity['Charizard'/15286237, l='ServerLevel[Bomboclat Rastaclat]', x=1015.91, y=74.01, z=3647.04, removed=DISCARDED] wasn't found in section class_4076{x=63, y=4, z=227} (destroying due to DISCARDED)
+[01:36:48] [Server thread/WARN]: Andrinh0u moved too quickly! -1628.136066143174,-6.5,-2681.853006069485
+[01:36:48] [Server thread/WARN]: Andrinh0u moved too quickly! -1628.136066143174,-6.5,-2681.853006069485
+[01:48:16] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15421133, l='ServerLevel[Bomboclat Rastaclat]', x=-671.19, y=61.00, z=1011.44, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:48:21] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15422051, l='ServerLevel[Bomboclat Rastaclat]', x=-670.54, y=61.00, z=1010.91, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:15] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15432494, l='ServerLevel[Bomboclat Rastaclat]', x=-671.34, y=61.00, z=1010.51, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:20] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15433372, l='ServerLevel[Bomboclat Rastaclat]', x=-670.96, y=61.00, z=1011.16, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:21] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15432153, l='ServerLevel[Bomboclat Rastaclat]', x=-670.15, y=61.00, z=1010.73, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:43] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/15438201, l='ServerLevel[Bomboclat Rastaclat]', x=-670.54, y=61.00, z=1010.83, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:47] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15438784, l='ServerLevel[Bomboclat Rastaclat]', x=-670.80, y=61.00, z=1011.16, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:51] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15439660, l='ServerLevel[Bomboclat Rastaclat]', x=-671.35, y=61.00, z=1012.67, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:49:52] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15438689, l='ServerLevel[Bomboclat Rastaclat]', x=-670.80, y=61.00, z=1011.16, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:51:36] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15460151, l='ServerLevel[Bomboclat Rastaclat]', x=-671.69, y=61.00, z=1011.31, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:51:38] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15458884, l='ServerLevel[Bomboclat Rastaclat]', x=-670.82, y=61.00, z=1011.33, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:52:11] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15466924, l='ServerLevel[Bomboclat Rastaclat]', x=-671.26, y=61.00, z=1010.94, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[01:52:17] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15468081, l='ServerLevel[Bomboclat Rastaclat]', x=-670.27, y=61.00, z=1011.16, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:05:12] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15621640, l='ServerLevel[Bomboclat Rastaclat]', x=-669.76, y=58.00, z=1010.50, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:05:14] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15622425, l='ServerLevel[Bomboclat Rastaclat]', x=-669.76, y=58.00, z=1010.50, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:37:56] [Server thread/WARN]: Entity PokemonEntity['Froakie'/15994671, l='ServerLevel[Bomboclat Rastaclat]', x=-671.22, y=61.00, z=1011.54, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:52:48] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16169116, l='ServerLevel[Bomboclat Rastaclat]', x=-671.31, y=61.00, z=1013.09, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:52:54] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16170252, l='ServerLevel[Bomboclat Rastaclat]', x=-671.13, y=61.00, z=1012.82, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:53:47] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16179633, l='ServerLevel[Bomboclat Rastaclat]', x=-671.14, y=61.00, z=1012.94, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:53:52] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16180423, l='ServerLevel[Bomboclat Rastaclat]', x=-671.16, y=61.00, z=1012.92, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:54:13] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16184287, l='ServerLevel[Bomboclat Rastaclat]', x=-671.36, y=61.00, z=1013.15, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:54:18] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16185231, l='ServerLevel[Bomboclat Rastaclat]', x=-671.25, y=61.00, z=1012.58, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:54:51] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16191026, l='ServerLevel[Bomboclat Rastaclat]', x=-671.10, y=61.00, z=1012.34, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:54:58] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16192210, l='ServerLevel[Bomboclat Rastaclat]', x=-671.36, y=61.00, z=1013.21, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:57:52] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/16217387, l='ServerLevel[Bomboclat Rastaclat]', x=-659.24, y=64.00, z=1011.45, removed=KILLED] wasn't found in section class_4076{x=-42, y=4, z=63} (destroying due to DISCARDED)
+[02:58:00] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@344594fa, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@73558b74, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@41f32c4f, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@72a12b67, com.cobblemon.mod.common.battles.pokemon.BattlePokemon@87bb22c]
+[02:58:10] [Server thread/WARN]: Entity PokemonEntity['Blastoise'/16223706, l='ServerLevel[Bomboclat Rastaclat]', x=-629.46, y=65.00, z=983.55, removed=DISCARDED] wasn't found in section class_4076{x=-40, y=4, z=61} (destroying due to DISCARDED)
+[02:59:37] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16239663, l='ServerLevel[Bomboclat Rastaclat]', x=-671.67, y=61.00, z=1012.19, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[02:59:45] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16238908, l='ServerLevel[Bomboclat Rastaclat]', x=-670.95, y=61.00, z=1012.78, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:00:28] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16253398, l='ServerLevel[Bomboclat Rastaclat]', x=-670.94, y=61.00, z=1012.93, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:00:34] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16254600, l='ServerLevel[Bomboclat Rastaclat]', x=-671.14, y=61.00, z=1012.86, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:01:13] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16262363, l='ServerLevel[Bomboclat Rastaclat]', x=-671.05, y=61.00, z=1012.51, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:01:18] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16263442, l='ServerLevel[Bomboclat Rastaclat]', x=-671.07, y=61.00, z=1012.33, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:15:04] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16418835, l='ServerLevel[Bomboclat Rastaclat]', x=-671.03, y=61.00, z=1012.29, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:15:05] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16418064, l='ServerLevel[Bomboclat Rastaclat]', x=-671.18, y=61.00, z=1011.63, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:15:26] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16423150, l='ServerLevel[Bomboclat Rastaclat]', x=-670.69, y=61.00, z=1012.64, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:15:27] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16422740, l='ServerLevel[Bomboclat Rastaclat]', x=-671.23, y=61.00, z=1013.21, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:15:41] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16425674, l='ServerLevel[Bomboclat Rastaclat]', x=-671.47, y=61.00, z=1011.48, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:15:45] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16426434, l='ServerLevel[Bomboclat Rastaclat]', x=-671.19, y=61.00, z=1012.45, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:17:19] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16443188, l='ServerLevel[Bomboclat Rastaclat]', x=-671.04, y=61.00, z=1012.66, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:17:22] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16443744, l='ServerLevel[Bomboclat Rastaclat]', x=-671.10, y=61.00, z=1012.26, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:17:41] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16447238, l='ServerLevel[Bomboclat Rastaclat]', x=-670.93, y=61.00, z=1012.07, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:17:42] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16446711, l='ServerLevel[Bomboclat Rastaclat]', x=-671.18, y=61.00, z=1012.80, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:21:32] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16492758, l='ServerLevel[Bomboclat Rastaclat]', x=-670.97, y=61.00, z=1012.03, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:21:34] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16493254, l='ServerLevel[Bomboclat Rastaclat]', x=-670.97, y=61.00, z=1012.04, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:21:45] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16494078, l='ServerLevel[Bomboclat Rastaclat]', x=-670.92, y=61.00, z=1011.67, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:21:49] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16496146, l='ServerLevel[Bomboclat Rastaclat]', x=-670.99, y=61.00, z=1012.02, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:22:04] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16499117, l='ServerLevel[Bomboclat Rastaclat]', x=-670.98, y=61.00, z=1012.26, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:25:32] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16541041, l='ServerLevel[Bomboclat Rastaclat]', x=-671.01, y=61.00, z=1013.29, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:25:34] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16541519, l='ServerLevel[Bomboclat Rastaclat]', x=-670.97, y=61.00, z=1012.60, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:25:49] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16544193, l='ServerLevel[Bomboclat Rastaclat]', x=-670.76, y=61.00, z=1011.87, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:25:51] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16544865, l='ServerLevel[Bomboclat Rastaclat]', x=-670.74, y=61.00, z=1011.85, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:26:10] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16548333, l='ServerLevel[Bomboclat Rastaclat]', x=-671.13, y=61.00, z=1013.83, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:26:12] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16548748, l='ServerLevel[Bomboclat Rastaclat]', x=-670.94, y=61.00, z=1012.79, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:26:33] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16552360, l='ServerLevel[Bomboclat Rastaclat]', x=-670.85, y=61.00, z=1012.61, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:26:37] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16552715, l='ServerLevel[Bomboclat Rastaclat]', x=-670.76, y=61.00, z=1012.20, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:27:48] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16564432, l='ServerLevel[Bomboclat Rastaclat]', x=-670.80, y=61.00, z=1012.64, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:27:51] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16563914, l='ServerLevel[Bomboclat Rastaclat]', x=-670.75, y=61.00, z=1011.83, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:28:49] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16576289, l='ServerLevel[Bomboclat Rastaclat]', x=-670.90, y=61.00, z=1011.54, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:28:52] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16576635, l='ServerLevel[Bomboclat Rastaclat]', x=-671.07, y=61.00, z=1012.24, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:34:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.98310776228,9.3125,2682.262499988079
+[03:34:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.98310776228,9.3125,2682.262499988079
+[03:34:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.98310776228,9.3125,2682.262499988079
+[03:34:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.98310776228,9.3125,2682.262499988079
+[03:34:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.98310776228,9.3125,2682.262499988079
+[03:34:09] [Server thread/WARN]: Andrinh0u moved too quickly! 1628.98310776228,9.3125,2682.262499988079
+[03:35:33] [c2me-worker-12/WARN]: Empty or non-existent pool: minecraft:
+[03:35:33] [c2me-worker-12/WARN]: Empty or non-existent pool: minecraft:
+[03:35:48] [Server thread/WARN]: Entity PokemonEntity['Charizard'/16635518, l='ServerLevel[Bomboclat Rastaclat]', x=1717.76, y=77.50, z=3151.06, removed=DISCARDED] wasn't found in section class_4076{x=107, y=4, z=196} (destroying due to DISCARDED)
+[03:36:29] [c2me-worker-5/WARN]: Empty or non-existent pool: minecraft:
+[03:36:29] [c2me-worker-5/WARN]: Empty or non-existent pool: minecraft:
+[03:36:34] [c2me-worker-14/WARN]: Empty or non-existent pool: minecraft:
+[03:36:45] [c2me-worker-1/WARN]: Empty or non-existent pool: minecraft:
+[03:36:45] [c2me-worker-1/WARN]: Empty or non-existent pool: minecraft:
+[03:36:46] [c2me-worker-6/WARN]: Empty or non-existent pool: minecraft:
+[03:36:51] [c2me-worker-5/WARN]: Empty or non-existent pool: minecraft:
+[03:36:51] [c2me-worker-5/WARN]: Empty or non-existent pool: minecraft:
+[03:37:34] [c2me-worker-14/WARN]: Empty or non-existent pool: minecraft:
+[03:37:34] [c2me-worker-14/WARN]: Empty or non-existent pool: minecraft:
+[03:37:42] [c2me-worker-14/WARN]: Empty or non-existent pool: minecraft:
+[03:37:45] [c2me-worker-6/WARN]: Empty or non-existent pool: minecraft:
+[03:37:45] [c2me-worker-6/WARN]: Empty or non-existent pool: minecraft:
+[03:37:53] [c2me-worker-8/WARN]: Empty or non-existent pool: minecraft:
+[03:37:58] [Server thread/WARN]: Entity PokemonEntity['Charizard'/16649937, l='ServerLevel[Bomboclat Rastaclat]', x=959.56, y=76.00, z=2436.87, removed=DISCARDED] wasn't found in section class_4076{x=59, y=4, z=152} (destroying due to DISCARDED)
+[03:38:14] [c2me-worker-3/WARN]: Empty or non-existent pool: minecraft:
+[03:38:14] [c2me-worker-3/WARN]: Empty or non-existent pool: minecraft:
+[03:38:15] [c2me-worker-13/WARN]: Empty or non-existent pool: minecraft:
+[03:38:28] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[03:38:28] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[03:38:28] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[03:38:28] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:store_workers
+[03:38:28] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:feature/decor
+[03:38:28] [c2me-worker-10/WARN]: Empty or non-existent pool: bca:paths
+[03:38:36] [c2me-worker-11/WARN]: Empty or non-existent pool: minecraft:
+[03:38:37] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[facing=south,natural=false,on=false,part=top,waterlogged=false] but failed at location class_2338{x=968, y=67, z=1750}
+[03:38:38] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pc}[facing=north,natural=false,on=true,part=top,waterlogged=false] but failed at location class_2338{x=966, y=90, z=1736}
+[03:38:38] [Server thread/WARN]: Tried to load a block entity for block Block{cobblemon:pasture}[breeding_activated=false,facing=north,has_egg=false,on=false,part=top,waterlogged=false] but failed at location class_2338{x=968, y=90, z=1736}
+[03:38:43] [Server thread/WARN]: Entity PokemonEntity['Charizard'/16673006, l='ServerLevel[Bomboclat Rastaclat]', x=1037.20, y=79.00, z=1947.37, removed=DISCARDED] wasn't found in section class_4076{x=64, y=4, z=121} (destroying due to DISCARDED)
+[03:41:22] [Server thread/WARN]: Entity PokemonEntity['Charizard'/16696673, l='ServerLevel[Bomboclat Rastaclat]', x=738.84, y=111.50, z=2722.30, removed=DISCARDED] wasn't found in section class_4076{x=46, y=6, z=170} (destroying due to DISCARDED)
+[03:41:35] [Server thread/INFO]: PokemonList: [com.cobblemon.mod.common.battles.pokemon.BattlePokemon@2ac12d9b]
+[03:41:35] [Server thread/INFO]: Active Pokemon: [com.cobblemon.mod.common.battles.ActiveBattlePokemon@167fa780]
+[03:41:47] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/16707666, l='ServerLevel[Bomboclat Rastaclat]', x=738.93, y=107.50, z=2723.05, removed=DISCARDED] wasn't found in section class_4076{x=46, y=6, z=170} (destroying due to DISCARDED)
+[03:42:01] [Server thread/WARN]: Entity PokemonEntity['Tyranitar'/16713209, l='ServerLevel[Bomboclat Rastaclat]', x=735.05, y=86.00, z=2738.21, removed=DISCARDED] wasn't found in section class_4076{x=45, y=5, z=171} (destroying due to DISCARDED)
+[03:43:04] [Server thread/WARN]: Entity PokemonEntity['Charizard'/16713691, l='ServerLevel[Bomboclat Rastaclat]', x=1010.27, y=74.00, z=3654.31, removed=DISCARDED] wasn't found in section class_4076{x=63, y=4, z=228} (destroying due to DISCARDED)
+[03:43:08] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.260520279336,-7.5,-2684.414237052364
+[03:43:08] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.260520279336,-7.5,-2684.414237052364
+[03:43:08] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.260520279336,-7.5,-2684.414237052364
+[03:43:08] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.260520279336,-7.5,-2684.414237052364
+[03:43:08] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.260520279336,-7.5,-2684.414237052364
+[03:43:08] [Server thread/WARN]: Andrinh0u moved too quickly! -1627.260520279336,-7.5,-2684.414237052364
+[03:43:51] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16732340, l='ServerLevel[Bomboclat Rastaclat]', x=-670.98, y=61.00, z=1013.08, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[03:43:58] [Server thread/WARN]: Entity PokemonEntity['Froakie'/16733731, l='ServerLevel[Bomboclat Rastaclat]', x=-670.63, y=61.00, z=1011.30, removed=DISCARDED] wasn't found in section class_4076{x=-42, y=3, z=63} (destroying due to DISCARDED)
+[04:33:31] [Netty Server IO #20/INFO]: Player Andrinh0u disconnected, saving their progress data
+[04:33:31] [Netty Server IO #20/INFO]: Saved shrine progress for player Andrinh0u in world Bomboclat Rastaclat_249261175
+[04:33:31] [Server thread/INFO]: Andrinh0u lost connection: Disconnected
+[04:33:31] [Server thread/INFO]: Andrinh0u left the game
+[04:33:31] [Server thread/INFO]: Unregistered trainer player: Andrinh0u
+[04:33:41] [Server thread/INFO]: Stopping the server
+[04:33:41] [Server thread/INFO]: Server stopping, saving all player progress data
+[04:33:41] [Server thread/INFO]: Stopping server
+[04:33:41] [Server thread/INFO]: Saving players
+[04:33:41] [Server thread/INFO]: Saving worlds
+[04:33:41] [Server thread/INFO]: ServerLevel[Bomboclat Rastaclat]/minecraft:overworld: waiting for 841 chunks to unload
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/minecraft:overworld
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/legendarymonuments:distortion_world
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/minecraft:the_nether
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/minecraft:the_end
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/cobblemonraiddens:raid_dimension
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/lumymon:nightmare
+[04:33:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bomboclat Rastaclat]'/lumymon:origin
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (distortion_world): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (raid_dimension): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (nightmare): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (origin): All chunks are saved
+[04:33:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:33:43] [C2ME Storage #3/INFO]: Storage thread Thread[#160,C2ME Storage #3,8,main] stopped
+[04:33:43] [C2ME Storage #2/INFO]: Storage thread Thread[#159,C2ME Storage #2,8,main] stopped
+[04:33:44] [C2ME Storage #1/INFO]: Storage thread Thread[#158,C2ME Storage #1,8,main] stopped
+[04:33:44] [C2ME Storage #6/INFO]: Storage thread Thread[#163,C2ME Storage #6,8,main] stopped
+[04:33:44] [C2ME Storage #5/INFO]: Storage thread Thread[#162,C2ME Storage #5,8,main] stopped
+[04:33:44] [C2ME Storage #4/INFO]: Storage thread Thread[#161,C2ME Storage #4,8,main] stopped
+[04:33:44] [C2ME Storage #9/INFO]: Storage thread Thread[#166,C2ME Storage #9,8,main] stopped
+[04:33:44] [C2ME Storage #8/INFO]: Storage thread Thread[#165,C2ME Storage #8,8,main] stopped
+[04:33:44] [C2ME Storage #7/INFO]: Storage thread Thread[#164,C2ME Storage #7,8,main] stopped
+[04:33:44] [C2ME Storage #12/INFO]: Storage thread Thread[#169,C2ME Storage #12,8,main] stopped
+[04:33:44] [C2ME Storage #11/INFO]: Storage thread Thread[#168,C2ME Storage #11,8,main] stopped
+[04:33:44] [C2ME Storage #10/INFO]: Storage thread Thread[#167,C2ME Storage #10,8,main] stopped
+[04:33:44] [C2ME Storage #15/INFO]: Storage thread Thread[#172,C2ME Storage #15,8,main] stopped
+[04:33:44] [C2ME Storage #14/INFO]: Storage thread Thread[#171,C2ME Storage #14,8,main] stopped
+[04:33:44] [C2ME Storage #13/INFO]: Storage thread Thread[#170,C2ME Storage #13,8,main] stopped
+[04:33:44] [C2ME Storage #18/INFO]: Storage thread Thread[#175,C2ME Storage #18,8,main] stopped
+[04:33:44] [C2ME Storage #17/INFO]: Storage thread Thread[#174,C2ME Storage #17,8,main] stopped
+[04:33:44] [C2ME Storage #16/INFO]: Storage thread Thread[#173,C2ME Storage #16,8,main] stopped
+[04:33:44] [C2ME Storage #21/INFO]: Storage thread Thread[#178,C2ME Storage #21,8,main] stopped
+[04:33:44] [C2ME Storage #20/INFO]: Storage thread Thread[#177,C2ME Storage #20,8,main] stopped
+[04:33:44] [C2ME Storage #19/INFO]: Storage thread Thread[#176,C2ME Storage #19,8,main] stopped
+[04:33:45] [Server thread/INFO]: Discarded config watch service
