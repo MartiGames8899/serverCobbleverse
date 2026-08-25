@@ -14,9 +14,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-08-22 21:15:25 +0100",
+      "minecraft:old_growth_pine_taiga": "2026-08-25 01:35:11 +0100",
       "minecraft:forest": "2026-08-23 15:28:14 +0100",
       "minecraft:taiga": "2026-08-23 18:47:39 +0100",
       "minecraft:deep_ocean": "2026-08-23 16:53:29 +0100",
+      "minecraft:lush_caves": "2026-08-25 02:17:12 +0100",
+      "minecraft:deep_cold_ocean": "2026-08-25 02:55:52 +0100",
       "minecraft:ice_spikes": "2026-08-22 21:16:09 +0100",
       "minecraft:frozen_ocean": "2026-08-24 00:11:03 +0100",
       "minecraft:desert": "2026-08-23 17:10:14 +0100",
@@ -24,10 +27,14 @@
       "minecraft:windswept_forest": "2026-08-24 00:25:58 +0100",
       "minecraft:ocean": "2026-08-23 16:52:53 +0100",
       "minecraft:cherry_grove": "2026-08-24 15:48:32 +0100",
+      "minecraft:sunflower_plains": "2026-08-25 02:52:25 +0100",
       "minecraft:birch_forest": "2026-08-23 23:00:44 +0100",
       "minecraft:windswept_hills": "2026-08-24 16:02:54 +0100",
+      "minecraft:old_growth_spruce_taiga": "2026-08-25 01:47:15 +0100",
       "minecraft:snowy_beach": "2026-08-24 00:11:32 +0100",
       "minecraft:wooded_badlands": "2026-08-23 17:06:31 +0100",
+      "minecraft:bamboo_jungle": "2026-08-24 22:56:32 +0100",
+      "minecraft:windswept_savanna": "2026-08-25 02:36:44 +0100",
       "minecraft:warm_ocean": "2026-08-23 18:09:08 +0100",
       "minecraft:deep_lukewarm_ocean": "2026-08-23 16:56:00 +0100",
       "minecraft:badlands": "2026-08-23 17:04:12 +0100",
@@ -40,6 +47,7 @@
       "minecraft:snowy_plains": "2026-08-22 21:16:32 +0100",
       "minecraft:stony_shore": "2026-08-23 17:02:51 +0100",
       "minecraft:dripstone_caves": "2026-08-23 15:59:13 +0100",
+      "minecraft:snowy_taiga": "2026-08-25 02:24:06 +0100",
       "minecraft:old_growth_birch_forest": "2026-08-23 22:59:57 +0100",
       "minecraft:swamp": "2026-08-24 16:03:16 +0100",
       "minecraft:meadow": "2026-08-22 21:22:24 +0100",
@@ -892,22 +900,29 @@
     "criteria": {
       "obtain_lansat_berry": "2026-08-23 18:50:06 +0100",
       "obtain_pinap_berry": "2026-08-24 00:13:59 +0100",
-      "obtain_oran_berry": "2026-08-22 21:13:04 +0100",
-      "obtain_bluk_berry": "2026-08-23 18:28:54 +0100",
       "obtain_eggant_berry": "2026-08-24 15:52:39 +0100",
-      "obtain_watmel_berry": "2026-08-23 23:59:11 +0100",
+      "obtain_touga_berry": "2026-08-25 01:43:13 +0100",
       "obtain_payapa_berry": "2026-08-23 18:10:39 +0100",
-      "obtain_tanga_berry": "2026-08-23 19:11:31 +0100",
+      "obtain_charti_berry": "2026-08-25 01:42:34 +0100",
       "obtain_persim_berry": "2026-08-22 21:25:36 +0100",
-      "obtain_cheri_berry": "2026-08-23 15:40:27 +0100",
-      "obtain_rowap_berry": "2026-08-23 18:50:07 +0100",
+      "obtain_cornn_berry": "2026-08-25 01:46:27 +0100",
+      "obtain_shuca_berry": "2026-08-25 03:35:21 +0100",
+      "obtain_grepa_berry": "2026-08-25 00:06:57 +0100",
       "obtain_ganlon_berry": "2026-08-23 18:50:04 +0100",
       "obtain_rawst_berry": "2026-08-23 18:50:04 +0100",
-      "obtain_colbur_berry": "2026-08-23 18:49:10 +0100",
       "obtain_kebia_berry": "2026-08-23 16:29:54 +0100",
+      "obtain_razz_berry": "2026-08-24 00:56:11 +0100",
+      "obtain_oran_berry": "2026-08-22 21:13:04 +0100",
+      "obtain_bluk_berry": "2026-08-23 18:28:54 +0100",
+      "obtain_watmel_berry": "2026-08-23 23:59:11 +0100",
+      "obtain_tanga_berry": "2026-08-23 19:11:31 +0100",
+      "obtain_passho_berry": "2026-08-25 01:43:01 +0100",
+      "obtain_cheri_berry": "2026-08-23 15:40:27 +0100",
+      "obtain_rowap_berry": "2026-08-23 18:50:07 +0100",
+      "obtain_wiki_berry": "2026-08-25 01:46:29 +0100",
+      "obtain_colbur_berry": "2026-08-23 18:49:10 +0100",
       "obtain_roseli_berry": "2026-08-23 19:02:45 +0100",
       "obtain_kasib_berry": "2026-08-23 18:50:05 +0100",
-      "obtain_razz_berry": "2026-08-24 00:56:11 +0100",
       "obtain_wepear_berry": "2026-08-23 15:41:27 +0100"
     },
     "done": false
@@ -25841,9 +25856,10 @@
   },
   "cobblemon:recipes/campfire_pot/courage_candy": {
     "criteria": {
-      "has_honeycomb": "2026-08-23 18:59:54 +0100"
+      "has_honeycomb": "2026-08-23 18:59:54 +0100",
+      "has_berry": "2026-08-25 00:06:57 +0100"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/campfire_pot/health_candy": {
     "criteria": {
@@ -26010,6 +26026,73 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_dark_oak_log": "2026-08-24 17:52:07 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/campfire_pot/coward_candy": {
+    "criteria": {
+      "has_berry": "2026-08-25 00:06:57 +0100"
+    },
+    "done": false
+  },
+  "cobblemonraiddens:great_friend": {
+    "criteria": {
+      "attack_cheer": "2026-08-25 01:14:15 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-08-25 01:14:15 +0100"
+    },
+    "done": true
+  },
+  "cobblemonraiddens:tier_four": {
+    "criteria": {
+      "completed_tier_four": "2026-08-25 01:18:36 +0100"
+    },
+    "done": true
+  },
+  "cobblemonraiddens:raid_tera": {
+    "criteria": {
+      "completed_tera": "2026-08-25 01:18:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-08-25 01:18:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-08-25 01:21:26 +0100",
+      "ocean_ruin_cold": "2026-08-25 01:21:12 +0100"
+    },
+    "done": true
+  },
+  "lootr:all_gravel": {
+    "criteria": {
+      "brushed_gravel": "2026-08-25 01:21:17 +0100"
+    },
+    "done": false
+  },
+  "cobblemonraiddens:tier_two": {
+    "criteria": {
+      "completed_tier_two": "2026-08-25 01:36:20 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/relic_coin": {
+    "criteria": {
+      "has_pouch": "2026-08-25 01:42:30 +0100"
+    },
+    "done": true
+  },
+  "cobblemonraiddens:tier_three": {
+    "criteria": {
+      "completed_tier_three": "2026-08-25 03:39:17 +0100"
     },
     "done": true
   },

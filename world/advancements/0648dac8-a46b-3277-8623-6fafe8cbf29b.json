@@ -26426,5 +26426,17 @@
     },
     "done": true
   },
+  "cobblemon:medicinal_brew": {
+    "criteria": {
+      "check_inv": "2026-08-25 02:05:42 +0100"
+    },
+    "done": true
+  },
+  "lootr:all_gravel": {
+    "criteria": {
+      "brushed_gravel": "2026-08-25 02:59:28 +0100"
+    },
+    "done": false
+  },
   "DataVersion": 3955
 }
