@@ -10425,8 +10425,10 @@
       "roseate_ball": "2026-08-16 20:15:40 +0100",
       "lure_ball": "2026-08-16 19:45:48 +0100",
       "friend_ball": "2026-08-17 21:21:30 +0100",
+      "ancient_roseate_ball": "2026-08-25 15:13:20 +0100",
       "premier_ball": "2026-08-16 19:45:37 +0100",
-      "park_ball": "2026-08-16 19:45:54 +0100"
+      "park_ball": "2026-08-16 19:45:54 +0100",
+      "master_ball": "2026-08-25 15:44:49 +0100"
     },
     "done": false
   },
@@ -25621,10 +25623,11 @@
       "ancient_great_ball": "2026-08-21 02:00:18 +0100",
       "ancient_citrine_ball": "2026-08-21 01:59:18 +0100",
       "ancient_slate_ball": "2026-08-18 14:44:46 +0100",
+      "ancient_roseate_ball": "2026-08-25 15:13:20 +0100",
       "ancient_ultra_ball": "2026-08-23 18:32:21 +0100",
       "ancient_heavy_ball": "2026-08-17 10:50:47 +0100"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/misc/relic_coin_pouch": {
     "criteria": {
@@ -25959,9 +25962,10 @@
       "minecraft:crimson_forest": "2026-08-23 15:05:47 +0100",
       "minecraft:nether_wastes": "2026-08-18 15:17:11 +0100",
       "minecraft:soul_sand_valley": "2026-08-23 15:20:21 +0100",
-      "minecraft:warped_forest": "2026-08-21 00:06:23 +0100"
+      "minecraft:warped_forest": "2026-08-21 00:06:23 +0100",
+      "minecraft:basalt_deltas": "2026-08-25 16:20:23 +0100"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
@@ -26437,6 +26441,18 @@
       "brushed_gravel": "2026-08-25 02:59:28 +0100"
     },
     "done": false
+  },
+  "sophisticatedbackpacks:recipes/misc/auto_blasting_upgrade": {
+    "criteria": {
+      "has_blasting_upgrade": "2026-08-25 14:37:01 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/auto_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2026-08-25 14:36:53 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
