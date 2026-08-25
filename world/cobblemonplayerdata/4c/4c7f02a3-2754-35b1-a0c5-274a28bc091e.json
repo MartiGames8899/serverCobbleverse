@@ -8,31 +8,31 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 36,
+    "totalCaptureCount": 42,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 3,
-    "totalBattleVictoryCount": 147,
+    "totalBattleVictoryCount": 181,
     "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 136,
-    "totalPvNBattleVictoryCount": 9,
+    "totalPvWBattleVictoryCount": 150,
+    "totalPvNBattleVictoryCount": 29,
     "totalShinyCaptureCount": 4,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "fairy": 3,
-      "fighting": 3,
+      "fairy": 4,
+      "fighting": 4,
       "normal": 8,
-      "ground": 3,
-      "psychic": 7,
+      "ground": 5,
+      "psychic": 8,
       "dark": 1,
-      "water": 2,
-      "steel": 3,
+      "water": 3,
+      "steel": 4,
       "ghost": 3,
-      "dragon": 2,
+      "dragon": 3,
       "rock": 2,
       "electric": 2,
       "bug": 1,
-      "fire": 7,
+      "fire": 8,
       "flying": 2
     },
     "totalDefeatedCounts": {
@@ -51,7 +51,7 @@
       "cobblemon:medicham": 2,
       "cobblemon:maschiff": 2,
       "cobblemon:arboliva": 1,
-      "cobblemon:gimmighoul": 10,
+      "cobblemon:gimmighoul": 11,
       "cobblemon:heatmor": 1,
       "cobblemon:liepard": 2,
       "cobblemon:absol": 1,
@@ -83,7 +83,7 @@
       "cobblemon:spidops": 1,
       "cobblemon:shuppet": 1,
       "cobblemon:audino": 1,
-      "cobblemon:murkrow": 1,
+      "cobblemon:murkrow": 2,
       "cobblemon:electabuzz": 1,
       "cobblemon:buneary": 1,
       "cobblemon:galvantula": 1,
@@ -99,7 +99,13 @@
       "cobblemon:minccino": 1,
       "cobblemon:wooloo": 1,
       "cobblemon:snubbull": 1,
-      "cobblemon:rapidash": 1
+      "cobblemon:rapidash": 1,
+      "cobblemon:breloom": 1,
+      "cobblemon:foongus": 1,
+      "cobblemon:indeedee": 1,
+      "cobblemon:vivillon": 1,
+      "cobblemon:magby": 1,
+      "cobblemon:magcargo": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -251,6 +257,22 @@
       "cobblemon:scorbunny": [
         "male",
         "bucket-ultra-rare"
+      ],
+      "cobblemon:squirtle": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:torchic": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:gible": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:sirfetchd": [
+        "male",
+        "bucket-rare"
       ]
     }
   }

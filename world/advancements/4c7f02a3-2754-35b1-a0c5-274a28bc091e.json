@@ -14,6 +14,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-08-22 21:15:25 +0100",
+      "minecraft:snowy_slopes": "2026-08-25 20:01:46 +0100",
       "minecraft:old_growth_pine_taiga": "2026-08-25 01:35:11 +0100",
       "minecraft:forest": "2026-08-23 15:28:14 +0100",
       "minecraft:taiga": "2026-08-23 18:47:39 +0100",
@@ -22,6 +23,7 @@
       "minecraft:deep_cold_ocean": "2026-08-25 02:55:52 +0100",
       "minecraft:ice_spikes": "2026-08-22 21:16:09 +0100",
       "minecraft:frozen_ocean": "2026-08-24 00:11:03 +0100",
+      "minecraft:eroded_badlands": "2026-08-25 18:45:43 +0100",
       "minecraft:desert": "2026-08-23 17:10:14 +0100",
       "minecraft:frozen_river": "2026-08-22 21:16:49 +0100",
       "minecraft:windswept_forest": "2026-08-24 00:25:58 +0100",
@@ -48,7 +50,9 @@
       "minecraft:stony_shore": "2026-08-23 17:02:51 +0100",
       "minecraft:dripstone_caves": "2026-08-23 15:59:13 +0100",
       "minecraft:snowy_taiga": "2026-08-25 02:24:06 +0100",
+      "minecraft:frozen_peaks": "2026-08-25 20:02:06 +0100",
       "minecraft:old_growth_birch_forest": "2026-08-23 22:59:57 +0100",
+      "minecraft:deep_dark": "2026-08-25 20:03:35 +0100",
       "minecraft:swamp": "2026-08-24 16:03:16 +0100",
       "minecraft:meadow": "2026-08-22 21:22:24 +0100",
       "minecraft:savanna": "2026-08-23 23:11:08 +0100",
@@ -901,6 +905,7 @@
       "obtain_lansat_berry": "2026-08-23 18:50:06 +0100",
       "obtain_pinap_berry": "2026-08-24 00:13:59 +0100",
       "obtain_eggant_berry": "2026-08-24 15:52:39 +0100",
+      "obtain_pomeg_berry": "2026-08-25 18:46:03 +0100",
       "obtain_touga_berry": "2026-08-25 01:43:13 +0100",
       "obtain_payapa_berry": "2026-08-23 18:10:39 +0100",
       "obtain_charti_berry": "2026-08-25 01:42:34 +0100",
@@ -10344,9 +10349,11 @@
   "cobblemon:craft_all_balls": {
     "criteria": {
       "ancient_gigaton_ball": "2026-08-23 18:59:59 +0100",
+      "luxury_ball": "2026-08-25 18:24:10 +0100",
       "nest_ball": "2026-08-23 19:13:27 +0100",
       "quick_ball": "2026-08-23 18:50:58 +0100",
       "ancient_leaden_ball": "2026-08-23 23:52:00 +0100",
+      "dusk_ball": "2026-08-25 18:23:45 +0100",
       "timer_ball": "2026-08-23 18:50:29 +0100",
       "moon_ball": "2026-08-23 18:50:36 +0100",
       "ancient_poke_ball": "2026-08-24 00:09:48 +0100",
@@ -10362,6 +10369,7 @@
       "verdant_ball": "2026-08-23 19:15:56 +0100",
       "dream_ball": "2026-08-24 14:45:14 +0100",
       "ultra_ball": "2026-08-23 15:52:50 +0100",
+      "fast_ball": "2026-08-25 18:23:53 +0100",
       "heal_ball": "2026-08-23 23:50:52 +0100",
       "ancient_wing_ball": "2026-08-23 18:51:01 +0100",
       "slate_ball": "2026-08-23 15:13:48 +0100",
@@ -25750,7 +25758,8 @@
       "friend_ball": "2026-08-23 18:49:10 +0100",
       "moon_ball": "2026-08-23 18:50:36 +0100",
       "heavy_ball": "2026-08-23 19:13:27 +0100",
-      "love_ball": "2026-08-23 17:44:52 +0100"
+      "love_ball": "2026-08-23 17:44:52 +0100",
+      "fast_ball": "2026-08-25 18:23:53 +0100"
     },
     "done": false
   },
@@ -25782,6 +25791,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2026-08-25 18:07:47 +0100",
       "minecraft:nether_wastes": "2026-08-23 18:37:09 +0100"
     },
     "done": false
@@ -25863,9 +25873,10 @@
   },
   "cobblemon:recipes/campfire_pot/health_candy": {
     "criteria": {
-      "has_honeycomb": "2026-08-23 18:59:54 +0100"
+      "has_honeycomb": "2026-08-23 18:59:54 +0100",
+      "has_berry": "2026-08-25 18:46:03 +0100"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/campfire_pot/mighty_candy": {
     "criteria": {
@@ -26093,6 +26104,126 @@
   "cobblemonraiddens:tier_three": {
     "criteria": {
       "completed_tier_three": "2026-08-25 03:39:17 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_stairs_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-08-25 16:55:07 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_panel_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-08-25 16:55:07 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_slab_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-08-25 16:55:07 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_bricks_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-08-25 16:55:07 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_wall_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-08-25 16:55:07 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_brick_slab_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-08-25 16:55:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-08-25 19:05:44 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/campfire_pot/sickly_candy": {
+    "criteria": {
+      "has_berry": "2026-08-25 18:46:03 +0100"
+    },
+    "done": false
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-08-25 18:07:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-25 19:05:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lectern": {
+    "criteria": {
+      "has_book": "2026-08-25 19:05:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-25 19:05:44 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:use_revive": {
+    "criteria": {
+      "use_max_revive": "2026-08-25 20:43:05 +0100"
+    },
+    "done": true
+  },
+  "lootr:1frame": {
+    "criteria": {
+      "looted_frame": "2026-08-25 18:50:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2026-08-25 19:04:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-25 19:05:44 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:trainer/kanto/defeat_blaine": {
+    "criteria": {
+      "leader_defeated": "2026-08-25 19:55:43 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:trainer/kanto/defeat_sabrina": {
+    "criteria": {
+      "leader_defeated": "2026-08-25 19:14:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bookshelf": {
+    "criteria": {
+      "has_book": "2026-08-25 19:05:44 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_fossil": {
+    "criteria": {
+      "check_inv": "2026-08-25 20:25:25 +0100"
     },
     "done": true
   },

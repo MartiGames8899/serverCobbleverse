@@ -26442,15 +26442,45 @@
     },
     "done": false
   },
+  "sophisticatedbackpacks:recipes/misc/auto_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2026-08-25 14:36:53 +0100"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/auto_blasting_upgrade": {
     "criteria": {
       "has_blasting_upgrade": "2026-08-25 14:37:01 +0100"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/auto_smelting_upgrade": {
+  "cobblemon:obtain_fossil": {
     "criteria": {
-      "has_smelting_upgrade": "2026-08-25 14:36:53 +0100"
+      "check_inv": "2026-08-25 19:25:15 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:trainer/kanto/defeat_giovanni": {
+    "criteria": {
+      "leader_defeated": "2026-08-25 20:10:50 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:item/obtain_mew_dna": {
+    "criteria": {
+      "giovanni_defeated": "2026-08-25 20:10:52 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/z/get_all_z_move": {
+    "criteria": {
+      "fairium_z": "2026-08-25 20:23:46 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/z/get_z_move": {
+    "criteria": {
+      "obtained_z_moves": "2026-08-25 20:23:46 +0100"
     },
     "done": true
   },
