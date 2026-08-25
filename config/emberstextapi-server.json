@@ -1,0 +1,22 @@
+{
+  "playerMarkup": {
+    "mode": "ALL",
+    "requiredOpLevel": 0,
+    "surfaceChat": true,
+    "surfaceAnvil": true,
+    "surfaceSign": true,
+    "surfaceBook": true,
+    "perEffect": [],
+    "perCategory": [],
+    "notifyOnStrip": true
+  },
+  "apiMessages": {
+    "maxDuration": 1200,
+    "maxActiveMessages": 10,
+    "maxQueueSize": 50,
+    "allowedEffects": []
+  },
+  "internal": {
+    "schemaVersion": 1
+  }
+}
