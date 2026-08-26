@@ -26491,9 +26491,9 @@
     },
     "done": true
   },
-  "mega_showdown:mega_showdown/bond/ash_greninja": {
+  "cobbleverse:pokemon/revive_mewtwo": {
     "criteria": {
-      "ash_greninja": "2026-08-26 02:31:50 +0100"
+      "revived_mewtwo": "2026-08-26 00:33:55 +0100"
     },
     "done": true
   },
@@ -26503,9 +26503,9 @@
     },
     "done": true
   },
-  "cobbleverse:pokemon/revive_mewtwo": {
+  "mega_showdown:mega_showdown/bond/ash_greninja": {
     "criteria": {
-      "revived_mewtwo": "2026-08-26 00:33:55 +0100"
+      "ash_greninja": "2026-08-26 02:31:50 +0100"
     },
     "done": true
   },

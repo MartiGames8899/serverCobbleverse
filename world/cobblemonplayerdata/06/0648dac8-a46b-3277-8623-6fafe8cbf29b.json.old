@@ -12,10 +12,10 @@
     "totalEggsCollected": 1,
     "totalEggsHatched": 850,
     "totalEvolvedCount": 22,
-    "totalBattleVictoryCount": 784,
+    "totalBattleVictoryCount": 793,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 666,
-    "totalPvNBattleVictoryCount": 118,
+    "totalPvWBattleVictoryCount": 668,
+    "totalPvNBattleVictoryCount": 125,
     "totalShinyCaptureCount": 27,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
@@ -140,7 +140,7 @@
       "cobblemon:shroomish": 1,
       "cobblemon:surskit": 1,
       "cobblemon:trumbeak": 1,
-      "cobblemon:medicham": 3,
+      "cobblemon:medicham": 4,
       "cobblemon:aipom": 1,
       "cobblemon:swanna": 2,
       "cobblemon:pansear": 2,
@@ -253,7 +253,8 @@
       "cobblemon:foongus": 1,
       "cobblemon:ralts": 1,
       "cobblemon:lechonk": 1,
-      "cobblemon:nuzleaf": 1
+      "cobblemon:nuzleaf": 1,
+      "cobblemon:carkol": 1
     },
     "aspectsCollected": {
       "cobblemon:frogadier": [
