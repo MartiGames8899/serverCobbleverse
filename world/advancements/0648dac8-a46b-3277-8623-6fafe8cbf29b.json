@@ -941,6 +941,7 @@
       "obtain_kasib_berry": "2026-08-20 23:36:16 +0100",
       "obtain_lansat_berry": "2026-08-20 23:38:40 +0100",
       "obtain_lum_berry": "2026-08-19 17:52:20 +0100",
+      "obtain_coba_berry": "2026-08-26 01:00:34 +0100",
       "obtain_kelpsy_berry": "2026-08-20 15:59:01 +0100",
       "obtain_touga_berry": "2026-08-17 12:30:52 +0100",
       "obtain_qualot_berry": "2026-08-17 12:30:51 +0100",
@@ -26481,6 +26482,30 @@
   "mega_showdown:mega_showdown/z/get_z_move": {
     "criteria": {
       "obtained_z_moves": "2026-08-25 20:23:46 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:resurrect_pokemon": {
+    "criteria": {
+      "resurrected_pokemon": "2026-08-26 00:14:42 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/bond/ash_greninja": {
+    "criteria": {
+      "ash_greninja": "2026-08-26 02:31:50 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/bond/ash_cap_bond": {
+    "criteria": {
+      "bond_any": "2026-08-26 02:31:15 +0100"
+    },
+    "done": true
+  },
+  "cobbleverse:pokemon/revive_mewtwo": {
+    "criteria": {
+      "revived_mewtwo": "2026-08-26 00:33:55 +0100"
     },
     "done": true
   },
