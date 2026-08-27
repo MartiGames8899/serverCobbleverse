@@ -26509,5 +26509,29 @@
     },
     "done": true
   },
+  "mega_showdown:mega_showdown/mega/find_mega_structure": {
+    "criteria": {
+      "in_mega_structure": "2026-08-27 05:14:21 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/craft_mega_stones": {
+    "criteria": {
+      "mega_stone": "2026-08-27 05:14:36 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:recipes/misc/aggroniite": {
+    "criteria": {
+      "has_mega_stone": "2026-08-27 05:14:36 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/find_raw_megastone": {
+    "criteria": {
+      "obtained_raw_mega_stones": "2026-08-27 05:14:36 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

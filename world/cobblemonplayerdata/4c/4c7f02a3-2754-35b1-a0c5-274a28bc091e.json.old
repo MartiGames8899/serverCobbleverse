@@ -8,20 +8,20 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 43,
+    "totalCaptureCount": 44,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 3,
-    "totalBattleVictoryCount": 194,
+    "totalEvolvedCount": 5,
+    "totalBattleVictoryCount": 206,
     "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 153,
-    "totalPvNBattleVictoryCount": 39,
+    "totalPvWBattleVictoryCount": 159,
+    "totalPvNBattleVictoryCount": 45,
     "totalShinyCaptureCount": 4,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 5,
       "fighting": 4,
-      "normal": 8,
+      "normal": 9,
       "ground": 5,
       "psychic": 9,
       "dark": 1,
@@ -78,7 +78,7 @@
       "cobblemon:golduck": 1,
       "cobblemon:araquanid": 1,
       "cobblemon:herdier": 1,
-      "cobblemon:voltorb": 2,
+      "cobblemon:voltorb": 3,
       "cobblemon:drifloon": 1,
       "cobblemon:spidops": 1,
       "cobblemon:shuppet": 1,
@@ -107,7 +107,11 @@
       "cobblemon:magby": 1,
       "cobblemon:magcargo": 1,
       "cobblemon:honchkrow": 1,
-      "cobblemon:hattrem": 1
+      "cobblemon:hattrem": 1,
+      "cobblemon:mudsdale": 1,
+      "cobblemon:druddigon": 1,
+      "cobblemon:noivern": 1,
+      "cobblemon:electrode": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -273,6 +277,18 @@
         "bucket-ultra-rare"
       ],
       "cobblemon:sirfetchd": [
+        "male",
+        "bucket-rare"
+      ],
+      "cobblemon:ditto": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:kirlia": [
+        "male",
+        "bucket-rare"
+      ],
+      "cobblemon:gallade": [
         "male",
         "bucket-rare"
       ]
