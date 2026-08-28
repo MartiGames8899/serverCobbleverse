@@ -10,8 +10,8 @@
   "advancementData": {
     "totalCaptureCount": 58,
     "totalEggsCollected": 0,
-    "totalEggsHatched": 0,
-    "totalEvolvedCount": 5,
+    "totalEggsHatched": 4,
+    "totalEvolvedCount": 8,
     "totalBattleVictoryCount": 222,
     "totalPvPBattleVictoryCount": 2,
     "totalPvWBattleVictoryCount": 175,
@@ -319,6 +319,10 @@
       "cobblemon:grotle": [
         "male",
         "bucket-ultra-rare"
+      ],
+      "cobblemon:kadabra": [
+        "male",
+        "bucket-uncommon"
       ]
     }
   }
