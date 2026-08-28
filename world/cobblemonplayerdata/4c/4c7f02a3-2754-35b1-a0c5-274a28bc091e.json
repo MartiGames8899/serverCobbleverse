@@ -8,32 +8,33 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 44,
+    "totalCaptureCount": 58,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 5,
-    "totalBattleVictoryCount": 206,
+    "totalBattleVictoryCount": 222,
     "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 159,
+    "totalPvWBattleVictoryCount": 175,
     "totalPvNBattleVictoryCount": 45,
     "totalShinyCaptureCount": 4,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 5,
       "fighting": 4,
-      "normal": 9,
+      "normal": 11,
       "ground": 5,
       "psychic": 9,
       "dark": 1,
       "water": 3,
-      "steel": 4,
+      "steel": 12,
       "ghost": 3,
-      "dragon": 3,
-      "rock": 2,
+      "dragon": 4,
+      "rock": 10,
       "electric": 2,
       "bug": 1,
-      "fire": 8,
-      "flying": 2
+      "fire": 9,
+      "flying": 2,
+      "grass": 2
     },
     "totalDefeatedCounts": {
       "cobblemon:mareep": 2,
@@ -58,7 +59,7 @@
       "cobblemon:emolga": 1,
       "cobblemon:psyduck": 1,
       "cobblemon:diglett": 1,
-      "cobblemon:aron": 1,
+      "cobblemon:aron": 2,
       "cobblemon:boldore": 1,
       "cobblemon:floatzel": 1,
       "cobblemon:claydol": 1,
@@ -111,7 +112,8 @@
       "cobblemon:mudsdale": 1,
       "cobblemon:druddigon": 1,
       "cobblemon:noivern": 1,
-      "cobblemon:electrode": 1
+      "cobblemon:electrode": 1,
+      "cobblemon:linoone": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -291,6 +293,32 @@
       "cobblemon:gallade": [
         "male",
         "bucket-rare"
+      ],
+      "cobblemon:flareon": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:eevee": [
+        "male",
+        "bucket-ultra-rare",
+        "bucket-uncommon"
+      ],
+      "cobblemon:aron": [
+        "male",
+        "bucket-common",
+        "female"
+      ],
+      "cobblemon:chespin": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:bagon": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:grotle": [
+        "male",
+        "bucket-ultra-rare"
       ]
     }
   }

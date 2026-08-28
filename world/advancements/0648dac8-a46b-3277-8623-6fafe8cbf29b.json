@@ -26534,5 +26534,11 @@
     },
     "done": true
   },
+  "cobblemon:interact_with_pokemon": {
+    "criteria": {
+      "bottle_interactable_pokemon": "2026-08-28 18:10:50 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

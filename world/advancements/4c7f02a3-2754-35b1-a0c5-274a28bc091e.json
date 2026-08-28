@@ -44,6 +44,8 @@
       "minecraft:savanna_plateau": "2026-08-23 23:11:48 +0100",
       "minecraft:beach": "2026-08-23 15:13:23 +0100",
       "minecraft:dark_forest": "2026-08-23 23:02:45 +0100",
+      "minecraft:stony_peaks": "2026-08-28 17:26:19 +0100",
+      "minecraft:sparse_jungle": "2026-08-28 17:24:12 +0100",
       "minecraft:river": "2026-08-22 21:16:17 +0100",
       "minecraft:lukewarm_ocean": "2026-08-23 16:54:09 +0100",
       "minecraft:snowy_plains": "2026-08-22 21:16:32 +0100",
@@ -10383,6 +10385,7 @@
       "ancient_azure_ball": "2026-08-23 23:58:27 +0100",
       "ancient_ivory_ball": "2026-08-24 00:09:56 +0100",
       "roseate_ball": "2026-08-23 18:08:57 +0100",
+      "lure_ball": "2026-08-28 17:23:05 +0100",
       "friend_ball": "2026-08-23 18:49:10 +0100",
       "ancient_roseate_ball": "2026-08-24 00:56:05 +0100",
       "premier_ball": "2026-08-23 19:38:26 +0100",
@@ -25758,6 +25761,7 @@
   },
   "cobblemon:craft_apricorn_balls": {
     "criteria": {
+      "lure_ball": "2026-08-28 17:23:05 +0100",
       "level_ball": "2026-08-24 15:50:09 +0100",
       "friend_ball": "2026-08-23 18:49:10 +0100",
       "moon_ball": "2026-08-23 18:50:36 +0100",
@@ -25765,7 +25769,7 @@
       "love_ball": "2026-08-23 17:44:52 +0100",
       "fast_ball": "2026-08-25 18:23:53 +0100"
     },
-    "done": false
+    "done": true
   },
   "lootr:pot_opened": {
     "criteria": {
@@ -26341,15 +26345,21 @@
     },
     "done": true
   },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2026-08-27 04:20:32 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_stripped_oak_log": "2026-08-27 05:00:25 +0100"
     },
     "done": true
   },
-  "minecraft:nether/create_beacon": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "beacon": "2026-08-27 04:20:32 +0100"
+      "lava_bucket": "2026-08-28 17:54:57 +0100"
     },
     "done": true
   },
