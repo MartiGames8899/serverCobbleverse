@@ -929,6 +929,7 @@
       "obtain_cheri_berry": "2026-08-23 15:40:27 +0100",
       "obtain_rowap_berry": "2026-08-23 18:50:07 +0100",
       "obtain_wiki_berry": "2026-08-25 01:46:29 +0100",
+      "obtain_chople_berry": "2026-08-29 14:45:05 +0100",
       "obtain_colbur_berry": "2026-08-23 18:49:10 +0100",
       "obtain_roseli_berry": "2026-08-23 19:02:45 +0100",
       "obtain_kasib_berry": "2026-08-23 18:50:05 +0100",
@@ -10361,6 +10362,7 @@
       "timer_ball": "2026-08-23 18:50:29 +0100",
       "moon_ball": "2026-08-23 18:50:36 +0100",
       "ancient_poke_ball": "2026-08-24 00:09:48 +0100",
+      "repeat_ball": "2026-08-29 14:50:47 +0100",
       "azure_ball": "2026-08-23 15:53:27 +0100",
       "love_ball": "2026-08-23 17:44:52 +0100",
       "net_ball": "2026-08-23 23:51:01 +0100",
@@ -25851,6 +25853,7 @@
       "lumiose_galette": "2026-08-23 19:02:53 +0100",
       "old_gateau": "2026-08-24 15:55:17 +0100",
       "pewter_crunchies": "2026-08-27 04:53:30 +0100",
+      "jubilife_muffin": "2026-08-29 14:51:08 +0100",
       "smoked_tail_curry": "2026-08-23 19:03:20 +0100",
       "lava_cookie": "2026-08-23 19:12:51 +0100"
     },
@@ -26360,6 +26363,121 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2026-08-28 17:54:57 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/red_concrete_slab_from_red_concrete_stonecutting": {
+    "criteria": {
+      "has_red_concrete": "2026-08-29 14:49:02 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/red_concrete_brick_slab_from_red_concrete_stonecutting": {
+    "criteria": {
+      "has_red_concrete": "2026-08-29 14:49:02 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/red_concrete_bricks_from_red_concrete_stonecutting": {
+    "criteria": {
+      "has_red_concrete": "2026-08-29 14:49:02 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/red_concrete_stairs_from_red_concrete_stonecutting": {
+    "criteria": {
+      "has_red_concrete": "2026-08-29 14:49:02 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/red_concrete_wall_from_red_concrete_stonecutting": {
+    "criteria": {
+      "has_red_concrete": "2026-08-29 14:49:02 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/red_concrete_panel_from_red_concrete_stonecutting": {
+    "criteria": {
+      "has_red_concrete": "2026-08-29 14:49:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2026-08-29 17:21:22 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/find_keystone": {
+    "criteria": {
+      "obtained_keystone": "2026-08-29 16:18:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-08-29 17:54:13 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/craft_mega_stones": {
+    "criteria": {
+      "salamencite": "2026-08-29 16:30:38 +0100",
+      "mega_stone": "2026-08-29 16:30:27 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:recipes/misc/aggroniite": {
+    "criteria": {
+      "has_mega_stone": "2026-08-29 16:30:27 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/craft_mega_bracelets": {
+    "criteria": {
+      "megabracelet_black": "2026-08-29 16:26:15 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/mega/find_raw_megastone": {
+    "criteria": {
+      "obtained_raw_mega_stones": "2026-08-29 16:30:27 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/hidden/all_gimmick": {
+    "criteria": {
+      "bracelets": "2026-08-29 16:26:15 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/mega/get_any_mega_bracelet": {
+    "criteria": {
+      "obtained_bracelets": "2026-08-29 16:26:15 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/craft_mega_accessories": {
+    "criteria": {
+      "mega_bracelet_black": "2026-08-29 16:26:15 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/mega/get_any_mega_stone": {
+    "criteria": {
+      "obtained_mega_stones": "2026-08-29 16:30:38 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/mega_evolve": {
+    "criteria": {
+      "mega_evo_any": "2026-08-29 16:30:55 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/find_mega_structure": {
+    "criteria": {
+      "in_mega_structure": "2026-08-29 16:17:49 +0100"
     },
     "done": true
   },

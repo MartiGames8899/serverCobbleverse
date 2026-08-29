@@ -4,36 +4,38 @@
   "starterLocked": false,
   "starterSelected": true,
   "starterUUID": "0cc93751-06fe-477c-b496-1bd9613dc445",
-  "keyItems": [],
+  "keyItems": [
+    "cobblemon:key_stone"
+  ],
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 58,
+    "totalCaptureCount": 62,
     "totalEggsCollected": 0,
-    "totalEggsHatched": 4,
+    "totalEggsHatched": 32,
     "totalEvolvedCount": 8,
-    "totalBattleVictoryCount": 222,
+    "totalBattleVictoryCount": 238,
     "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 175,
-    "totalPvNBattleVictoryCount": 45,
-    "totalShinyCaptureCount": 4,
+    "totalPvWBattleVictoryCount": 185,
+    "totalPvNBattleVictoryCount": 51,
+    "totalShinyCaptureCount": 5,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 5,
       "fighting": 4,
-      "normal": 11,
-      "ground": 5,
+      "normal": 12,
+      "ground": 6,
       "psychic": 9,
-      "dark": 1,
+      "dark": 2,
       "water": 3,
       "steel": 12,
       "ghost": 3,
-      "dragon": 4,
+      "dragon": 5,
       "rock": 10,
       "electric": 2,
       "bug": 1,
-      "fire": 9,
-      "flying": 2,
+      "fire": 10,
+      "flying": 3,
       "grass": 2
     },
     "totalDefeatedCounts": {
@@ -79,19 +81,19 @@
       "cobblemon:golduck": 1,
       "cobblemon:araquanid": 1,
       "cobblemon:herdier": 1,
-      "cobblemon:voltorb": 3,
+      "cobblemon:voltorb": 4,
       "cobblemon:drifloon": 1,
       "cobblemon:spidops": 1,
       "cobblemon:shuppet": 1,
       "cobblemon:audino": 1,
-      "cobblemon:murkrow": 2,
+      "cobblemon:murkrow": 3,
       "cobblemon:electabuzz": 1,
       "cobblemon:buneary": 1,
       "cobblemon:galvantula": 1,
       "cobblemon:exeggcute": 1,
       "cobblemon:persian": 1,
       "cobblemon:manectric": 1,
-      "cobblemon:skitty": 1,
+      "cobblemon:skitty": 2,
       "cobblemon:purugly": 2,
       "cobblemon:glameow": 3,
       "cobblemon:raticate": 1,
@@ -113,7 +115,9 @@
       "cobblemon:druddigon": 1,
       "cobblemon:noivern": 1,
       "cobblemon:electrode": 1,
-      "cobblemon:linoone": 1
+      "cobblemon:linoone": 1,
+      "cobblemon:poliwag": 2,
+      "cobblemon:goldeen": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -276,7 +280,8 @@
       ],
       "cobblemon:gible": [
         "male",
-        "bucket-ultra-rare"
+        "bucket-ultra-rare",
+        "female"
       ],
       "cobblemon:sirfetchd": [
         "male",
@@ -323,6 +328,19 @@
       "cobblemon:kadabra": [
         "male",
         "bucket-uncommon"
+      ],
+      "cobblemon:zigzagoon": [
+        "shiny",
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:charmander": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:ironjugulis": [
+        "genderless",
+        "bucket-rare"
       ]
     }
   }

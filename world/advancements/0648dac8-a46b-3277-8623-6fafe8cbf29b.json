@@ -929,6 +929,7 @@
       "obtain_magost_berry": "2026-08-24 15:24:11 +0100",
       "obtain_belue_berry": "2026-08-20 23:33:49 +0100",
       "obtain_sitrus_berry": "2026-08-16 19:45:14 +0100",
+      "obtain_nanab_berry": "2026-08-29 16:41:31 +0100",
       "obtain_tamato_berry": "2026-08-20 23:36:44 +0100",
       "obtain_liechi_berry": "2026-08-17 12:31:12 +0100",
       "obtain_watmel_berry": "2026-08-19 23:21:10 +0100",
@@ -26476,7 +26477,8 @@
   },
   "mega_showdown:mega_showdown/z/get_all_z_move": {
     "criteria": {
-      "fairium_z": "2026-08-25 20:23:46 +0100"
+      "fairium_z": "2026-08-25 20:23:46 +0100",
+      "mewnium_z": "2026-08-29 17:19:48 +0100"
     },
     "done": false
   },
@@ -26518,7 +26520,10 @@
   },
   "mega_showdown:mega_showdown/mega/craft_mega_stones": {
     "criteria": {
-      "mega_stone": "2026-08-27 05:14:36 +0100"
+      "tyranitarite": "2026-08-29 17:09:54 +0100",
+      "mewtwonite_y": "2026-08-29 16:29:49 +0100",
+      "mega_stone": "2026-08-27 05:14:36 +0100",
+      "charizardite_x": "2026-08-29 17:10:33 +0100"
     },
     "done": false
   },
@@ -26543,6 +26548,54 @@
   "sophisticatedbackpacks:recipes/misc/advanced_compacting_upgrade": {
     "criteria": {
       "has_compacting_upgrade": "2026-08-28 22:32:30 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/find_keystone": {
+    "criteria": {
+      "obtained_keystone": "2026-08-29 16:25:41 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/craft_mega_bracelets": {
+    "criteria": {
+      "megabracelet_black": "2026-08-29 16:29:15 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/hidden/all_gimmick": {
+    "criteria": {
+      "bracelets": "2026-08-29 16:29:15 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/mega/get_any_mega_bracelet": {
+    "criteria": {
+      "obtained_bracelets": "2026-08-29 16:29:15 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/craft_mega_accessories": {
+    "criteria": {
+      "mega_bracelet_black": "2026-08-29 16:29:15 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/mega/get_any_mega_stone": {
+    "criteria": {
+      "obtained_mega_stones": "2026-08-29 16:29:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2026-08-29 14:57:32 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/mega_evolve": {
+    "criteria": {
+      "mega_evo_any": "2026-08-29 16:29:56 +0100"
     },
     "done": true
   },
