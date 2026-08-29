@@ -10,13 +10,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 84,
+    "totalCaptureCount": 88,
     "totalEggsCollected": 1,
-    "totalEggsHatched": 922,
+    "totalEggsHatched": 986,
     "totalEvolvedCount": 22,
-    "totalBattleVictoryCount": 955,
+    "totalBattleVictoryCount": 959,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 824,
+    "totalPvWBattleVictoryCount": 828,
     "totalPvNBattleVictoryCount": 131,
     "totalShinyCaptureCount": 32,
     "totalTradedCount": 0,
@@ -30,8 +30,8 @@
       "poison": 12,
       "psychic": 3,
       "fairy": 9,
-      "electric": 2,
-      "normal": 11,
+      "electric": 3,
+      "normal": 14,
       "dark": 5,
       "ghost": 7,
       "fighting": 8,
@@ -292,7 +292,8 @@
       "cobblemon:vivillon": 1,
       "cobblemon:perrserker": 1,
       "cobblemon:swinub": 3,
-      "cobblemon:boltund": 1
+      "cobblemon:boltund": 1,
+      "cobblemon:corphish": 1
     },
     "aspectsCollected": {
       "cobblemon:frogadier": [
@@ -615,6 +616,15 @@
       "cobblemon:grimer": [
         "male",
         "bucket-uncommon"
+      ],
+      "cobblemon:mareep": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:wooloo": [
+        "male",
+        "bucket-common",
+        "color-none"
       ]
     }
   }

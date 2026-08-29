@@ -26402,9 +26402,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/fishy_business": {
+  "mega_showdown:mega_showdown/mega/find_mega_structure": {
     "criteria": {
-      "salmon": "2026-08-29 17:21:22 +0100"
+      "in_mega_structure": "2026-08-29 16:17:49 +0100"
     },
     "done": true
   },
@@ -26414,36 +26414,11 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-08-29 17:54:13 +0100"
-    },
-    "done": true
-  },
-  "mega_showdown:mega_showdown/mega/craft_mega_stones": {
-    "criteria": {
-      "salamencite": "2026-08-29 16:30:38 +0100",
-      "mega_stone": "2026-08-29 16:30:27 +0100"
-    },
-    "done": false
-  },
-  "mega_showdown:recipes/misc/aggroniite": {
-    "criteria": {
-      "has_mega_stone": "2026-08-29 16:30:27 +0100"
-    },
-    "done": true
-  },
   "mega_showdown:mega_showdown/mega/craft_mega_bracelets": {
     "criteria": {
       "megabracelet_black": "2026-08-29 16:26:15 +0100"
     },
     "done": false
-  },
-  "mega_showdown:mega_showdown/mega/find_raw_megastone": {
-    "criteria": {
-      "obtained_raw_mega_stones": "2026-08-29 16:30:27 +0100"
-    },
-    "done": true
   },
   "mega_showdown:mega_showdown/hidden/all_gimmick": {
     "criteria": {
@@ -26463,6 +26438,25 @@
     },
     "done": false
   },
+  "mega_showdown:mega_showdown/mega/craft_mega_stones": {
+    "criteria": {
+      "salamencite": "2026-08-29 16:30:38 +0100",
+      "mega_stone": "2026-08-29 16:30:27 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:recipes/misc/aggroniite": {
+    "criteria": {
+      "has_mega_stone": "2026-08-29 16:30:27 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/mega/find_raw_megastone": {
+    "criteria": {
+      "obtained_raw_mega_stones": "2026-08-29 16:30:27 +0100"
+    },
+    "done": true
+  },
   "mega_showdown:mega_showdown/mega/get_any_mega_stone": {
     "criteria": {
       "obtained_mega_stones": "2026-08-29 16:30:38 +0100"
@@ -26475,9 +26469,15 @@
     },
     "done": true
   },
-  "mega_showdown:mega_showdown/mega/find_mega_structure": {
+  "minecraft:husbandry/fishy_business": {
     "criteria": {
-      "in_mega_structure": "2026-08-29 16:17:49 +0100"
+      "salmon": "2026-08-29 17:21:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-08-29 17:54:13 +0100"
     },
     "done": true
   },

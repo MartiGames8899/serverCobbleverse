@@ -26551,6 +26551,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2026-08-29 14:57:32 +0100"
+    },
+    "done": true
+  },
   "mega_showdown:mega_showdown/mega/find_keystone": {
     "criteria": {
       "obtained_keystone": "2026-08-29 16:25:41 +0100"
@@ -26584,12 +26590,6 @@
   "mega_showdown:mega_showdown/mega/get_any_mega_stone": {
     "criteria": {
       "obtained_mega_stones": "2026-08-29 16:29:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2026-08-29 14:57:32 +0100"
     },
     "done": true
   },
