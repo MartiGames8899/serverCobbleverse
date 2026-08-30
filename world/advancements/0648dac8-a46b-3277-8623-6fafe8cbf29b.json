@@ -13,34 +13,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2026-08-19 23:04:56 +0100",
       "minecraft:snowy_slopes": "2026-08-17 03:41:33 +0100",
       "minecraft:old_growth_pine_taiga": "2026-08-20 15:55:13 +0100",
       "minecraft:mushroom_fields": "2026-08-20 19:12:14 +0100",
-      "minecraft:forest": "2026-08-16 19:57:30 +0100",
       "minecraft:taiga": "2026-08-16 20:09:43 +0100",
-      "minecraft:lush_caves": "2026-08-27 17:21:17 +0100",
-      "minecraft:deep_cold_ocean": "2026-08-19 23:13:40 +0100",
-      "minecraft:ice_spikes": "2026-08-19 22:23:39 +0100",
-      "minecraft:frozen_ocean": "2026-08-19 23:11:47 +0100",
       "minecraft:eroded_badlands": "2026-08-24 01:18:24 +0100",
-      "minecraft:desert": "2026-08-24 03:34:28 +0100",
       "minecraft:frozen_river": "2026-08-19 22:03:53 +0100",
-      "minecraft:deep_frozen_ocean": "2026-08-19 23:12:11 +0100",
-      "minecraft:windswept_forest": "2026-08-20 01:39:37 +0100",
-      "minecraft:jungle": "2026-08-17 03:21:40 +0100",
-      "minecraft:ocean": "2026-08-17 17:57:52 +0100",
       "minecraft:sunflower_plains": "2026-08-17 03:58:51 +0100",
       "minecraft:cherry_grove": "2026-08-19 23:21:55 +0100",
       "minecraft:birch_forest": "2026-08-16 20:02:06 +0100",
       "minecraft:windswept_hills": "2026-08-19 22:39:05 +0100",
-      "minecraft:old_growth_spruce_taiga": "2026-08-19 23:07:16 +0100",
-      "minecraft:snowy_beach": "2026-08-19 22:29:32 +0100",
       "minecraft:bamboo_jungle": "2026-08-16 21:55:44 +0100",
       "minecraft:wooded_badlands": "2026-08-24 03:34:47 +0100",
-      "minecraft:deep_lukewarm_ocean": "2026-08-17 03:28:27 +0100",
       "minecraft:badlands": "2026-08-23 17:21:59 +0100",
-      "minecraft:flower_forest": "2026-08-17 03:59:52 +0100",
       "minecraft:savanna_plateau": "2026-08-17 03:33:23 +0100",
       "minecraft:beach": "2026-08-16 19:37:45 +0100",
       "minecraft:dark_forest": "2026-08-16 21:42:19 +0100",
@@ -52,15 +37,31 @@
       "minecraft:stony_shore": "2026-08-17 03:27:40 +0100",
       "minecraft:dripstone_caves": "2026-08-17 21:19:51 +0100",
       "minecraft:snowy_taiga": "2026-08-19 23:09:59 +0100",
+      "minecraft:swamp": "2026-08-19 22:39:55 +0100",
+      "minecraft:jagged_peaks": "2026-08-21 01:52:08 +0100",
+      "minecraft:cold_ocean": "2026-08-19 23:04:56 +0100",
+      "minecraft:forest": "2026-08-16 19:57:30 +0100",
+      "minecraft:lush_caves": "2026-08-27 17:21:17 +0100",
+      "minecraft:deep_cold_ocean": "2026-08-19 23:13:40 +0100",
+      "minecraft:ice_spikes": "2026-08-19 22:23:39 +0100",
+      "minecraft:frozen_ocean": "2026-08-19 23:11:47 +0100",
+      "minecraft:desert": "2026-08-24 03:34:28 +0100",
+      "minecraft:deep_frozen_ocean": "2026-08-19 23:12:11 +0100",
+      "minecraft:windswept_forest": "2026-08-20 01:39:37 +0100",
+      "minecraft:jungle": "2026-08-17 03:21:40 +0100",
+      "minecraft:ocean": "2026-08-17 17:57:52 +0100",
+      "minecraft:old_growth_spruce_taiga": "2026-08-19 23:07:16 +0100",
+      "minecraft:snowy_beach": "2026-08-19 22:29:32 +0100",
+      "minecraft:warm_ocean": "2026-08-30 18:47:04 +0100",
+      "minecraft:deep_lukewarm_ocean": "2026-08-17 03:28:27 +0100",
+      "minecraft:flower_forest": "2026-08-17 03:59:52 +0100",
       "minecraft:frozen_peaks": "2026-08-17 03:41:32 +0100",
       "minecraft:old_growth_birch_forest": "2026-08-16 21:40:53 +0100",
       "minecraft:deep_dark": "2026-08-17 22:25:10 +0100",
-      "minecraft:swamp": "2026-08-19 22:39:55 +0100",
       "minecraft:meadow": "2026-08-16 20:07:23 +0100",
       "minecraft:windswept_gravelly_hills": "2026-08-19 23:06:10 +0100",
       "minecraft:savanna": "2026-08-17 03:31:11 +0100",
-      "minecraft:plains": "2026-08-16 19:29:19 +0100",
-      "minecraft:jagged_peaks": "2026-08-21 01:52:08 +0100"
+      "minecraft:plains": "2026-08-16 19:29:19 +0100"
     },
     "done": false
   },
@@ -25778,17 +25779,18 @@
   },
   "cobblemon:brew_all": {
     "criteria": {
+      "obtain_awakening": "2026-08-17 03:26:46 +0100",
+      "obtain_paralyze_heal": "2026-08-17 04:01:34 +0100",
+      "obtain_hyper_potion": "2026-08-19 17:54:53 +0100",
+      "obtain_super_potion": "2026-08-20 20:21:35 +0100",
+      "obtain_max_potion": "2026-08-30 17:56:34 +0100",
       "obtain_full_heal": "2026-08-19 23:16:59 +0100",
       "obtain_ice_heal": "2026-08-19 17:54:56 +0100",
       "obtain_burn_heal": "2026-08-17 10:42:54 +0100",
       "obtain_potion": "2026-08-17 11:01:27 +0100",
-      "obtain_awakening": "2026-08-17 03:26:46 +0100",
       "obtain_antidote": "2026-08-17 10:54:03 +0100",
-      "obtain_paralyze_heal": "2026-08-17 04:01:34 +0100",
       "obtain_full_restore": "2026-08-20 22:59:07 +0100",
       "obtain_elixir": "2026-08-21 00:39:16 +0100",
-      "obtain_hyper_potion": "2026-08-19 17:54:53 +0100",
-      "obtain_super_potion": "2026-08-20 20:21:35 +0100",
       "obtain_ether": "2026-08-21 00:38:45 +0100"
     },
     "done": false
@@ -26602,6 +26604,50 @@
   "cobblemon:first_battle_victory": {
     "criteria": {
       "win": "2026-08-30 04:35:17 +0100"
+    },
+    "done": true
+  },
+  "cobblemonraiddens:great_friend": {
+    "criteria": {
+      "attack_cheer": "2026-08-30 18:00:06 +0100",
+      "defense_cheer": "2026-08-30 17:57:56 +0100",
+      "heal_cheer": "2026-08-30 17:57:13 +0100"
+    },
+    "done": true
+  },
+  "cobblemonraiddens:tier_five": {
+    "criteria": {
+      "completed_tier_five": "2026-08-30 18:01:22 +0100"
+    },
+    "done": true
+  },
+  "cobblemonraiddens:raid_dynamax": {
+    "criteria": {
+      "completed_dynamax": "2026-08-30 18:01:22 +0100"
+    },
+    "done": true
+  },
+  "lootr:1frame": {
+    "criteria": {
+      "looted_frame": "2026-08-30 18:47:17 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2026-08-30 19:08:28 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_pickup_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2026-08-30 19:08:28 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_magnet_upgrade_from_basic": {
+    "criteria": {
+      "has_magnet_upgrade": "2026-08-30 19:08:57 +0100"
     },
     "done": true
   },

@@ -10,31 +10,31 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 72,
+    "totalCaptureCount": 82,
     "totalEggsCollected": 0,
-    "totalEggsHatched": 32,
-    "totalEvolvedCount": 10,
-    "totalBattleVictoryCount": 313,
+    "totalEggsHatched": 56,
+    "totalEvolvedCount": 14,
+    "totalBattleVictoryCount": 324,
     "totalPvPBattleVictoryCount": 4,
-    "totalPvWBattleVictoryCount": 258,
-    "totalPvNBattleVictoryCount": 51,
+    "totalPvWBattleVictoryCount": 268,
+    "totalPvNBattleVictoryCount": 52,
     "totalShinyCaptureCount": 5,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 5,
-      "fighting": 4,
-      "normal": 13,
-      "ground": 6,
-      "psychic": 9,
+      "fighting": 6,
+      "normal": 15,
+      "ground": 7,
+      "psychic": 10,
       "dark": 2,
       "water": 3,
       "steel": 12,
-      "ghost": 3,
-      "dragon": 5,
+      "ghost": 4,
+      "dragon": 6,
       "rock": 10,
-      "electric": 3,
+      "electric": 4,
       "bug": 9,
-      "fire": 10,
+      "fire": 14,
       "flying": 11,
       "grass": 2
     },
@@ -86,7 +86,7 @@
       "cobblemon:spidops": 1,
       "cobblemon:shuppet": 1,
       "cobblemon:audino": 1,
-      "cobblemon:murkrow": 3,
+      "cobblemon:murkrow": 4,
       "cobblemon:electabuzz": 1,
       "cobblemon:buneary": 1,
       "cobblemon:galvantula": 1,
@@ -289,7 +289,9 @@
       ],
       "cobblemon:abra": [
         "male",
-        "bucket-uncommon"
+        "bucket-uncommon",
+        "female",
+        "bucket-rare"
       ],
       "cobblemon:scorbunny": [
         "male",
@@ -384,6 +386,51 @@
       "cobblemon:pachirisu": [
         "male",
         "bucket-uncommon"
+      ],
+      "cobblemon:minun": [
+        "female",
+        "bucket-uncommon"
+      ],
+      "cobblemon:lickitung": [
+        "male",
+        "bucket-uncommon"
+      ],
+      "cobblemon:quilava": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:tepig": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:cyndaquil": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:pignite": [
+        "female",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:happiny": [
+        "female",
+        "bucket-rare"
+      ],
+      "cobblemon:vespiquen": [
+        "female",
+        "bucket-common",
+        "bucket-"
+      ],
+      "cobblemon:chansey": [
+        "female",
+        "bucket-rare"
+      ],
+      "cobblemon:blissey": [
+        "female",
+        "bucket-rare"
+      ],
+      "cobblemon:marshadow": [
+        "genderless",
+        "bucket-ultra-rare"
       ]
     }
   }
