@@ -26505,15 +26505,15 @@
     },
     "done": true
   },
-  "cobblemon:recipes/campfire_pot/weak_candy": {
-    "criteria": {
-      "has_berry": "2026-08-30 03:39:24 +0100"
-    },
-    "done": false
-  },
   "cobblemon:recipes/campfire_pot/slow_candy": {
     "criteria": {
       "has_berry": "2026-08-30 03:38:17 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/campfire_pot/weak_candy": {
+    "criteria": {
+      "has_berry": "2026-08-30 03:39:24 +0100"
     },
     "done": false
   },
