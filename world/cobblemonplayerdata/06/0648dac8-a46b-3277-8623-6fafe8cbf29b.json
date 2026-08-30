@@ -10,34 +10,35 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 88,
+    "totalCaptureCount": 98,
     "totalEggsCollected": 1,
-    "totalEggsHatched": 986,
-    "totalEvolvedCount": 22,
-    "totalBattleVictoryCount": 959,
-    "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 828,
+    "totalEggsHatched": 1100,
+    "totalEvolvedCount": 27,
+    "totalBattleVictoryCount": 973,
+    "totalPvPBattleVictoryCount": 2,
+    "totalPvWBattleVictoryCount": 840,
     "totalPvNBattleVictoryCount": 131,
-    "totalShinyCaptureCount": 32,
+    "totalShinyCaptureCount": 35,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "rock": 7,
       "ground": 6,
-      "bug": 8,
+      "bug": 14,
       "fire": 12,
       "grass": 4,
-      "water": 12,
+      "water": 13,
       "poison": 12,
       "psychic": 3,
       "fairy": 9,
       "electric": 3,
-      "normal": 14,
+      "normal": 16,
       "dark": 5,
-      "ghost": 7,
+      "ghost": 8,
       "fighting": 8,
-      "flying": 5,
+      "flying": 12,
       "dragon": 4,
-      "steel": 2
+      "steel": 2,
+      "ice": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:taillow": 4,
@@ -71,7 +72,7 @@
       "cobblemon:ledyba": 2,
       "cobblemon:sewaddle": 9,
       "cobblemon:weedle": 5,
-      "cobblemon:gimmighoul": 15,
+      "cobblemon:gimmighoul": 16,
       "cobblemon:kricketune": 1,
       "cobblemon:metapod": 2,
       "cobblemon:kakuna": 1,
@@ -114,7 +115,7 @@
       "cobblemon:mudbray": 3,
       "cobblemon:bouffalant": 15,
       "cobblemon:electabuzz": 1,
-      "cobblemon:basculin": 13,
+      "cobblemon:basculin": 14,
       "cobblemon:froakie": 1,
       "cobblemon:goldeen": 3,
       "cobblemon:psyduck": 7,
@@ -162,7 +163,7 @@
       "cobblemon:squawkabilly": 2,
       "cobblemon:honchkrow": 2,
       "cobblemon:haunter": 11,
-      "cobblemon:gastly": 62,
+      "cobblemon:gastly": 63,
       "cobblemon:tauros": 2,
       "cobblemon:dubwool": 2,
       "cobblemon:banette": 2,
@@ -534,7 +535,8 @@
       ],
       "cobblemon:combee": [
         "male",
-        "bucket-common"
+        "bucket-common",
+        "female"
       ],
       "cobblemon:gastly": [
         "shiny",
@@ -624,7 +626,27 @@
       "cobblemon:wooloo": [
         "male",
         "bucket-common",
-        "color-none"
+        "color-none",
+        "female"
+      ],
+      "cobblemon:vespiquen": [
+        "female",
+        "bucket-common"
+      ],
+      "cobblemon:pidgey": [
+        "shiny",
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:dubwool": [
+        "male",
+        "bucket-common",
+        "color-none",
+        "female"
+      ],
+      "cobblemon:lapras": [
+        "female",
+        "bucket-ultra-rare"
       ]
     }
   }

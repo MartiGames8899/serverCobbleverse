@@ -10,20 +10,20 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 62,
+    "totalCaptureCount": 72,
     "totalEggsCollected": 0,
     "totalEggsHatched": 32,
-    "totalEvolvedCount": 8,
-    "totalBattleVictoryCount": 238,
-    "totalPvPBattleVictoryCount": 2,
-    "totalPvWBattleVictoryCount": 185,
+    "totalEvolvedCount": 10,
+    "totalBattleVictoryCount": 312,
+    "totalPvPBattleVictoryCount": 4,
+    "totalPvWBattleVictoryCount": 257,
     "totalPvNBattleVictoryCount": 51,
     "totalShinyCaptureCount": 5,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 5,
       "fighting": 4,
-      "normal": 12,
+      "normal": 13,
       "ground": 6,
       "psychic": 9,
       "dark": 2,
@@ -32,16 +32,16 @@
       "ghost": 3,
       "dragon": 5,
       "rock": 10,
-      "electric": 2,
-      "bug": 1,
+      "electric": 3,
+      "bug": 9,
       "fire": 10,
-      "flying": 3,
+      "flying": 11,
       "grass": 2
     },
     "totalDefeatedCounts": {
       "cobblemon:mareep": 2,
       "cobblemon:zigzagoon": 1,
-      "cobblemon:lechonk": 1,
+      "cobblemon:lechonk": 4,
       "cobblemon:purrloin": 1,
       "cobblemon:fidough": 1,
       "cobblemon:drilbur": 1,
@@ -64,13 +64,13 @@
       "cobblemon:aron": 2,
       "cobblemon:boldore": 1,
       "cobblemon:floatzel": 1,
-      "cobblemon:claydol": 1,
+      "cobblemon:claydol": 2,
       "cobblemon:lillipup": 2,
       "cobblemon:klink": 1,
       "cobblemon:maractus": 1,
       "cobblemon:sigilyph": 2,
       "cobblemon:lickilicky": 1,
-      "cobblemon:ponyta": 2,
+      "cobblemon:ponyta": 3,
       "cobblemon:granbull": 1,
       "cobblemon:gurdurr": 2,
       "cobblemon:musharna": 2,
@@ -93,18 +93,18 @@
       "cobblemon:exeggcute": 1,
       "cobblemon:persian": 1,
       "cobblemon:manectric": 1,
-      "cobblemon:skitty": 2,
+      "cobblemon:skitty": 3,
       "cobblemon:purugly": 2,
       "cobblemon:glameow": 3,
       "cobblemon:raticate": 1,
       "cobblemon:mabosstiff": 1,
-      "cobblemon:yamper": 1,
+      "cobblemon:yamper": 5,
       "cobblemon:minccino": 1,
-      "cobblemon:wooloo": 1,
+      "cobblemon:wooloo": 3,
       "cobblemon:snubbull": 1,
       "cobblemon:rapidash": 1,
       "cobblemon:breloom": 1,
-      "cobblemon:foongus": 1,
+      "cobblemon:foongus": 2,
       "cobblemon:indeedee": 1,
       "cobblemon:vivillon": 1,
       "cobblemon:magby": 1,
@@ -117,7 +117,31 @@
       "cobblemon:electrode": 1,
       "cobblemon:linoone": 1,
       "cobblemon:poliwag": 2,
-      "cobblemon:goldeen": 1
+      "cobblemon:goldeen": 1,
+      "cobblemon:klefki": 4,
+      "cobblemon:miltank": 1,
+      "cobblemon:stonjourner": 2,
+      "cobblemon:mareanie": 3,
+      "cobblemon:metapod": 2,
+      "cobblemon:kricketot": 5,
+      "cobblemon:seedot": 2,
+      "cobblemon:tarountula": 2,
+      "cobblemon:cascoon": 1,
+      "cobblemon:koffing": 2,
+      "cobblemon:poliwhirl": 1,
+      "cobblemon:kakuna": 1,
+      "cobblemon:parasect": 1,
+      "cobblemon:dustox": 1,
+      "cobblemon:skwovet": 3,
+      "cobblemon:hoothoot": 1,
+      "cobblemon:azurill": 1,
+      "cobblemon:delcatty": 1,
+      "cobblemon:happiny": 1,
+      "cobblemon:marill": 7,
+      "cobblemon:shroomish": 4,
+      "cobblemon:munchlax": 1,
+      "cobblemon:spritzee": 1,
+      "cobblemon:venonat": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -289,7 +313,8 @@
       ],
       "cobblemon:ditto": [
         "genderless",
-        "bucket-ultra-rare"
+        "bucket-ultra-rare",
+        "bucket-rare"
       ],
       "cobblemon:kirlia": [
         "male",
@@ -341,6 +366,23 @@
       "cobblemon:ironjugulis": [
         "genderless",
         "bucket-rare"
+      ],
+      "cobblemon:lairon": [
+        "female",
+        "bucket-"
+      ],
+      "cobblemon:aggron": [
+        "female",
+        "bucket-"
+      ],
+      "cobblemon:combee": [
+        "male",
+        "bucket-common",
+        "female"
+      ],
+      "cobblemon:pachirisu": [
+        "male",
+        "bucket-uncommon"
       ]
     }
   }

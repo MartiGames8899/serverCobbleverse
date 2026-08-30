@@ -906,6 +906,7 @@
     "criteria": {
       "obtain_lansat_berry": "2026-08-23 18:50:06 +0100",
       "obtain_pinap_berry": "2026-08-24 00:13:59 +0100",
+      "obtain_kelpsy_berry": "2026-08-30 03:39:24 +0100",
       "obtain_eggant_berry": "2026-08-24 15:52:39 +0100",
       "obtain_pomeg_berry": "2026-08-25 18:46:03 +0100",
       "obtain_touga_berry": "2026-08-25 01:43:13 +0100",
@@ -919,7 +920,10 @@
       "obtain_ganlon_berry": "2026-08-23 18:50:04 +0100",
       "obtain_rawst_berry": "2026-08-23 18:50:04 +0100",
       "obtain_kebia_berry": "2026-08-23 16:29:54 +0100",
+      "obtain_aspear_berry": "2026-08-30 03:37:46 +0100",
       "obtain_razz_berry": "2026-08-24 00:56:11 +0100",
+      "obtain_nanab_berry": "2026-08-30 03:38:07 +0100",
+      "obtain_tamato_berry": "2026-08-30 03:38:17 +0100",
       "obtain_oran_berry": "2026-08-22 21:13:04 +0100",
       "obtain_bluk_berry": "2026-08-23 18:28:54 +0100",
       "obtain_haban_berry": "2026-08-27 04:06:28 +0100",
@@ -10365,10 +10369,12 @@
       "repeat_ball": "2026-08-29 14:50:47 +0100",
       "azure_ball": "2026-08-23 15:53:27 +0100",
       "love_ball": "2026-08-23 17:44:52 +0100",
+      "ancient_jet_ball": "2026-08-30 03:38:08 +0100",
       "net_ball": "2026-08-23 23:51:01 +0100",
       "dive_ball": "2026-08-23 15:13:03 +0100",
       "ancient_citrine_ball": "2026-08-23 23:51:11 +0100",
       "level_ball": "2026-08-24 15:50:09 +0100",
+      "ancient_slate_ball": "2026-08-30 03:05:44 +0100",
       "sport_ball": "2026-08-23 23:43:42 +0100",
       "safari_ball": "2026-08-23 19:13:27 +0100",
       "heavy_ball": "2026-08-23 19:13:27 +0100",
@@ -25700,6 +25706,7 @@
       "obtain_awakening": "2026-08-23 15:53:28 +0100",
       "obtain_antidote": "2026-08-23 17:44:17 +0100",
       "obtain_paralyze_heal": "2026-08-23 17:47:40 +0100",
+      "obtain_full_restore": "2026-08-30 03:37:54 +0100",
       "obtain_elixir": "2026-08-24 00:56:06 +0100",
       "obtain_hyper_potion": "2026-08-23 17:46:03 +0100",
       "obtain_super_potion": "2026-08-23 17:44:16 +0100",
@@ -25832,16 +25839,18 @@
   },
   "cobblemon:craft_ancient_balls": {
     "criteria": {
-      "ancient_ivory_ball": "2026-08-24 00:09:56 +0100",
       "ancient_gigaton_ball": "2026-08-23 18:59:59 +0100",
-      "ancient_citrine_ball": "2026-08-23 23:51:11 +0100",
       "ancient_wing_ball": "2026-08-23 18:51:01 +0100",
       "ancient_leaden_ball": "2026-08-23 23:52:00 +0100",
       "ancient_verdant_ball": "2026-08-23 18:59:58 +0100",
       "ancient_feather_ball": "2026-08-23 19:02:49 +0100",
-      "ancient_roseate_ball": "2026-08-24 00:56:05 +0100",
       "ancient_poke_ball": "2026-08-24 00:09:48 +0100",
       "ancient_azure_ball": "2026-08-23 23:58:27 +0100",
+      "ancient_jet_ball": "2026-08-30 03:38:08 +0100",
+      "ancient_ivory_ball": "2026-08-24 00:09:56 +0100",
+      "ancient_citrine_ball": "2026-08-23 23:51:11 +0100",
+      "ancient_slate_ball": "2026-08-30 03:05:44 +0100",
+      "ancient_roseate_ball": "2026-08-24 00:56:05 +0100",
       "ancient_heavy_ball": "2026-08-26 01:06:27 +0100"
     },
     "done": false
@@ -25867,9 +25876,10 @@
   },
   "cobblemon:recipes/campfire_pot/quick_candy": {
     "criteria": {
-      "has_honeycomb": "2026-08-23 18:59:54 +0100"
+      "has_honeycomb": "2026-08-23 18:59:54 +0100",
+      "has_berry": "2026-08-30 03:38:17 +0100"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/campfire_pot/smart_candy": {
     "criteria": {
@@ -25893,9 +25903,10 @@
   },
   "cobblemon:recipes/campfire_pot/mighty_candy": {
     "criteria": {
-      "has_honeycomb": "2026-08-23 18:59:54 +0100"
+      "has_honeycomb": "2026-08-23 18:59:54 +0100",
+      "has_berry": "2026-08-30 03:39:24 +0100"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/campfire_pot/tough_candy": {
     "criteria": {
@@ -26441,7 +26452,8 @@
   "mega_showdown:mega_showdown/mega/craft_mega_stones": {
     "criteria": {
       "salamencite": "2026-08-29 16:30:38 +0100",
-      "mega_stone": "2026-08-29 16:30:27 +0100"
+      "mega_stone": "2026-08-29 16:30:27 +0100",
+      "aggronite": "2026-08-30 04:04:11 +0100"
     },
     "done": false
   },
@@ -26478,6 +26490,42 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2026-08-29 17:54:13 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_leek": {
+    "criteria": {
+      "check_inv": "2026-08-30 03:37:22 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:brew_full_restore": {
+    "criteria": {
+      "check_inv": "2026-08-30 03:37:54 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/campfire_pot/weak_candy": {
+    "criteria": {
+      "has_berry": "2026-08-30 03:39:24 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/campfire_pot/slow_candy": {
+    "criteria": {
+      "has_berry": "2026-08-30 03:38:17 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:place_campfire_pot": {
+    "criteria": {
+      "place_pot": "2026-08-30 03:47:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-08-30 03:57:34 +0100"
     },
     "done": true
   },
