@@ -14,9 +14,9 @@
     "totalEggsCollected": 0,
     "totalEggsHatched": 56,
     "totalEvolvedCount": 14,
-    "totalBattleVictoryCount": 327,
+    "totalBattleVictoryCount": 331,
     "totalPvPBattleVictoryCount": 4,
-    "totalPvWBattleVictoryCount": 271,
+    "totalPvWBattleVictoryCount": 275,
     "totalPvNBattleVictoryCount": 52,
     "totalShinyCaptureCount": 5,
     "totalTradedCount": 2,
@@ -143,7 +143,11 @@
       "cobblemon:spritzee": 1,
       "cobblemon:venonat": 1,
       "cobblemon:munna": 1,
-      "cobblemon:basculin": 1
+      "cobblemon:basculin": 1,
+      "cobblemon:unown": 1,
+      "cobblemon:porygon": 1,
+      "cobblemon:taillow": 1,
+      "cobblemon:pawmi": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
