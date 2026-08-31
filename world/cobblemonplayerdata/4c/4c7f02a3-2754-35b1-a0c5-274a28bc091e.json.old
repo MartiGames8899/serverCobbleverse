@@ -10,16 +10,16 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 82,
+    "totalCaptureCount": 84,
     "totalEggsCollected": 0,
     "totalEggsHatched": 56,
     "totalEvolvedCount": 14,
-    "totalBattleVictoryCount": 324,
+    "totalBattleVictoryCount": 327,
     "totalPvPBattleVictoryCount": 4,
-    "totalPvWBattleVictoryCount": 268,
+    "totalPvWBattleVictoryCount": 271,
     "totalPvNBattleVictoryCount": 52,
     "totalShinyCaptureCount": 5,
-    "totalTradedCount": 0,
+    "totalTradedCount": 2,
     "totalTypeCaptureCounts": {
       "fairy": 5,
       "fighting": 6,
@@ -29,7 +29,7 @@
       "dark": 2,
       "water": 3,
       "steel": 12,
-      "ghost": 4,
+      "ghost": 6,
       "dragon": 6,
       "rock": 10,
       "electric": 4,
@@ -142,7 +142,8 @@
       "cobblemon:munchlax": 1,
       "cobblemon:spritzee": 1,
       "cobblemon:venonat": 1,
-      "cobblemon:munna": 1
+      "cobblemon:munna": 1,
+      "cobblemon:basculin": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -430,6 +431,10 @@
       ],
       "cobblemon:marshadow": [
         "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:blastoise": [
+        "male",
         "bucket-ultra-rare"
       ]
     }

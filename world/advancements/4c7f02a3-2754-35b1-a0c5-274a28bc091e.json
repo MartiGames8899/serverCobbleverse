@@ -28,6 +28,7 @@
       "minecraft:frozen_river": "2026-08-22 21:16:49 +0100",
       "minecraft:windswept_forest": "2026-08-24 00:25:58 +0100",
       "minecraft:ocean": "2026-08-23 16:52:53 +0100",
+      "minecraft:jungle": "2026-08-31 17:28:22 +0100",
       "minecraft:cherry_grove": "2026-08-24 15:48:32 +0100",
       "minecraft:sunflower_plains": "2026-08-25 02:52:25 +0100",
       "minecraft:birch_forest": "2026-08-23 23:00:44 +0100",
@@ -914,6 +915,7 @@
       "obtain_payapa_berry": "2026-08-23 18:10:39 +0100",
       "obtain_charti_berry": "2026-08-25 01:42:34 +0100",
       "obtain_yache_berry": "2026-08-27 04:09:10 +0100",
+      "obtain_leppa_berry": "2026-08-31 16:40:28 +0100",
       "obtain_persim_berry": "2026-08-22 21:25:36 +0100",
       "obtain_rindo_berry": "2026-08-30 17:16:14 +0100",
       "obtain_cornn_berry": "2026-08-25 01:46:27 +0100",
@@ -26564,6 +26566,12 @@
       "has_berry": "2026-08-30 21:06:50 +0100"
     },
     "done": false
+  },
+  "cobblemonraiddens:tier_six": {
+    "criteria": {
+      "completed_tier_six": "2026-08-31 17:23:10 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

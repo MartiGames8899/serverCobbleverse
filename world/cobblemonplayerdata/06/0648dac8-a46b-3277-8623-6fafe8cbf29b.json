@@ -10,16 +10,16 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 99,
+    "totalCaptureCount": 101,
     "totalEggsCollected": 2,
-    "totalEggsHatched": 1320,
-    "totalEvolvedCount": 34,
-    "totalBattleVictoryCount": 980,
+    "totalEggsHatched": 1418,
+    "totalEvolvedCount": 42,
+    "totalBattleVictoryCount": 983,
     "totalPvPBattleVictoryCount": 3,
-    "totalPvWBattleVictoryCount": 846,
+    "totalPvWBattleVictoryCount": 849,
     "totalPvNBattleVictoryCount": 131,
     "totalShinyCaptureCount": 35,
-    "totalTradedCount": 0,
+    "totalTradedCount": 2,
     "totalTypeCaptureCounts": {
       "rock": 7,
       "ground": 6,
@@ -33,7 +33,7 @@
       "electric": 3,
       "normal": 16,
       "dark": 5,
-      "ghost": 9,
+      "ghost": 11,
       "fighting": 8,
       "flying": 12,
       "dragon": 4,
@@ -53,7 +53,7 @@
       "cobblemon:timburr": 11,
       "cobblemon:meowth": 28,
       "cobblemon:wooloo": 19,
-      "cobblemon:combee": 2,
+      "cobblemon:combee": 3,
       "cobblemon:pidgey": 2,
       "cobblemon:rookidee": 2,
       "cobblemon:zigzagoon": 7,
@@ -648,6 +648,11 @@
       "cobblemon:lapras": [
         "female",
         "bucket-ultra-rare"
+      ],
+      "cobblemon:salamence": [
+        "female",
+        "bucket-",
+        "none"
       ]
     }
   }
