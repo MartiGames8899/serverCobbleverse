@@ -5,38 +5,40 @@
   "starterSelected": true,
   "starterUUID": "0cc93751-06fe-477c-b496-1bd9613dc445",
   "keyItems": [
-    "cobblemon:key_stone"
+    "cobblemon:key_stone",
+    "cobblemon:tera_orb"
   ],
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 84,
+    "totalCaptureCount": 96,
     "totalEggsCollected": 0,
-    "totalEggsHatched": 56,
+    "totalEggsHatched": 72,
     "totalEvolvedCount": 14,
-    "totalBattleVictoryCount": 331,
+    "totalBattleVictoryCount": 398,
     "totalPvPBattleVictoryCount": 4,
-    "totalPvWBattleVictoryCount": 275,
+    "totalPvWBattleVictoryCount": 342,
     "totalPvNBattleVictoryCount": 52,
-    "totalShinyCaptureCount": 5,
+    "totalShinyCaptureCount": 7,
     "totalTradedCount": 2,
     "totalTypeCaptureCounts": {
       "fairy": 5,
       "fighting": 6,
-      "normal": 15,
-      "ground": 7,
-      "psychic": 10,
+      "normal": 16,
+      "ground": 9,
+      "psychic": 14,
       "dark": 2,
-      "water": 3,
+      "water": 5,
       "steel": 12,
-      "ghost": 6,
+      "ghost": 9,
       "dragon": 6,
       "rock": 10,
-      "electric": 4,
+      "electric": 5,
       "bug": 9,
-      "fire": 14,
+      "fire": 17,
       "flying": 11,
-      "grass": 2
+      "grass": 2,
+      "ice": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:mareep": 2,
@@ -127,7 +129,7 @@
       "cobblemon:seedot": 2,
       "cobblemon:tarountula": 2,
       "cobblemon:cascoon": 1,
-      "cobblemon:koffing": 2,
+      "cobblemon:koffing": 3,
       "cobblemon:poliwhirl": 1,
       "cobblemon:kakuna": 1,
       "cobblemon:parasect": 1,
@@ -144,10 +146,15 @@
       "cobblemon:venonat": 1,
       "cobblemon:munna": 1,
       "cobblemon:basculin": 1,
-      "cobblemon:unown": 1,
-      "cobblemon:porygon": 1,
+      "cobblemon:unown": 3,
+      "cobblemon:porygon": 2,
       "cobblemon:taillow": 1,
-      "cobblemon:pawmi": 1
+      "cobblemon:pawmi": 1,
+      "cobblemon:arrokuda": 1,
+      "cobblemon:gastly": 47,
+      "cobblemon:houndoom": 1,
+      "cobblemon:magmortar": 1,
+      "cobblemon:malamar": 1
     },
     "aspectsCollected": {
       "cobblemon:snubbull": [
@@ -440,6 +447,44 @@
       "cobblemon:blastoise": [
         "male",
         "bucket-ultra-rare"
+      ],
+      "cobblemon:lapras": [
+        "female",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:delphox": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:marshtomp": [
+        "female",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:cosmoem": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:numel": [
+        "shiny",
+        "male",
+        "bucket-common"
+      ],
+      "cobblemon:crocalor": [
+        "male",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:cosmog": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:xurkitree": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:hoopa": [
+        "genderless",
+        "bucket-ultra-rare",
+        "confined"
       ]
     }
   }

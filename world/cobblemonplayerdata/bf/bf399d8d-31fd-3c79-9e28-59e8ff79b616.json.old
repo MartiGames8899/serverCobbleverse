@@ -1,0 +1,34 @@
+{
+  "uuid": "bf399d8d-31fd-3c79-9e28-59e8ff79b616",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "a46dc780-772b-4bfc-bb0a-da75ce821911",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 1,
+    "totalEggsCollected": 0,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 2,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 1,
+    "totalPvNBattleVictoryCount": 1,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "water": 1
+    },
+    "totalDefeatedCounts": {},
+    "aspectsCollected": {
+      "cobblemon:magikarp": [
+        "female",
+        "bucket-common",
+        "magikarp-jump-standard",
+        "gyarados-eye-color-red"
+      ]
+    }
+  }
+}

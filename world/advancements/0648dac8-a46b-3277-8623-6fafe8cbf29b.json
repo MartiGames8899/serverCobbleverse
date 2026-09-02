@@ -10422,6 +10422,7 @@
       "slate_ball": "2026-08-17 10:42:13 +0100",
       "ancient_verdant_ball": "2026-08-19 22:33:55 +0100",
       "ancient_feather_ball": "2026-08-16 19:43:38 +0100",
+      "beast_ball": "2026-09-02 00:18:59 +0100",
       "poke_ball": "2026-08-16 19:30:22 +0100",
       "citrine_ball": "2026-08-16 19:40:34 +0100",
       "ancient_azure_ball": "2026-08-18 15:44:11 +0100",
@@ -10434,7 +10435,7 @@
       "park_ball": "2026-08-16 19:45:54 +0100",
       "master_ball": "2026-08-25 15:44:49 +0100"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
@@ -26654,6 +26655,66 @@
   "cobblemonraiddens:tier_four": {
     "criteria": {
       "completed_tier_four": "2026-08-31 16:15:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-09-01 23:49:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-09-01 23:50:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-09-01 23:56:45 +0100"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-09-02 00:16:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-09-02 00:00:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-09-02 00:18:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-09-02 00:16:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-09-02 00:18:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2026-09-02 00:57:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-09-01 23:50:19 +0100"
     },
     "done": true
   },

@@ -10,15 +10,15 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 101,
+    "totalCaptureCount": 102,
     "totalEggsCollected": 2,
-    "totalEggsHatched": 1418,
+    "totalEggsHatched": 1432,
     "totalEvolvedCount": 42,
-    "totalBattleVictoryCount": 983,
+    "totalBattleVictoryCount": 988,
     "totalPvPBattleVictoryCount": 3,
-    "totalPvWBattleVictoryCount": 849,
+    "totalPvWBattleVictoryCount": 854,
     "totalPvNBattleVictoryCount": 131,
-    "totalShinyCaptureCount": 35,
+    "totalShinyCaptureCount": 36,
     "totalTradedCount": 2,
     "totalTypeCaptureCounts": {
       "rock": 7,
@@ -28,12 +28,12 @@
       "grass": 4,
       "water": 13,
       "poison": 12,
-      "psychic": 3,
+      "psychic": 4,
       "fairy": 9,
       "electric": 3,
       "normal": 16,
       "dark": 5,
-      "ghost": 11,
+      "ghost": 12,
       "fighting": 8,
       "flying": 12,
       "dragon": 4,
@@ -107,7 +107,7 @@
       "cobblemon:drilbur": 2,
       "cobblemon:diglett": 2,
       "cobblemon:growlithe": 3,
-      "cobblemon:munna": 2,
+      "cobblemon:munna": 3,
       "cobblemon:ledian": 3,
       "cobblemon:miltank": 6,
       "cobblemon:komala": 1,
@@ -126,7 +126,7 @@
       "cobblemon:hypno": 1,
       "cobblemon:purugly": 5,
       "cobblemon:buneary": 1,
-      "cobblemon:shuppet": 6,
+      "cobblemon:shuppet": 7,
       "cobblemon:absol": 1,
       "cobblemon:abra": 3,
       "cobblemon:herdier": 1,
@@ -163,7 +163,7 @@
       "cobblemon:squawkabilly": 2,
       "cobblemon:honchkrow": 2,
       "cobblemon:haunter": 11,
-      "cobblemon:gastly": 63,
+      "cobblemon:gastly": 64,
       "cobblemon:tauros": 2,
       "cobblemon:dubwool": 2,
       "cobblemon:banette": 2,
@@ -294,7 +294,8 @@
       "cobblemon:perrserker": 1,
       "cobblemon:swinub": 3,
       "cobblemon:boltund": 1,
-      "cobblemon:corphish": 1
+      "cobblemon:corphish": 1,
+      "cobblemon:porygon": 2
     },
     "aspectsCollected": {
       "cobblemon:frogadier": [
@@ -653,6 +654,10 @@
         "female",
         "bucket-",
         "none"
+      ],
+      "cobblemon:lunala": [
+        "genderless",
+        "bucket-ultra-rare"
       ]
     }
   }

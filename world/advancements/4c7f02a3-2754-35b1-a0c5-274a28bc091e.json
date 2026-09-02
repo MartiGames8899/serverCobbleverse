@@ -58,6 +58,7 @@
       "minecraft:deep_dark": "2026-08-25 20:03:35 +0100",
       "minecraft:swamp": "2026-08-24 16:03:16 +0100",
       "minecraft:meadow": "2026-08-22 21:22:24 +0100",
+      "minecraft:windswept_gravelly_hills": "2026-09-01 23:18:58 +0100",
       "minecraft:savanna": "2026-08-23 23:11:08 +0100",
       "minecraft:plains": "2026-08-22 21:12:50 +0100"
     },
@@ -925,6 +926,8 @@
       "obtain_rawst_berry": "2026-08-23 18:50:04 +0100",
       "obtain_kebia_berry": "2026-08-23 16:29:54 +0100",
       "obtain_aspear_berry": "2026-08-30 03:37:46 +0100",
+      "obtain_magost_berry": "2026-09-01 23:17:48 +0100",
+      "obtain_belue_berry": "2026-09-01 23:17:57 +0100",
       "obtain_razz_berry": "2026-08-24 00:56:11 +0100",
       "obtain_nanab_berry": "2026-08-30 03:38:07 +0100",
       "obtain_apicot_berry": "2026-08-30 21:05:56 +0100",
@@ -10378,6 +10381,7 @@
       "ancient_jet_ball": "2026-08-30 03:38:08 +0100",
       "net_ball": "2026-08-23 23:51:01 +0100",
       "dive_ball": "2026-08-23 15:13:03 +0100",
+      "ancient_great_ball": "2026-09-02 01:03:57 +0100",
       "ancient_citrine_ball": "2026-08-23 23:51:11 +0100",
       "level_ball": "2026-08-24 15:50:09 +0100",
       "ancient_slate_ball": "2026-08-30 03:05:44 +0100",
@@ -10395,6 +10399,7 @@
       "slate_ball": "2026-08-23 15:13:48 +0100",
       "ancient_verdant_ball": "2026-08-23 18:59:58 +0100",
       "ancient_feather_ball": "2026-08-23 19:02:49 +0100",
+      "beast_ball": "2026-09-02 01:01:59 +0100",
       "poke_ball": "2026-08-22 21:13:04 +0100",
       "citrine_ball": "2026-08-23 15:13:32 +0100",
       "ancient_azure_ball": "2026-08-23 23:58:27 +0100",
@@ -25816,7 +25821,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2026-08-25 18:07:47 +0100",
-      "minecraft:nether_wastes": "2026-08-23 18:37:09 +0100"
+      "minecraft:nether_wastes": "2026-08-23 18:37:09 +0100",
+      "minecraft:soul_sand_valley": "2026-09-02 00:11:53 +0100"
     },
     "done": false
   },
@@ -25855,13 +25861,14 @@
       "ancient_azure_ball": "2026-08-23 23:58:27 +0100",
       "ancient_jet_ball": "2026-08-30 03:38:08 +0100",
       "ancient_ivory_ball": "2026-08-24 00:09:56 +0100",
+      "ancient_great_ball": "2026-09-02 01:03:57 +0100",
       "ancient_citrine_ball": "2026-08-23 23:51:11 +0100",
       "ancient_slate_ball": "2026-08-30 03:05:44 +0100",
       "ancient_roseate_ball": "2026-08-24 00:56:05 +0100",
       "ancient_ultra_ball": "2026-08-30 20:24:01 +0100",
       "ancient_heavy_ball": "2026-08-26 01:06:27 +0100"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:cook_all_regional_delicacies": {
     "criteria": {
@@ -26447,6 +26454,7 @@
   },
   "mega_showdown:mega_showdown/hidden/all_gimmick": {
     "criteria": {
+      "tera_orb": "2026-09-01 23:38:31 +0100",
       "bracelets": "2026-08-29 16:26:15 +0100"
     },
     "done": false
@@ -26588,6 +26596,66 @@
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2026-08-31 19:12:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "honey_bottle": "2026-09-01 23:04:40 +0100"
+    },
+    "done": false
+  },
+  "mega_showdown:mega_showdown/tera/get_tera_orb": {
+    "criteria": {
+      "obtained_tera_orb": "2026-09-01 23:38:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-09-02 00:00:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-09-02 00:24:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2026-09-02 00:57:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-09-02 01:01:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-09-02 01:01:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2026-09-02 01:04:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-09-02 01:47:30 +0100"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/tera/terastallized": {
+    "criteria": {
+      "terra_any": "2026-09-02 01:51:56 +0100"
     },
     "done": true
   },
