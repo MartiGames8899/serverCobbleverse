@@ -26665,5 +26665,11 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2026-09-05 03:08:05 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

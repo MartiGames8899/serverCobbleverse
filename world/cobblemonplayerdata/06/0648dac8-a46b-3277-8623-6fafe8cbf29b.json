@@ -10,13 +10,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 102,
+    "totalCaptureCount": 104,
     "totalEggsCollected": 2,
     "totalEggsHatched": 1432,
     "totalEvolvedCount": 42,
-    "totalBattleVictoryCount": 988,
+    "totalBattleVictoryCount": 990,
     "totalPvPBattleVictoryCount": 3,
-    "totalPvWBattleVictoryCount": 854,
+    "totalPvWBattleVictoryCount": 856,
     "totalPvNBattleVictoryCount": 131,
     "totalShinyCaptureCount": 36,
     "totalTradedCount": 2,
@@ -28,9 +28,9 @@
       "grass": 4,
       "water": 13,
       "poison": 12,
-      "psychic": 4,
+      "psychic": 5,
       "fairy": 9,
-      "electric": 3,
+      "electric": 4,
       "normal": 16,
       "dark": 5,
       "ghost": 12,
@@ -656,6 +656,14 @@
         "none"
       ],
       "cobblemon:lunala": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:cosmog": [
+        "genderless",
+        "bucket-ultra-rare"
+      ],
+      "cobblemon:xurkitree": [
         "genderless",
         "bucket-ultra-rare"
       ]
