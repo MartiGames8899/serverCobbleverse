@@ -26587,12 +26587,6 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-08-31 19:12:04 +0100"
-    },
-    "done": true
-  },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2026-08-31 19:12:04 +0100"
@@ -26668,6 +26662,12 @@
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2026-09-05 03:08:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-09-05 03:20:26 +0100"
     },
     "done": true
   },

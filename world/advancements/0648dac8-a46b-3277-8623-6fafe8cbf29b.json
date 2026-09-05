@@ -26664,12 +26664,6 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-09-01 23:50:11 +0100"
-    },
-    "done": true
-  },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2026-09-01 23:50:19 +0100"
