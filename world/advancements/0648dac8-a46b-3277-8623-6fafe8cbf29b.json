@@ -26670,15 +26670,15 @@
     },
     "done": true
   },
-  "minecraft:end/dragon_egg": {
+  "minecraft:end/root": {
     "criteria": {
-      "dragon_egg": "2026-09-01 23:56:45 +0100"
+      "entered_end": "2026-09-01 23:50:19 +0100"
     },
     "done": true
   },
-  "lootr:1shulker": {
+  "minecraft:end/dragon_egg": {
     "criteria": {
-      "opened_shulker": "2026-09-02 00:16:28 +0100"
+      "dragon_egg": "2026-09-01 23:56:45 +0100"
     },
     "done": true
   },
@@ -26688,15 +26688,15 @@
     },
     "done": true
   },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-09-02 00:18:52 +0100"
-    },
-    "done": true
-  },
   "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
       "crying_obsidian": "2026-09-02 00:16:26 +0100"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-09-02 00:16:28 +0100"
     },
     "done": true
   },
@@ -26706,15 +26706,15 @@
     },
     "done": true
   },
-  "minecraft:end/respawn_dragon": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "summoned_dragon": "2026-09-02 00:57:36 +0100"
+      "elytra": "2026-09-02 00:18:52 +0100"
     },
     "done": true
   },
-  "minecraft:end/root": {
+  "minecraft:end/respawn_dragon": {
     "criteria": {
-      "entered_end": "2026-09-01 23:50:19 +0100"
+      "summoned_dragon": "2026-09-02 00:57:36 +0100"
     },
     "done": true
   },
